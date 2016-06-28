@@ -1,13 +1,3 @@
-<!-- **************************************
-            _             ______    _
-           | |           |  ____|  | |
-           | |     __ _  | |__ ___ | |_ ___
-           | |    / _` | |  __/ _ \| __/ _ \
-           | |___| (_| | | | | (_) | || (_) |
-           |______\__,_| |_|  \___/ \__\___/
-
-      ************************************** -->
-
 <div  class="row image-row hidden-sm hidden-xs la-foto"
       style="background-image: url(${notas.getNota("lafoto",1).getHeroImage()}); height: 525px; width: 970px;">
     <div class="col-md-2 clean lafoto-titulo">
@@ -77,7 +67,7 @@
     <@tarjeta lista="restantes" pos=16 />
     </div>
 
-    <div class="banner col-p   hidden-sm hidden-xs">
+    <div class="banner-vertical col-p   hidden-sm hidden-xs">
         <div >
             <ins data-revive-zoneid="10" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
         </div>
