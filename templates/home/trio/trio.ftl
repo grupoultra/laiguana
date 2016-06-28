@@ -1,41 +1,32 @@
-<!--
-
-             _______   _
-            |__   __| (_)
-               | |_ __ _  ___
-               | | '__| |/ _ \
-               | | |  | | (_) |
-               |_|_|  |_|\___/
-
-       -->
-
 <div class="row content-row " >
     <div class="col-md-4 clean   ">
-        <div class="ucard h-small round-left">
+        <div class="ucard trio-item h-small round-left">
             <img class="card-img-top" src="/activos/images/maseciente_header.png" alt="Card image cap">
 
-            <ul class="list-group list-group-flush">
-            <#list notas.getLista("restantes") as nota>
-                <li class="list-group-item">
-                    <a class="nolink" href="${nota.getPath()}" title="${nota.getTitulo()}" target="_self">
-                        <h4 class="titulo hcenter clean">${nota.getTitulo(70)}</h4>
-                    </a>
-                </li>
-            </#list>
-            </ul>
+            <div class="trio-item-body" >
+                <ul class="list-group list-group-flush">
+                <#list notas.getLista("restantes") as nota>
+                    <li class="list-group-item trio-list-item">
+                        <a class="nolink" href="${nota.getPath()}" title="${nota.getTitulo()}" target="_self">
+                            <h4 class="titulo hcenter clean">${nota.getTitulo(70)}</h4>
+                        </a>
+                    </li>
+                </#list>
+                </ul>
+            </div>
         </div>
     </div>
 
     <div class="col-md-4 clean   ">
-        <div class="ucard h-small round-left">
+        <div class="ucard trio-item h-small round-left">
             <img class="card-img-top" src="/activos/images/lo-mas-polemico_btn.jpg" alt="Card image cap" >
 
-            <div class="" >
+            <div class="trio-item-body" >
                 <ul class="list-group list-group-flush">
 
                 <#list notas.getLista("polemico") as nota>
-                    <li class="list-group-item">
-                        <a href="${nota.getPath()}" title="${nota.getTitulo()}" target="_self">
+                    <li class="list-group-item trio-list-item">
+                        <a class="nolink" href="${nota.getPath()}" title="${nota.getTitulo()}" target="_self">
                             <h4 class="titulo hcenter clean"> ${nota.getTitulo(70)}</h4>
                         </a>
                     </li>
@@ -46,14 +37,14 @@
     </div>
 
     <div class="col-md-4 clean  ">
-        <div class="ucard h-small round-left">
+        <div class="ucard trio-item h-small round-left">
             <img class="card-img-top" src="/activos/images/lo-jot-btn.jpg" alt="Card image cap">
 
-            <div class="" >
+            <div class="trio-item-body" >
                 <ul class="list-group list-group-flush">
                 <#list notas.getLista("lomasjot") as nota>
-                    <li class="list-group-item">
-                        <a href="${nota.getPath()}" title="${nota.getTitulo()}" target="_self">
+                    <li class="list-group-item trio-list-item">
+                        <a class="nolink" href="${nota.getPath()}" title="${nota.getTitulo()}" target="_self">
                             <h4 class="titulo hcenter clean"> ${nota.getTitulo(70)}</h4>
                         </a>
                     </li>
