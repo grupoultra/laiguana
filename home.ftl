@@ -70,7 +70,6 @@
 
     <#include "./templates/footer.ftl">
 
-
     <script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"></script>
     <script>window.jQuery || document.write('<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"><\/script>')</script>
     <script src="/activos/helper/js/plugins.js"></script>
