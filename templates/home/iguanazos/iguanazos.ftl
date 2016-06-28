@@ -72,7 +72,7 @@
     <@tarjeta lista="restantes" pos=8 />
     </div>
 
-    <div class="banner col-p   hidden-sm hidden-xs">
+    <div class="banner-vertical col-p   hidden-sm hidden-xs">
         <div >
             <ins data-revive-zoneid="3" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
         </div>
@@ -88,7 +88,7 @@
     <@tarjeta lista="restantes" pos=10 />
     </div>
 
-    <div class="banner col-p   hidden-sm hidden-xs">
+    <div class="banner-vertical col-p   hidden-sm hidden-xs">
         <div >
             <ins data-revive-zoneid="9" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
         </div>
