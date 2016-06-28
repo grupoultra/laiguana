@@ -1,0 +1,538 @@
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 320px) {
+    .container{width:360px !important; /* 320px */}
+
+    .col-m{ width: 50%;}
+
+    .col-g{width: 100%;}
+
+
+
+    .ucard{
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+
+
+    .ucard img{
+        width: 170px;
+        height: auto;
+        margin: 0px;
+    }
+
+
+
+    .h-normal{height: 190px;}
+
+    .ucard h2{
+        font-size: 14px;
+        line-height: 100%;
+        font-weight: 900;
+        padding: 2px;
+    }
+
+    .content-row {
+        margin-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .hero-title a{font-size: 16px;}
+
+
+    .articulo-titulo span{font-size: 18px;}
+
+
+
+
+}
+
+/*@media (min-width: 768px) {}*/
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container{width:970px !important;}
+
+    .col-m{width: 37.5%;}
+
+    .col-g{width: 75%;}
+
+
+
+    .ucard img{
+        width: auto;
+        height: auto;
+        margin: 10px;
+
+    }
+
+    .h-normal{height: 455px;}
+
+    .ucard h2{
+        font-size: 15px;
+        line-height: 150%;
+        font-weight: normal;
+        padding: 10px;
+    }
+
+    .content-row {
+        margin-top: 10px;
+        padding-left: 5px;
+
+    }
+
+    .hero-title a{
+        font-size: 26px;
+    }
+
+    .articulo-titulo span{font-size: 45px;}
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: 1200px) {}*/
+
+.image-row {
+    margin-top: 5px;
+
+
+}
+
+.mobile-header{
+    background-color: #be1e2d;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
+
+@font-face {
+    font-family: 'folksbold';
+    src: url('../fonts/folks-bold/folks-bold-webfont.eot');
+    src: url('../fonts/folks-bold/folks-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/folks-bold/folks-bold-webfont.woff2') format('woff2'),
+    url('../fonts/folks-bold/folks-bold-webfont.woff') format('woff'),
+    url('../fonts/folks-bold/folks-bold-webfont.ttf') format('truetype'),
+    url('../fonts/folks-bold/folks-bold-webfont.svg#folksbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulo{
+    font-family: 'folksbold';
+    color: black;
+    text-transform: uppercase;
+    line-height: 150%;
+
+
+}
+
+
+.body{
+    background: #f1f1f1;
+}
+
+#titlelink{
+    position: relative;
+    float: left;
+    display: block;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 150px;
+    background-color: transparent;
+}
+
+
+.search-box{
+    bottom: -112px;
+    left:30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.social-box {
+    bottom: -80px;
+    left: 170px;
+
+}
+
+.fb-like{
+    bottom: 6px;
+}
+
+
+.socials{
+
+    text-align: right;
+}
+
+
+.boton-menu2 {
+    float: left;
+
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+    cursor: pointer;
+}
+
+.boton-menu-fin2 {
+    padding: 0px;
+    margin-right: 0px;
+}
+
+
+.hero-title a{
+    font-family: 'folksbold';
+    line-height: 100%;
+    text-decoration: none !important;
+    border:0!important;
+    opacity: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    /*font-size: 26px;*/
+}
+
+.hero-title{
+    padding-left: 10px;
+}
+
+.hero-subtitle{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.slider-wrapper{
+    height: auto; /*500*/
+    width: 100%; /*970*/
+    margin-bottom: 100px;
+}
+
+.nivo-slider{
+    width:100%; /*970*/
+    height: auto; /*400*/
+    overflow: visible;
+
+}
+
+.nivo-caption{
+    opacity: 1;
+    background:black;
+    bottom: -100px;
+    height: 100px;
+
+
+    /*
+
+    overflow:hidden;
+
+    position:absolute;
+    left:0px; // x offset position
+    top:0px; // y offset position
+    */
+
+}
+
+
+
+
+.h-small{
+    height: 282px;
+}
+
+
+.h-plus {
+    height: 555px;
+}
+
+.h-doble {
+    height: 920px;
+}
+
+.col-g {
+
+    /*border: 1px solid green;*/
+    float:left;
+
+    /*width: 75%;*/ /*width: 728px;*/
+    /*height: 455px;*/
+
+
+    padding-left:0px;
+    padding-right:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-g-tercio {
+
+    float:left;
+
+    width: 25%; /* width: 230px; */
+    height: 200px;
+
+
+    padding-left:0px;
+    padding-right:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-half{
+    float:left;
+
+    width: 50%;
+}
+
+
+.col-m {
+
+    /*border: 1px solid blue;*/
+    float:left;
+
+    /*width: 37.5%;*/ /* width: 364px; */
+    /*height: 455px;*/
+
+
+    padding-left: 0px; /*10*/
+    padding-right:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.col-p {
+    /*border: 1px solid green;*/
+
+    float:left;
+
+    width: 24.2%; /*width: 235px;*/
+    /*height: 455px;*/
+
+
+    padding-left: 0px; /*10*/
+    padding-right:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-alta{
+    height: 556px;
+}
+
+.col-doble{
+    height: 910px;
+}
+
+
+
+
+
+.left-margin {
+    margin-left:5px;
+    /*padding-right:10px;*/
+}
+
+.left-padded-half{
+    padding-left:5px;
+}
+
+.padded {
+    padding:10px;
+}
+
+.marginated {
+    margin:2px;
+}
+
+
+
+
+
+
+.nolink{
+    text-decoration: none !important;
+}
+
+
+
+#white-container {
+    /*border: 1px solid red;*/
+    background: white;
+}
+
+.iguanant-img{
+    width: 205px;
+    height: 133px;
+}
+
+
+
+#la-foto{
+    padding: 0px;
+
+}
+
+.lafoto-titulo{
+    position: relative;
+    top: 20px;
+}
+
+.lafoto-etiqueta{
+    position: relative;
+}
+
+.lafoto-texto{
+    position: relative;
+    top: 380px;
+    text-align: right;
+}
+
+
+.la-foto  span{
+    padding: 5px;
+    background: linear-gradient(to right, #E90C2F, #BE1622);
+    font-family: "Futura Std", "Open Sans";
+    font-size: 18px;
+    color: white;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+.footer-text a, .footer-text a:hover, .footer-text a:active, .footer-text a:focus{
+    color: #000;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+
+    text-decoration: none !important;
+    border:0!important;
+}
+
+
+
+.footer-text a#topofpage{
+    float:right;
+    color: #838181;
+}
+
+.footer-text .cp{
+    float: left;
+}
+
+
+
+/* ************************* */
+
+.articulo-titulo{padding: 10px;}
+
+
+.articulo-titulo span{
+    line-height: 120%;
+    text-transform: uppercase;
+    font-family: 'folksbold';
+}
+
+.articulo-barra{
+    padding: 5px;
+    border-bottom: 1px solid #C00;
+    border-top: 1px solid #C00;
+    color: #000;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+
+    font-size: 18px;
+
+}
+
+.articulo img{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.articulo-texto a{
+    color: #C00;
+}
+
+.padding-10{
+    padding: 10px;
+}
+
+
+
+
+.destacado {
+    margin: 5px;
+    border-bottom: 1px solid #C00;
+    border-top: 1px solid #C00;
+    color: #000;
+
+    background: #f1f1f1;
+}
+
+.destacado span{
+    padding: 20px;
+    top: 10px;
+}
+
+.title-span span{
+    position: relative;
+    font-family: 'folksbold';
+    font-size: 20px;
+    color: black;
+    line-height: normal;
+
+}
+
+.menu-principal {
+    padding: 3px 0;
+    margin-bottom: 0px;
+}
+.menu-principal .menu-item a{
+    display: block;
+    content: "";
+}
+.menu-principal .menu-item{
+    min-height: 52px;
+    list-style: none;
+}
+
+ul.menu-principal > li {
+    display: inline-block;
+}
+
+ul.menu-principal > li:nth-child(1n+2) {
+    padding-left: 3.2px;
+}
+ul.menu-principal > li a {
+    pading-left: 3.2px;
+    display: block;
+    height: 52px;
+}
+ul.menu-principal > li:nth-child(1) a {background: transparent url('/activos/images/pol-sex.png') no-repeat; }
+ul.menu-principal > li:nth-child(2) a {background: transparent url('/activos/images/eco-far.png') no-repeat; }
+ul.menu-principal > li:nth-child(3) a {background: transparent url('/activos/images/mun-dep.png') no-repeat; }
+ul.menu-principal > li:nth-child(4) a {background: transparent url('/activos/images/cul-ser.png') no-repeat; }
+ul.menu-principal > li:nth-child(5) a {background: transparent url('/activos/images/suc-tec.png') no-repeat; }
+ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/images/vir-sal.png') no-repeat; }
+
+/* ************************* */
+
+
