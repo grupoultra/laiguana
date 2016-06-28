@@ -27,6 +27,10 @@
 
     .h-normal{height: 190px;}
 
+    .ucard p{
+        text-align: justify;
+        text-justify: inter-word;
+    }
     .ucard h2{
         font-size: 14px;
         line-height: 100%;
@@ -409,12 +413,11 @@
     vertical-align: middle;
 }
 
-
-
-
-
-
-.footer-text a, .footer-text a:hover, .footer-text a:active, .footer-text a:focus{
+.footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer a, .footer a:hover, .footer a:active, .footer a:focus{
     color: #000;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 14px;
@@ -424,22 +427,17 @@
     border:0!important;
 }
 
-
-
-.footer-text a#topofpage{
-    float:right;
+.footer a#topofpage{
     color: #838181;
 }
-
-.footer-text .cp{
-    float: left;
-}
-
 
 
 /* ************************* */
 
-.articulo-titulo{padding: 10px;}
+.articulo-titulo{
+    color: #000;
+    padding: 10px;
+}
 
 
 .articulo-titulo span{
@@ -532,6 +530,49 @@ ul.menu-principal > li:nth-child(3) a {background: transparent url('/activos/ima
 ul.menu-principal > li:nth-child(4) a {background: transparent url('/activos/images/cul-ser.png') no-repeat; }
 ul.menu-principal > li:nth-child(5) a {background: transparent url('/activos/images/suc-tec.png') no-repeat; }
 ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/images/vir-sal.png') no-repeat; }
+
+.lomasleido .ucard h3{
+    line-height: 140%;
+}
+
+.banner-vertical {
+    margin-left: 5px;
+}
+
+.lomaspolemico{
+    height: 585px;
+}
+.lomaspolemico .ucard {
+    height: 100%;
+}
+
+.trio-item{
+    border: none;
+}
+
+.trio-item-body {
+    height: 233px;
+    overflow: hidden;
+    border: 1px solid #e6263f;
+    padding: 0px 2px;
+}
+
+.trio-item.h-small{
+    height: 270px;
+}
+
+.trio-list-item{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.trio-list-item .titulo:hover {
+    color: #666;
+}
+
+
+
 
 /* ************************* */
 
