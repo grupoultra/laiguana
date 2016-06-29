@@ -595,6 +595,10 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .no-border{
     border: none;
 }
+
+.ucard.interno .titulo {
+    padding: 0px 10px;
+}
 /* ************************* */
 
 
