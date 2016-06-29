@@ -51,6 +51,8 @@
     <![endif]-->
 
     <div id="white-container" class="container">
+        <#include "./templates/macros/tarjetas.ftl">
+
         <#include "./templates/header.ftl">
 
         <#include "./templates/menu-principal.ftl">
@@ -66,7 +68,7 @@
         <#include "./templates/home/elvideo/elvideo.ftl">
 
         <#include "./templates/home/trio/trio.ftl">
-    </div> <!-- //main-container -->
+    </div>
 
     <#include "./templates/footer.ftl">
 
