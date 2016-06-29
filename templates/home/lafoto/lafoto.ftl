@@ -48,7 +48,7 @@
     </div>
 
     <div class="col-p   col-doble hidden-sm hidden-xs">
-        <div class="ucard h-normal h-doble round-left borde-celeste vstretch">
+        <div class="ucard h-normal h-doble round-left no-border vstretch">
             <img class="card-img-top" src="/activos/images/tuiter_header.png" alt="Card image cap">
 
             <a class="twitter-timeline" href="https://twitter.com/la_iguanatv" data-widget-id="736968909732057089" data-show-replies="true">Tweets por @la_iguanatv</a>
