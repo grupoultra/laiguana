@@ -20,7 +20,7 @@
 
 <!-- ************************************** -->
 <!-- ************************************** -->
-<div class="banner-horizontal row content-row hidden-sm hidden-xs">
+<div class="banner-horizontal row hidden-sm hidden-xs image-row">
     <div class="">
         <ins data-revive-zoneid="7" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
     </div>

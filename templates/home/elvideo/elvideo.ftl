@@ -1,13 +1,3 @@
-<!-- **************************************
-      ______ _  __      ___     _
-     |  ____| | \ \    / (_)   | |
-     | |__  | |  \ \  / / _  __| | ___  ___
-     |  __| | |   \ \/ / | |/ _` |/ _ \/ _ \
-     | |____| |    \  /  | | (_| |  __/ (_) |
-     |______|_|     \/   |_|\__,_|\___|\___/
-
-  ******************************************* -->
-
 <div class="row content-row h-normal">
     <div class="col-md-8 clean h-normal vstretch">
         <div class="stretch">
@@ -44,11 +34,8 @@
         </div>
     </div>
 </div>
-<!-- ************************************** -->
-<!-- ************************************** -->
-<!-- ************************************** -->
 
-<div class="banner row content-row hidden-sm hidden-xs">
+<div class="banner row hidden-sm hidden-xs image-row">
     <div class="">
         <ins data-revive-zoneid="13" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
     </div>
@@ -101,7 +88,7 @@
     </div>
 </div><!-- //row -->
 
-<div class="banner row content-row hidden-sm hidden-xs">
+<div class="banner row image-row hidden-sm hidden-xs">
     <div class="">
         <ins data-revive-zoneid="14" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
     </div>

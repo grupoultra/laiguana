@@ -55,7 +55,7 @@
     </div>
 </div>
 
-<div class="banner row content-row hidden-sm hidden-xs">
+<div class="banner row image-row hidden-sm hidden-xs">
     <div class="">
         <ins data-revive-zoneid="15" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
     </div>

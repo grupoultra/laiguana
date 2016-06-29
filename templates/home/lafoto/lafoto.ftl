@@ -67,7 +67,7 @@
     <@tarjeta lista="restantes" pos=16 />
     </div>
 
-    <div class="banner-vertical col-p   hidden-sm hidden-xs">
+    <div class="banner-vertical col-p hidden-sm hidden-xs">
         <div >
             <ins data-revive-zoneid="10" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
         </div>

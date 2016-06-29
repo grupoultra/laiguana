@@ -90,7 +90,7 @@
         <@tarjeta lista="restantes" pos=4 />
         </div>
 
-        <div class="banner-horizontal-2c col-g content-row left-padded-half hidden-sm hidden-xs" style="align:center;">
+        <div class="banner-horizontal-2c col-g content-row hidden-sm hidden-xs" style="align:center;">
             <ins data-revive-zoneid="16" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
         </div>
     </div>
