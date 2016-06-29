@@ -28,12 +28,13 @@
             <div class="hero-title">
                 <a class="hero-title-a" href="${nota.getPath()}" title="${nota.getTitulo()}">
                 ${nota.getTitulo()}</a>
+
+                <div  class="hero-subtitle">
+                    <p style="letter-spacing:normal;">Publicado el ${nota.getCreationDate()?date}</p>
+                </div>
             </div>
             <!-- Show Description -->
-            <div  class="hero-subtitle">
-                <p style="letter-spacing:normal;">Publicado el ${nota.getCreationDate()?date}
-                </p>
-            </div>
+
         </div>
     </#list>
     </div>
