@@ -77,6 +77,7 @@
     .h-normal{height: 455px;}
 
     .ucard h2{
+        height: 85px;
         font-size: 15px;
         line-height: 150%;
         font-weight: normal;
@@ -133,6 +134,7 @@
     color: black;
     text-transform: uppercase;
     line-height: 150%;
+
 
 
 }
@@ -209,12 +211,6 @@
 
 .hero-title{
     padding-left: 10px;
-}
-
-.hero-subtitle{
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
 }
 
 .slider-wrapper{
@@ -469,6 +465,12 @@
     color: #C00;
 }
 
+.articulo p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 155%;
+}
+
 .padding-10{
     padding: 10px;
 }
@@ -531,8 +533,14 @@ ul.menu-principal > li:nth-child(4) a {background: transparent url('/activos/ima
 ul.menu-principal > li:nth-child(5) a {background: transparent url('/activos/images/suc-tec.png') no-repeat; }
 ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/images/vir-sal.png') no-repeat; }
 
+.lomaspolemico .ucard h3{
+    font-size: 14px;
+}
+
 .lomasleido .ucard h3{
-    line-height: 140%;
+    font-size: 14px;
+    line-height: 115%;
+    margin-top: 5px;
 }
 
 .banner-vertical {
@@ -571,9 +579,22 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     color: #666;
 }
 
+.caraacara .titulo{
+    font-size: 10pt;
+}
 
+.nota{
+    padding: 0px 5px;
+}
 
+.theme-default .nivoSlider{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 
+.no-border{
+    border: none;
+}
 /* ************************* */
 
 
