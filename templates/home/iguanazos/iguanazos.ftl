@@ -39,7 +39,7 @@
 
     <div class="col-p   hidden-sm hidden-xs">
 
-        <div class="ucard h-normal  round-left orange-border vstretch">
+        <div class="caraacara ucard h-normal  round-left orange-border vstretch">
             <img class="card-img-top" src="/activos/images/cara-a-cara-head.jpg" alt="Card image cap">
 
             <ul class="list-group list-group-flush">
@@ -52,7 +52,7 @@
                                  height: auto;">
 
                     <a href="${nota.getPath()}">
-                        <h3 class="titulo">${nota.getTitulo()}</h3>
+                        <h3 class="titulo titulo-wrap">${nota.getTitulo()}</h3>
                     </a>
                 </li>
             </#list>
