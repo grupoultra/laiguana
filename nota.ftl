@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -13,7 +14,6 @@
     <!--link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"-->
     <!-- Latest compiled and minified JavaScript -->
 
-    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!--<script src="/activos/helper/bootstrap-4.0.0a/bootstrap.js" ></script>-->
     <link rel="stylesheet" href="/activos/helper/css/normalize.css">
     <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -37,6 +37,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <link rel="stylesheet" href="/activos/helper/font-awesome-4.6.3/css/font-awesome.min.css">
+
+    <#--Owl Carrousel-->
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
+    <#--<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"></script>-->
+    <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+    <#--Owl Carrousel-->
+
 
     <link rel="stylesheet" href="/activos/helper/css/ultra.css">
     <link rel="stylesheet" href="/activos/helper/css/social.css">
@@ -119,11 +126,14 @@
 
     <#include "./templates/footer.ftl">
 
-    <script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"><\/script>')</script>
+    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+    <#--<script>window.jQuery || document.write('<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"><\/script>')</script>-->
     <script src="/activos/helper/js/plugins.js"></script>
-    <script src="/activos/helper/js/main.js"></script>
-    <script type="text/javascript" src="/activos/helper/nivo-slider-master/jquery.nivo.slider.js"></script>
+    <#--<script type="text/javascript" src="/activos/helper/nivo-slider-master/jquery.nivo.slider.js"></script>-->
+
+
     <script type="text/javascript">
         $(window).load(function() {
             $('#nivoslider-1').nivoSlider({
@@ -138,6 +148,13 @@
                 pauseOnHover:false });
         });
     </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+
 
     <script>window.twttr = (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0],
@@ -170,6 +187,8 @@
         ga('require', 'displayfeatures');
         ga('send', 'pageview');
     </script>
+
+    <script src="/activos/helper/js/main.js"></script>
 
 </body>
 </html>
