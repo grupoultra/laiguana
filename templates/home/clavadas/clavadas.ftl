@@ -1,29 +1,18 @@
 <div class="row content-row">
+    <#list 1..2 as pos>
     <div class="col-m clean vstretch">
-    <@tarjeta lista="clavadas" pos=1 />
+        <@tarjeta lista="clavadas" pos=pos />
     </div>
-
-    <div class="col-m vstretch clean">
-    <@tarjeta lista="clavadas" pos=2 />
-    </div>
-
-    <div class="lomasrecomendado banner-vertical col-p clean padding-left hidden-sm hidden-xs  ">
-        <div >
-            <ins data-revive-zoneid="6" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-        </div>
-    </div>
+    </#list>
+    <@banner id="V1" zoneId="6" classString="lomasrecomendado banner-vertical col-p clean padding-left hidden-sm hidden-xs  " />
 </div><!-- //row -->
 
-<!-- ************************************** -->
-
 <div class="row content-row">
-    <div class="col-m vstretch  ">
-        <@tarjeta lista="clavadas" pos=3 />
-    </div>
-
-    <div class="col-m vstretch  ">
-        <@tarjeta lista="clavadas" pos=4 />
-    </div>
+    <#list 3..4 as pos>
+        <div class="col-m clean vstretch">
+            <@tarjeta lista="clavadas" pos=pos />
+        </div>
+    </#list>
 
     <div class="lomasleido col-p vstretch hidden-sm hidden-xs">
         <div class="ucard h-normal vstretch round-left red-border">
@@ -47,34 +36,24 @@
 </div>
 
 <div class="row content-row ">
-    <div class="col-m vstretch  ">
-        <@tarjeta lista="restantes" pos=1 />
+    <#list 1..2 as pos>
+    <div class="col-m clean vstretch">
+        <@tarjeta lista="restantes" pos=pos />
     </div>
+    </#list>
 
-    <div class="col-m vstretch  ">
-        <@tarjeta lista="restantes" pos=2 />
-    </div>
-
-    <div class="banner-vertical col-p vstretch   hidden-sm hidden-xs">
-        <div >
-            <ins data-revive-zoneid="2" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-        </div>
-    </div>
+    <@banner id="V2" zoneId="2" classString="banner-vertical col-p vstretch   hidden-sm hidden-xs" />
 </div>
 
 <div class="row  content-row">
     <div class="col-g vstretch">
-        <div class="col-half vstretch  ">
-            <@tarjeta lista="restantes" pos=3 />
+        <#list 3..4 as pos>
+        <div class="col-half vstretch">
+            <@tarjeta lista="restantes" pos=pos />
         </div>
+        </#list>
 
-        <div class="col-half vstretch  ">
-            <@tarjeta lista="restantes" pos=4 />
-        </div>
-
-        <div class="banner-horizontal-2c col-g content-row hidden-sm hidden-xs" style="align:center;">
-            <ins data-revive-zoneid="16" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-        </div>
+        <@banner id="H1" zoneId="16" classString="banner-horizontal-2c col-g content-row hidden-sm hidden-xs" />
     </div>
 
     <div class="lomaspolemico col-p vstretch  hidden-sm hidden-xs">
