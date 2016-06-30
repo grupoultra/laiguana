@@ -21,16 +21,13 @@
 <@banner id="H2" zoneId="7" classString="banner-horizontal row hidden-sm hidden-xs image-row" />
 
 <div class="row content-row">
-    <div class="col-m  ">
-    <@tarjeta lista="restantes" pos=5 />
-    </div>
-
-    <div class="col-m  ">
-    <@tarjeta lista="restantes" pos=6 />
-    </div>
+    <#list 5..6 as pos>
+        <div class="col-m  ">
+            <@tarjeta lista="restantes" pos=pos />
+        </div>
+    </#list>
 
     <div class="col-p   hidden-sm hidden-xs">
-
         <div class="caraacara ucard h-normal  round-left orange-border vstretch">
             <img class="card-img-top" src="/activos/images/cara-a-cara-head.jpg" alt="Card image cap">
 
@@ -56,40 +53,24 @@
 </div>
 
 <div class="row content-row">
-    <div class="col-m  ">
-    <@tarjeta lista="restantes" pos=7 />
-    </div>
-
-    <div class="col-m  ">
-    <@tarjeta lista="restantes" pos=8 />
-    </div>
-
-    <div class="banner-vertical col-p   hidden-sm hidden-xs">
-        <div >
-            <ins data-revive-zoneid="3" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
+    <#list 7..8 as pos>
+        <div class="col-m  ">
+            <@tarjeta lista="restantes" pos=pos />
         </div>
-    </div>
+    </#list>
+
+    <@banner id="V3" zoneId="3" classString="banner-vertical col-p   hidden-sm hidden-xs" />
 </div>
 
 <div class="row content-row">
-    <div class="col-m  ">
-    <@tarjeta lista="restantes" pos=9 />
-    </div>
-
-    <div class="col-m  ">
-    <@tarjeta lista="restantes" pos=10 />
-    </div>
-
-    <div class="banner-vertical col-p   hidden-sm hidden-xs">
-        <div >
-            <ins data-revive-zoneid="9" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
+    <#list 9..10 as pos>
+        <div class="col-m  ">
+            <@tarjeta lista="restantes" pos=pos />
         </div>
-    </div>
+    </#list>
 
+    <@banner id="V4" zoneId="9" classString="banner-vertical col-p   hidden-sm hidden-xs" />
 </div>
 
-<div class="banner row image-row  hidden-sm hidden-xs">
-    <div class="col-md-12 clean ">
-        <ins data-revive-zoneid="12" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-    </div>
-</div>
+<@banner id="H3" zoneId="12" classString="banner row image-row  hidden-sm hidden-xs" />
+

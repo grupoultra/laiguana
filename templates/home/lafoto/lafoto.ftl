@@ -26,23 +26,19 @@
 <div class="row content-row">
     <div class="col-g clean">
         <div class="row clean">
-            <div class="col-half  ">
-            <@tarjeta lista="restantes" pos=11 />
-            </div>
-
-            <div class="col-half  ">
-            <@tarjeta lista="restantes" pos=12 />
-            </div>
+            <#list 11..12 as pos>
+                <div class="col-half">
+                    <@tarjeta lista="restantes" pos=pos />
+                </div>
+            </#list>
         </div>
 
         <div class="row image-row clean">
-            <div class="col-half  ">
-            <@tarjeta lista="restantes" pos=13 />
-            </div>
-
-            <div class="col-half  ">
-            <@tarjeta lista="restantes" pos=14 />
-            </div>
+            <#list 13..14 as pos>
+                <div class="col-half">
+                    <@tarjeta lista="restantes" pos=pos />
+                </div>
+            </#list>
         </div>
     </div>
 
@@ -56,18 +52,11 @@
 </div>
 
 <div class="row content-row">
-    <div class="col-m  ">
-    <@tarjeta lista="restantes" pos=15 />
-    </div>
-
-    <div class="col-m  ">
-    <@tarjeta lista="restantes" pos=16 />
-    </div>
-
-    <div class="banner-vertical col-p hidden-sm hidden-xs">
-        <div >
-            <ins data-revive-zoneid="10" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
+    <#list 15..16 as pos>
+        <div class="col-m  ">
+            <@tarjeta lista="restantes" pos=pos />
         </div>
-    </div>
+    </#list>
 
+    <@banner id="V5" zoneId="10" classString="banner-vertical col-p hidden-sm hidden-xs" />
 </div>
