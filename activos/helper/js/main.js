@@ -13,6 +13,7 @@ $(document).ready(function(){
         autoplayHoverPause: true,
         nav: true,
         navText: ['<','>'],
-        dotsEach: true
+        dotsEach: true,
+        slideBy: 3
     });
 });
