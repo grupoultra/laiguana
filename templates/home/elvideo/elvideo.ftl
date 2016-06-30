@@ -23,33 +23,24 @@
     </div>
 </div>
 
-<div class="banner row hidden-sm hidden-xs image-row">
-    <div class="">
-        <ins data-revive-zoneid="13" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-    </div>
-</div>
-<!-- ************************************** -->
+<@banner id="H4" zoneId="13" classString="banner row hidden-sm hidden-xs image-row" />
 
 <div class="row content-row">
     <div class="col-g">
         <div class="row clean">
-            <div class="col-half  ">
-            <@tarjeta lista="restantes" pos=17 />
+            <#list 17..18 as pos>
+            <div class="col-half">
+                <@tarjeta lista="restantes" pos=pos />
             </div>
-
-            <div class="col-half  ">
-            <@tarjeta lista="restantes" pos=18 />
-            </div>
+            </#list>
         </div>
 
         <div class="row clean image-row">
-            <div class="col-half  ">
-            <@tarjeta lista="restantes" pos=19 />
-            </div>
-
-            <div class="col-half  ">
-            <@tarjeta lista="restantes" pos=20 />
-            </div>
+            <#list 19..20 as pos>
+                <div class="col-half">
+                    <@tarjeta lista="restantes" pos=pos />
+                </div>
+            </#list>
         </div>
     </div>
 
@@ -78,25 +69,15 @@
 </div>
 
 <div class="row content-row">
-    <div class="col-m  ">
-    <@tarjeta lista="restantes" pos=21 />
-    </div>
-
-    <div class="col-m  ">
-    <@tarjeta lista="restantes" pos=22 />
-    </div>
-
-    <div class="banner-vertical col-p   hidden-sm hidden-xs">
-        <div >
-            <ins data-revive-zoneid="11" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
+    <#list 21..22 as pos>
+        <div class="col-m">
+            <@tarjeta lista="restantes" pos=pos />
         </div>
-    </div>
+    </#list>
+
+    <@banner id="V6" zoneId="11" classString="banner-vertical col-p   hidden-sm hidden-xs" />
 </div>
 
 <#include "./noticiasanteriores.ftl">
 
-<div class="banner row image-row hidden-sm hidden-xs">
-    <div class="">
-        <ins data-revive-zoneid="14" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-    </div>
-</div>
+<@banner id="H5" zoneId="14" classString="banner row image-row hidden-sm hidden-xs" />
