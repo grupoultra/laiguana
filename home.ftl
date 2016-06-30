@@ -61,6 +61,7 @@
 
     <#include "./templates/macros/tarjetas.ftl">
     <#include "./templates/macros/banners.ftl">
+    <#include "./templates/macros/trio-item.ftl">
 
 
     <div id="white-container" class="container">
