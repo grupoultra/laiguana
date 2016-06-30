@@ -12,6 +12,7 @@
     <!-- Optional theme -->
     <!--link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"-->
     <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
     <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!--script src="/activos/helper/bootstrap-4.0.0a/bootstrap.js" ></script-->
@@ -43,6 +44,14 @@
     <link rel="stylesheet" href="/activos/helper/css/iguana.css">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
+
+    <#--Owl Carrousel-->
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css">
+
+    <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+    <#--Owl Carrousel-->
+
     <meta name="alexaVerifyID" content="nf4YyY8visblhLqs6A0DCi8vQvI"/>
 </head>
 <body class="body">
@@ -50,8 +59,11 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <#include "./templates/macros/tarjetas.ftl">
+    <#include "./templates/macros/banners.ftl">
+
+
     <div id="white-container" class="container">
-        <#include "./templates/macros/tarjetas.ftl">
 
         <#include "./templates/header.ftl">
 
@@ -72,8 +84,8 @@
 
     <#include "./templates/footer.ftl">
 
-    <script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"><\/script>')</script>
+    <#--<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"></script>-->
+    <#--<script>window.jQuery || document.write('<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"><\/script>')</script>-->
     <script src="/activos/helper/js/plugins.js"></script>
     <script src="/activos/helper/js/main.js"></script>
     <script type="text/javascript" src="/activos/helper/nivo-slider-master/jquery.nivo.slider.js"></script>
