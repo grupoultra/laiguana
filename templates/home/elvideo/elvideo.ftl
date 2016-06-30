@@ -1,4 +1,4 @@
-<div class="row content-row h-normal">
+<div class="lomasjot row content-row h-normal">
     <div class="col-md-8 clean h-normal vstretch">
         <div class="stretch">
             <img class="" src="/activos/images/elvideo_header.png" alt="Card image cap" style="width: 100%; heigth: auto; ">
@@ -11,26 +11,14 @@
         <div class="ucard h-normal stretch round-right clean">
             <img class="card-img-top" src="/activos/images/lohot_header.png" alt="Card image cap">
 
+            <#list 2..4 as x>
             <h3 class="titulo">
-                <a class="nolink" href="${notas.getNota("lomasjot",2).getPath()}">
-                    <img class="" src="${notas.getNota("lomasjot",2).getHeroImage()}" alt="Card image cap" style="width:260px; height: 80px;">
-                ${notas.getNota("lomasjot",2).getTitulo(75)}
+                <a class="nolink" href="${notas.getNota("lomasjot",x).getPath()}">
+                    <img class="no-margin no-padding" src="${notas.getNota("lomasjot",x).getHeroImage()}" alt="Card image cap" style="width:100%; height: 80px;">
+                ${notas.getNota("lomasjot",x).getTitulo(75)}
                 </a>
             </h3>
-
-            <h3 class="titulo">
-                <a class="nolink" href="${notas.getNota("lomasjot",3).getPath()}">
-                    <img class="" src="${notas.getNota("lomasjot",3).getHeroImage()}" alt="Card image cap" style="width:260px; height: 80px;">
-                ${notas.getNota("lomasjot",3).getTitulo(75)}
-                </a>
-            </h3>
-
-            <h3 class="titulo">
-                <a class="nolink" href="${notas.getNota("lomasjot",4).getPath()}">
-                    <img class="" src="${notas.getNota("lomasjot",4).getHeroImage()}" alt="Card image cap" style="width:260px; height: 80px;">
-                ${notas.getNota("lomasjot",4).getTitulo(75)}
-                </a>
-            </h3>
+            </#list>
         </div>
     </div>
 </div>
@@ -65,10 +53,28 @@
         </div>
     </div>
 
-    <div class="col-p   col-doble  hidden-sm hidden-xs">
-        <div class="ucard h-normal h-doble round-left orange-border vstretch">
+    <div class="col-p   hidden-sm hidden-xs">
+
+        <div class="lomasreciente ucard h-normal  round-left orange-border vstretch">
             <img class="card-img-top" src="/activos/images/lo-reciente-head.jpg" alt="Card image cap">
+
+            <ul class="list-group list-group-flush">
+            <#list notas.getLista("lomasreciente") as nota>
+                <li class="list-group-item clean">
+                    <img src="${notas.getNota("lomasreciente",1).getHeroImage()}" alt="Cara a Cara"
+                         style="
+                             <#if nota?index != 0>display: none;</#if>
+                                 width:180px;
+                                 height: auto;">
+
+                    <a href="${nota.getPath()}">
+                        <h3 class="titulo titulo-wrap">${nota.getTitulo()}</h3>
+                    </a>
+                </li>
+            </#list>
+            </ul>
         </div>
+
     </div>
 </div><!-- //row -->
 
@@ -86,7 +92,10 @@
             <ins data-revive-zoneid="11" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
         </div>
     </div>
-</div><!-- //row -->
+</div>
+
+<#include "./noticiasanteriores.ftl">
+
 
 <div class="banner row image-row hidden-sm hidden-xs">
     <div class="">
