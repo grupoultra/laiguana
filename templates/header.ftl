@@ -51,13 +51,14 @@
     </div>
 
     <div class="col-md-2 search-box">
-        <form action="/" method="post">
-            <div class="mod-searchbuscameste input-append">
-                <input name="searchword" id="mod-search-searchword" maxlength="200" class="inputbox span2" type="text" size="20" value="Buscar..." onblur="if (this.value=='') this.value='Buscar...';" onfocus="if (this.value=='Buscar...') this.value='';">
-                <input type="hidden" name="task" value="search">
-                <input type="hidden" name="option" value="com_search">
-                <!--input type="hidden" name="Itemid" value="0"-->
+        <form action="http://www.google.co.ve" id="cse-search-box">
+            <div>
+                <input type="hidden" name="cx" value="partner-pub-8216476634474264:8992413038" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <input type="text" name="q" size="22" />
             </div>
         </form>
+
+        <script type="text/javascript" src="http://www.google.co.ve/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
     </div>
 </div> <!-- row end -->
