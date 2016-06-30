@@ -216,7 +216,7 @@
 .slider-wrapper{
     height: auto; /*500*/
     width: 100%; /*970*/
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .nivo-slider{
@@ -599,6 +599,55 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .ucard.interno .titulo {
     padding: 0px 10px;
 }
+
+.no-padding{
+    padding: 0px;
+}
+.no-margin{
+    margin: 0px;
+}
+
+.noticiasanteriores-item{
+    padding: 0px 10px 0px 0px;
+}
+
+.noticiasanteriores .thumbnail{
+    border-radius: 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.noticiasanteriores-item img{
+    margin: 0px;
+}
+
+.noticiasanteriores .ucard {
+    height: auto;
+}
+.owl-carousel{
+    padding-top: 40px;
+}
+.owl-nav, .owl-dots{
+    display: inline;
+}
+.owl-controls {
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+
+.lomasjot .ucard .titulo {
+    margin-bottom: 5px;
+}
+.lomasjot .ucard img {
+    margin: 0px;
+}
+
+.iguanazos .col-g .card {
+    width: 99%;
+}
+
 /* ************************* */
 
 
