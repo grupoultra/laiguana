@@ -1,4 +1,4 @@
-<div class="row content-row">
+<div class="iguanazos row content-row">
     <div class="col-g">
         <div class="card stretch green-border round-left">
             <img class="" src="/activos/images/iguanazos_header.png" alt="Iguanazos" style="width: 100%; height: auto;">
@@ -11,22 +11,14 @@
         <div class="ucard green-border round-right vstretch">
             <img class="card-img-top" src="/activos/images/iguant_header.png" alt="Iguanazos Anteriores">
 
-            <img class="iguanant-img" src="${notas.getNota("iguanazos",2).getHeroImage()}" alt="Card image cap" style="width:205px; height: auto;">
-            <img class="iguanant-img" src="${notas.getNota("iguanazos",3).getHeroImage()}" alt="Card image cap" style="width:205px; height: auto;">
-            <img class="iguanant-img" src="${notas.getNota("iguanazos",4).getHeroImage()}" alt="Card image cap" style="width:205px; height: auto;">
+            <#list 2..4 as pos>
+                <img class="iguanant-img" src="${notas.getNota("iguanazos",pos).getHeroImage()}" alt="Card image cap" style="width:205px; height: auto;">
+            </#list>
         </div>
     </div>
 </div>
 
-<!-- ************************************** -->
-<!-- ************************************** -->
-<div class="banner-horizontal row hidden-sm hidden-xs image-row">
-    <div class="">
-        <ins data-revive-zoneid="7" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-    </div>
-</div>
-
-<!-- ************************************** -->
+<@banner id="H2" zoneId="7" classString="banner-horizontal row hidden-sm hidden-xs image-row" />
 
 <div class="row content-row">
     <div class="col-m  ">
@@ -61,8 +53,8 @@
 
     </div>
 
-</div><!-- //row -->
-<!-- ************************************** -->
+</div>
+
 <div class="row content-row">
     <div class="col-m  ">
     <@tarjeta lista="restantes" pos=7 />
@@ -77,8 +69,8 @@
             <ins data-revive-zoneid="3" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
         </div>
     </div>
-</div><!-- //row -->
-<!-- ************************************** -->
+</div>
+
 <div class="row content-row">
     <div class="col-m  ">
     <@tarjeta lista="restantes" pos=9 />
@@ -94,9 +86,8 @@
         </div>
     </div>
 
-</div><!-- //row -->
+</div>
 
-<!-- ************************************** -->
 <div class="banner row image-row  hidden-sm hidden-xs">
     <div class="col-md-12 clean ">
         <ins data-revive-zoneid="12" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
