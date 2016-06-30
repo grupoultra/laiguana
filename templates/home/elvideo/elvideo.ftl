@@ -54,14 +54,13 @@
     </div>
 
     <div class="col-p   hidden-sm hidden-xs">
-
         <div class="lomasreciente ucard h-normal  round-left orange-border vstretch">
             <img class="card-img-top" src="/activos/images/lo-reciente-head.jpg" alt="Card image cap">
 
             <ul class="list-group list-group-flush">
-            <#list notas.getLista("lomasreciente") as nota>
+            <#list notas.getLista("restantes") as nota>
                 <li class="list-group-item clean">
-                    <img src="${notas.getNota("lomasreciente",1).getHeroImage()}" alt="Cara a Cara"
+                    <img src="${notas.getNota("restantes",1).getHeroImage()}" alt="Cara a Cara"
                          style="
                              <#if nota?index != 0>display: none;</#if>
                                  width:180px;
@@ -76,7 +75,7 @@
         </div>
 
     </div>
-</div><!-- //row -->
+</div>
 
 <div class="row content-row">
     <div class="col-m  ">
@@ -95,7 +94,6 @@
 </div>
 
 <#include "./noticiasanteriores.ftl">
-
 
 <div class="banner row image-row hidden-sm hidden-xs">
     <div class="">
