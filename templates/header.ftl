@@ -38,7 +38,7 @@
             <div>
                 <input type="hidden" name="cx" value="partner-pub-8216476634474264:8992413038" />
                 <input type="hidden" name="ie" value="UTF-8" />
-                <input type="text" name="q" size="22" />
+                <input type="text" name="q" size="21" />
             </div>
         </form>
 
