@@ -14,6 +14,7 @@ $(document).ready(function(){
         nav: true,
         navText: ['<','>'],
         dotsEach: true,
-        slideBy: 3
+        slideBy: 3,
+        dots: false
     });
 });
