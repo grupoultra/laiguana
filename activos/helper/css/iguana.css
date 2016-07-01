@@ -655,6 +655,13 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .col-p .ucard {
     margin-right: 0px;
 }
+
+
+@media (min-width: 320px) {
+    .col-p {
+        width: 95%;
+    }
+}
 /* ************************* */
 
 
