@@ -1,4 +1,3 @@
-
 <div class="row content-row " >
     <@trioItem lista="restantes" nombre="reciente"/>
     <@trioItem lista="polemico" nombre="polemico"/>
