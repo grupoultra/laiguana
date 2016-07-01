@@ -1,6 +1,6 @@
 <#macro nota lista pos>
-<div class="col-md-6 clean margin-top-10">
-    <div class=" nota ucard h-normal vstretch round-corners hidden-sm hidden-xs ">
+<div class="col-md-6 col-xs-6 clean margin-top-10">
+    <div class=" nota ucard h-normal vstretch round-corners">
         <a class="nolink" href="${notas.getNota(lista,pos).getPath()}">
             <img class="margin-10" src="${notas.getNota(lista,pos).getImagen()}"
                  alt="Card image cap"
