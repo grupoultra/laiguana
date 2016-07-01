@@ -657,9 +657,17 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 }
 
 
-@media (min-width: 320px) {
+@media (max-width: 992px) {
     .col-p {
         width: 95%;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+    .noticiasanteriores .thumbnail {
+        height: 240px;
     }
 }
 /* ************************* */
