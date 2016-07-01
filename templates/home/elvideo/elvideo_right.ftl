@@ -1,6 +1,5 @@
 <div class="col-p hidden-sm hidden-xs">
-    <div class="margin-top-10 ucard h-normal h-doble round-left no-border vstretch">
-    <#--<div class="lomasreciente margin-top-10 ucard h-normal  round-left orange-border vstretch">-->
+    <div class="margin-top-10 ucard h-normal h-doble round-left no-border vstretch ">
         <img class="card-img-top" src="/activos/images/lo-reciente-head.jpg" alt="Card image cap">
 
         <ul class="list-group list-group-flush">
