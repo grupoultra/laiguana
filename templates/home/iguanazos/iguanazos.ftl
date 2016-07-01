@@ -7,6 +7,8 @@
     <#include "iguanazos_right.ftl">
 
     <@banner id="H3" zoneId="12" classString="margin-top-10 banner row image-row  hidden-sm hidden-xs" />
+    <@banner id="MH2" zoneId="25" classString="banner-horizontal-2c col-g content-row hidden-md hidden-lg" />
+
 </div>
 
 <div class="clearfix"></div>

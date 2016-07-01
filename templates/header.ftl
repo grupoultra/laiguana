@@ -44,4 +44,7 @@
 
         <script type="text/javascript" src="http://www.google.co.ve/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
     </div>
-</div> <!-- row end -->
+</div>
+
+<#--<@banner id="MA" zoneId="16" classString="banner-horizontal-2c col-g content-row hidden-md hidden-lg" />-->
+
