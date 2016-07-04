@@ -87,7 +87,6 @@
             </div>
         </div><!-- //row -->
 
-        <#include "./templates/nota/articulosrelacionados.ftl">
 
         <div class="row content-row hidden-sm hidden-xs">
             <div class="">
