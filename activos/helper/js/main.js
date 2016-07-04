@@ -18,3 +18,15 @@ $(document).ready(function(){
         dots: false
     });
 });
+
+$(document).ready(function(){
+    $(".owl-carousel-destacados").owlCarousel({
+        autoplay: true,
+        items: 1,
+        autoplayTimeout:5000,
+        autoplayHoverPause: true,
+        dotsEach: true,
+        loop: true,
+        dots: false
+    });
+});
