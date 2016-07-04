@@ -26,11 +26,11 @@
         <div id="htmlcaption-${nota.getId()}" class="nivo-html-caption" >
             <!-- Show Title -->
             <div class="hero-title">
-                <a class="hero-title-a titulo-wrap" href="${nota.getPath()}" title="${nota.getTitulo()}">
+                <a class="hero-title-a " href="${nota.getPath()}" title="${nota.getTitulo()}">
                 ${nota.getTitulo()}</a>
 
                 <div  class="hero-subtitle">
-                    <p style="letter-spacing:normal;">Publicado el ${nota.getCreationDate()?date}</p>
+                    <p style="letter-spacing:normal;">Publicada el ${nota.getCreationDate()?date}</p>
                 </div>
             </div>
             <!-- Show Description -->
