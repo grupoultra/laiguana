@@ -15,4 +15,6 @@ ${nota.getContentHTML()}
     <div class="padding-10">
         <span class="">Visto <b>${nota.getHits()}</b> veces</span>
     </div>
+
+    <#include "./articulosrelacionados.ftl">
 </div>
