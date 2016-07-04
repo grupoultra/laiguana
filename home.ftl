@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta HTTP-EQUIV="refresh" CONTENT=“600">
+    <meta HTTP-EQUIV="refresh" CONTENT=“240">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--link rel="stylesheet" href="/activos/helper/bootstrap-4.0.0a/bootstrap.css"-->
