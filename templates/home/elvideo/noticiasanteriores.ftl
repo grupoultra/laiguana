@@ -8,7 +8,7 @@
                 <div class="col-m-4 noticiasanteriores-item">
                 </#if>
                     <div class="thumbnail">
-                        <img src="${nota.getHeroImage()}" class="no-padding no-margin">
+                        <img data-src="${nota.getHeroImage()}" class="owl-lazy no-padding no-margin">
                         <div class="caption">
                             <a href="${nota.getPath()}">
                                 <h3 class="titulo titulo-wrap">${nota.getTitulo()}</h3>

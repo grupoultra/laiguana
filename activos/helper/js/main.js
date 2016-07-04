@@ -15,6 +15,8 @@ $(document).ready(function(){
         navText: ['<','>'],
         dotsEach: true,
         slideBy: 3,
+        loop: true,
+        lazyLoad: true,
         dots: false
     });
 });
@@ -27,6 +29,7 @@ $(document).ready(function(){
         autoplayHoverPause: true,
         dotsEach: true,
         loop: true,
+        lazyLoad: true,
         dots: false
     });
 });
