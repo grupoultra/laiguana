@@ -28,6 +28,11 @@ $(document).ready(function(){
         autoplayTimeout:5000,
         autoplayHoverPause: true,
         dotsEach: true,
+        nav: true,
+        navText: [
+            "<i class='icon-chevron-left icon-white'><</i>",
+            "<i class='icon-chevron-right icon-white'>></i>"
+        ],
         loop: true,
         lazyLoad: true,
         dots: false
