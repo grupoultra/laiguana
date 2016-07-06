@@ -575,10 +575,6 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     border-bottom: none;
 }
 
-.trio-list-item .titulo:hover {
-    color: #666;
-}
-
 .caraacara .titulo{
     font-size: 10pt;
 }
@@ -712,6 +708,13 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     .destacado-title-a {
         font-size: 14px;
     }
+}
+
+.ucard a:hover{
+    text-decoration: none;
+}
+.ucard h3:hover{
+    color: #666;
 }
 /* ************************* */
 

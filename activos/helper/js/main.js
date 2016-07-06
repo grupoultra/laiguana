@@ -17,7 +17,15 @@ $(document).ready(function(){
         slideBy: 3,
         loop: true,
         lazyLoad: true,
-        dots: false
+        dots: false,
+        responsive : {
+            0 : {
+                items: 2
+            },
+            992 : {
+                items: 4
+            }
+        }
     });
 });
 

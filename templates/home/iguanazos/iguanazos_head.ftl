@@ -7,7 +7,7 @@
 </div>
 
 <div class="col-p vstretch hidden-sm hidden-xs h-normal">
-    <div class="ucard green-border round-right vstretch">
+    <div class="ucard orange-border round-right vstretch">
         <img class="card-img-top" src="/activos/images/iguant_header.png" alt="Iguanazos Anteriores">
 
     <#list 2..4 as pos>

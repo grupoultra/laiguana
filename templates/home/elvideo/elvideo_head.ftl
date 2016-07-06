@@ -7,8 +7,8 @@
         </div>
     </div>
 
-    <div class="col-md-4 h-normal hidden-sm hidden-xs" style="padding-right: 5px">
-        <div class="ucard h-normal stretch round-right clean">
+    <div class="col-md-4 h-normal hidden-sm hidden-xs" style="padding-right: 5px; padding-left: 0px">
+        <div class="ucard h-normal orange-border  stretch round-right clean">
             <img class="card-img-top" src="/activos/images/lohot_header.png" alt="Card image cap"  style="margin-bottom: 5px;">
 
         <#list 2..4 as x>
