@@ -3,7 +3,5 @@
         <@nota lista="restantes" pos=pos />
     </#list>
 
-    <div class="clearfix"></div>
-    <#include "./noticiasanteriores.ftl">
 
 </div>
