@@ -750,6 +750,10 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
     background: rgba(255, 0, 0, 1);
 }
+
+.banner-horizontal-3c{
+    margin-left: -10px;
+}
 /* ************************* */
 
 

@@ -72,11 +72,6 @@
 
             <#include "templates/nota/note-right.ftl">
 
-            <div class="row content-row hidden-sm hidden-xs">
-                <div class="">
-                    <ins data-revive-zoneid="18" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-                </div>
-            </div>
         </div><!-- //row -->
 
 

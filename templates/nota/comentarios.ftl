@@ -1,3 +1,6 @@
+<div class="row content-row">
+    <@banner id="NH1" zoneId="18" classString="banner-horizontal-3c col-md-12 hidden-sm hidden-xs" />
+</div>
 
 <div class="row content-row">
     <div class="col-md-2 hidden-sm hidden-xs" style="padding-right: 0px">
@@ -23,8 +26,7 @@
     </div>
 </div>
 
-<div class="row content-row hidden-sm hidden-xs">
-    <div class="">
-        <ins data-revive-zoneid="19" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-    </div>
+<div class="row content-row">
+    <@banner id="NH1" zoneId="19" classString="banner-horizontal-3c col-md-12 hidden-sm hidden-xs" />
 </div>
+
