@@ -1,4 +1,4 @@
-<div class="noticiasanteriores margin-top-10 row">
+<div class="noticiasanteriores margin-top-10">
     <div class="card stretch green-border no-border">
         <img class="" src="/activos/images/anteriores_header.png" alt="Iguanazos" style="width: 100%; height: auto;">
 
