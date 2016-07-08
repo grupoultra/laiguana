@@ -17,4 +17,8 @@ ${nota.getContentHTML()}
     </div>
 
     <#include "./articulosrelacionados.ftl">
+    <#include "./comentarios.ftl">
 </div>
+
+
+

@@ -68,61 +68,18 @@
         <#include "./templates/nota/note-header.ftl">
 
         <div class="row  content-row">
-            <#include "./templates/nota/note-body.ftl">
+            <#include "templates/nota/note-left.ftl">
 
-            <div class="col-p   vstretch  hidden-sm hidden-xs">
-                <#include "./templates/nota/lomasleido.ftl">
+            <#include "templates/nota/note-right.ftl">
 
-                <div class="row clean content-row">
-                    <div class="col-md-12 clean">
-                        <ins data-revive-zoneid="20" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-                    </div>
-                </div>
-
-                <div class="row clean content-row">
-                    <div class="col-md-12 clean">
-                        <ins data-revive-zoneid="21" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-                    </div>
+            <div class="row content-row hidden-sm hidden-xs">
+                <div class="">
+                    <ins data-revive-zoneid="18" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
                 </div>
             </div>
         </div><!-- //row -->
 
 
-        <div class="row content-row hidden-sm hidden-xs">
-            <div class="">
-                <ins data-revive-zoneid="18" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-            </div>
-        </div>
-
-        <div class="row content-row">
-            <div class="col-md-2 hidden-sm hidden-xs">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="/activos/images/iguanacuadrorojo.png">
-                    </div>
-                </div>
-
-                <div class="row content-row">
-                    <div class="col-md-12">
-                        <ins data-revive-zoneid="22" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-10 title-span">
-                <img src="/activos/images/comentario.png" >
-                <span class="clean">Comentarios</span>
-
-                <div class="fb-comments" data-href="http://laiguana.tv${nota.getPath()}"
-                     data-width="100%" data-numposts="10" ></div>
-            </div>
-        </div>
-
-        <div class="row content-row hidden-sm hidden-xs">
-            <div class="">
-                <ins data-revive-zoneid="19" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-            </div>
-        </div>
 
     </div> <!-- //main-container -->
 
