@@ -720,6 +720,9 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     margin-left: -15px;
 }
 
+.list-group{
+    padding: 0px 5px;
+}
 
 .list-group-item{
     border-left: none;
@@ -737,14 +740,14 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 {
     padding: 6px 11px;
     margin: 10px;
-    background: rgba(214, 214, 214, 0.45);
+    background: rgba(255, 0, 0, 0.45);
     -webkit-border-radius: 32px;
     -moz-border-radius: 32px;
     border-radius: 32px;
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
-    background: rgba(214, 214, 214, 1);
+    background: rgba(255, 0, 0, 1);
 }
 /* ************************* */
 
