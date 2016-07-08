@@ -719,6 +719,19 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .banner-horizontal-2c{
     margin-left: -15px;
 }
+
+
+.list-group-item{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.list-group-item:first-child {
+    border-top: none;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+}
 /* ************************* */
 
 
