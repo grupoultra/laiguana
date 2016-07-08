@@ -716,6 +716,9 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .ucard h3:hover{
     color: #666;
 }
+.banner-horizontal-2c{
+    margin-left: -15px;
+}
 /* ************************* */
 
 
