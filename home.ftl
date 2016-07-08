@@ -36,6 +36,14 @@
     <link rel="stylesheet" href="/activos/helper/nivo-slider-master/themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/activos/helper/nivo-slider-master/nivo-slider.css" type="text/css" media="screen" />
 
+
+    <#--Owl Carrousel-->
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css">
+
+    <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+    <#--Owl Carrousel-->
+
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <link rel="stylesheet" href="/activos/helper/font-awesome-4.6.3/css/font-awesome.min.css">
@@ -46,12 +54,6 @@
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
 
-    <#--Owl Carrousel-->
-    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
-    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css">
-
-    <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
-    <#--Owl Carrousel-->
 
     <meta name="alexaVerifyID" content="nf4YyY8visblhLqs6A0DCi8vQvI"/>
 </head>

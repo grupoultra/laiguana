@@ -732,6 +732,20 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
      border-top-left-radius: 0px;
      border-top-right-radius: 0px;
 }
+
+.owl-theme .owl-controls .owl-nav [class*=owl-]
+{
+    padding: 6px 11px;
+    margin: 10px;
+    background: rgba(214, 214, 214, 0.45);
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+}
+
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
+    background: rgba(214, 214, 214, 1);
+}
 /* ************************* */
 
 
