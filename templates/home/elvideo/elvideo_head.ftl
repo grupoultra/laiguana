@@ -11,7 +11,7 @@
         <div class="ucard h-normal stretch round-right clean no-border">
             <img class="card-img-top" src="/activos/images/lohot_header.png" alt="Card image cap" >
 
-            <ul class="orange-border list-group list-group-flush" style="padding-top: 5px">
+            <ul class="orange-border list-group list-group-flush" style="padding-top: 5px; margin-bottom: 0px; height: 92%;">
             <#list 2..4 as x>
                 <li class="list-group-item clean">
                     <h3 class="titulo">
