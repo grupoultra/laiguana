@@ -2,7 +2,7 @@
     <div class="margin-top-10 ucard h-normal h-doble round-left no-border vstretch ">
         <img class="card-img-top" src="/activos/images/lo-reciente-head.jpg" alt="Card image cap">
 
-        <ul class="list-group list-group-flush">
+        <ul class="list-group list-group-flush orange-border">
         <#list notas.getLista("restantes") as nota>
             <li class="list-group-item clean">
                 <img src="${notas.getNota("restantes",1).getHeroImage()}" alt="Cara a Cara"
