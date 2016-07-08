@@ -471,6 +471,9 @@
     line-height: 155%;
 }
 
+.articulo{
+    color: #000000;
+}
 .padding-10{
     padding: 10px;
 }
@@ -754,6 +757,7 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .banner-horizontal-3c{
     margin-left: -10px;
 }
+
 /* ************************* */
 
 
