@@ -713,7 +713,8 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .ucard a:hover{
     text-decoration: none;
 }
-.ucard h3:hover{
+.ucard h3:hover,
+.ucard h4:hover{
     color: #666;
 }
 .banner-horizontal-2c{
