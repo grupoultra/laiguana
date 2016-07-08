@@ -8,17 +8,22 @@
     </div>
 
     <div class="col-md-4 h-normal hidden-sm hidden-xs" style="padding-right: 5px; padding-left: 0px">
-        <div class="ucard h-normal orange-border  stretch round-right clean">
-            <img class="card-img-top" src="/activos/images/lohot_header.png" alt="Card image cap"  style="margin-bottom: 5px;">
+        <div class="ucard h-normal stretch round-right clean no-border">
+            <img class="card-img-top" src="/activos/images/lohot_header.png" alt="Card image cap" >
 
-        <#list 2..4 as x>
-            <h3 class="titulo">
-                <a class="nolink" href="${notas.getNota("lomasjot",x).getPath()}">
-                    <img class="no-margin no-padding" src="${notas.getNota("lomasjot",x).getHeroImage()}" alt="Card image cap" style="width:100%; height: 80px;">
-                ${notas.getNota("lomasjot",x).getTitulo(75)}
-                </a>
-            </h3>
-        </#list>
+            <ul class="orange-border list-group list-group-flush" style="padding-top: 5px">
+            <#list 2..4 as x>
+                <li class="list-group-item clean">
+                    <h3 class="titulo">
+                        <a class="nolink" href="${notas.getNota("lomasjot",x).getPath()}">
+                            <img class="no-margin no-padding" src="${notas.getNota("lomasjot",x).getHeroImage()}" alt="Card image cap" style="width:100%; height: 80px;">
+                        ${notas.getNota("lomasjot",x).getTitulo(75)}
+                        </a>
+                    </h3>
+                </li>
+            </#list>
+            </ul>
+
         </div>
     </div>
 </div>
