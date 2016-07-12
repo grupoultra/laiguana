@@ -456,9 +456,10 @@
 }
 
 .articulo img{
-    width: 100%;
-    margin: auto;
-    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
 .articulo-texto a{
