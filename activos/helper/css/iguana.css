@@ -634,7 +634,7 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .owl-controls {
     position: absolute;
     right: 0;
-    top: -10px;
+    top: 40%;
 }
 
 .owl-carousel-destacados .owl-controls{
