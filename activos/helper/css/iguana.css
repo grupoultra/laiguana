@@ -637,6 +637,18 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     top: -10px;
 }
 
+.owl-carousel-destacados .owl-controls{
+    width: 100%
+}
+
+.owl-carousel-destacados .owl-prev {
+    float: left
+}
+
+.owl-carousel-destacados .owl-next {
+    float: right
+}
+
 .lomasjot .ucard .titulo {
     margin-bottom: 5px;
 }

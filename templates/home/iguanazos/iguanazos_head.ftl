@@ -2,7 +2,7 @@
     <div class="card stretch green-border round-left">
         <img class="" src="/activos/images/iguanazos_header.png" alt="Iguanazos" style="width: 100%; height: auto;">
 
-        <img class="card-img-top" src="${notas.getNota("iguanazos",1).getHeroImage()}" alt="Card image cap" style="height: 93%;">
+        <img class="card-img-top" src="${notas.getNota("iguanazos",1).getHeroImage()}" alt="Card image cap" style="width: 100%;">
     </div>
 </div>
 
