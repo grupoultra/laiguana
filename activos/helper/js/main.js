@@ -1,8 +1,9 @@
 var i;
+var charsLimit = 60;
 var divs = document.getElementsByClassName('titulo-wrap');
 for(i=0;i<divs.length;i++) {
-    if(divs[i].innerHTML.length > 65){
-        divs[i].innerHTML = divs[i].innerHTML.substring(0,65) + '...';
+    if(divs[i].innerHTML.length > charsLimit){
+        divs[i].innerHTML = divs[i].innerHTML.substring(0,charsLimit) + '...';
     }
 }
 
