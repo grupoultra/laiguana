@@ -1,5 +1,5 @@
 <div class="col-p hidden-sm hidden-xs">
-    <div class="margin-top-10 ucard h-normal h-doble round-left no-border vstretch ">
+    <div class="margin-top-10 ucard round-left no-border vstretch ">
         <img class="card-img-top" src="/activos/images/lo-reciente-head.jpg" alt="Card image cap">
 
         <ul class="list-group list-group-flush orange-border">
@@ -8,13 +8,16 @@
                 <img src="${notas.getNota("restantes",1).getHeroImage()}" alt="Cara a Cara"
                      style="
                          <#if nota?index != 0>display: none;</#if>
-                             width:180px;
+                             width:180px; margin: 0;
                              height: auto;">
 
                 <a href="${nota.getPath()}">
                     <h3 class="titulo titulo-wrap">${nota.getTitulo()}</h3>
                 </a>
             </li>
+            <#if nota?counter == 14>
+                <#break>
+            </#if>
         </#list>
         </ul>
     </div>
