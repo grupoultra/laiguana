@@ -523,13 +523,24 @@ ul.menu-principal > li {
     display: inline-block;
 }
 
+
 ul.menu-principal > li:nth-child(1n+2) {
     padding-left: 3.2px;
 }
 ul.menu-principal > li a {
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+
     pading-left: 3.2px;
     display: block;
     height: 52px;
+}
+
+
+ul.menu-principal > li a:hover {
+    border-bottom: 4px solid #FFF;
 }
 ul.menu-principal > li:nth-child(1) a {background: transparent url('/activos/images/pol-sex.png') no-repeat; }
 ul.menu-principal > li:nth-child(2) a {background: transparent url('/activos/images/eco-far.png') no-repeat; }
