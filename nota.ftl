@@ -6,6 +6,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=trjMk1a4eFf2L7" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--link rel="stylesheet" href="/activos/helper/bootstrap-4.0.0a/bootstrap.css"-->
@@ -50,7 +58,6 @@
     <link rel="stylesheet" href="/activos/helper/css/iguana.css">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
-    <meta name="alexaVerifyID" content="nf4YyY8visblhLqs6A0DCi8vQvI"/>
 </head>
 <body class="body">
     <!--[if lt IE 8]>
