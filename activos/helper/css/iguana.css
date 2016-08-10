@@ -783,6 +783,35 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     margin-left: -10px;
 }
 
+.tag-body .tag-title {
+    margin-top: 15px;
+    font-family: "folksbold";
+    border-bottom: 1px solid red; }
+.tag-body .tag-title h1 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 2.5em;
+    border-bottom: 4px solid red; }
+.tag-body .tag-item {
+    border-bottom: 1px solid red;
+    padding-bottom: 10px; }
+.tag-body .tag-item h2.item-title {
+    margin-bottom: 0px;
+    font-family: "folksbold"; }
+.tag-body .tag-item span.item-metadata {
+    font-size: 0.7em;
+    display: block;
+    margin-bottom: 10px; }
+.tag-body .tag-item .item-content {
+    display: inline-block; }
+.tag-body .tag-item .item-content a {
+    background: url("/activos/images/btn_leer.png"); }
+.tag-body .tag-pagination {
+    color: #262626; }
+.tag-body .tag-pagination .col-xs-2 {
+    margin: 25px 0; }
+
 /* ************************* */
 
 
