@@ -10,9 +10,30 @@
                 ${nota.getCreationDateString()}
             </div>
 
+            <meta property="og:url"           content="${nota.getPath()}" />
+            <meta property="og:type"          content="website" />
+            <meta property="og:title"         content="${nota.getTitulo()}" />
+            <meta property="og:description"   content="Your description" />
+            <meta property="og:image"         content="${nota.getHeroImage()}" />
+
             <div class="col-xs-6 col-md-2">
-                <img src="/activos/images/fb-share-tag.png" alt="">
+                <#--<div  id="fbLike" class="fb-share-button"-->
+                     <#--data-href="${nota.getPath()}"-->
+                     <#--data-layout="button_count" data-size="small" data-mobile-iframe="true">-->
+                    <#--<a class="fb-xfbml-parse-ignore" target="_blank"-->
+                       <#--href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">-->
+                        <img src="/activos/images/fb-share-tag.png" alt="">
+                    <#--</a></div>-->
             </div>
+
+
+            <#--<script>-->
+                <#--var url      = window.location.href;-->
+                <#--$('#fbLike').data('href', url);-->
+                <#--console.log($('#fbLike').data('href'));-->
+                <#--console.log("Done");-->
+            <#--</script>-->
+
             <div class="col-xs-6 col-md-2">
                 <img src="/activos/images/tw-share-tag.png" alt="">
             </div>
