@@ -48,12 +48,28 @@ $(document).ready(function(){
     });
 });
 
-function shareFB(link){
-    console.log(link);
+function share(platform, link){
 
-    FB.ui({
-        method: 'share',
-        display: 'popup',
-        href: 'https://developers.facebook.com/docs/'
-    }, function(response){});
+    // FB.ui({
+    //     method: 'share',
+    //     display: 'popup',
+    //     href: 'https://developers.facebook.com/docs/'
+    // }, function(response){});
+
+    var url = '';
+    switch (platform){
+        case 'FB':
+            url = 'https://www.facebook.com/sharer/sharer.php?u=http://laiguana.tv' + link;
+            break;
+        case 'TW':
+            url = 'https://twitter.com/home?status=http://laiguana.tv' + link;
+            break;
+        case 'GP':
+            url = 'https://plus.google.com/share?url=http://laiguana.tv' + link;
+            break;
+    }
+    newwindow=window.open(url,'name','height=300,width=600');
+    if (window.focus) {newwindow.focus()}
+    return false;
 };
+
