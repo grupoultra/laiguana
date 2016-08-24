@@ -47,3 +47,13 @@ $(document).ready(function(){
         dots: false
     });
 });
+
+function shareFB(link){
+    console.log(link);
+
+    FB.ui({
+        method: 'share',
+        display: 'popup',
+        href: 'https://developers.facebook.com/docs/'
+    }, function(response){});
+};

@@ -1,7 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-    <title></title>
+    <title>La iguana TV | Noticias, información y política</title>
+
     <meta name="description" content="">
 
     <meta name=“uversion" content="${notas.getCMSVersion()}">

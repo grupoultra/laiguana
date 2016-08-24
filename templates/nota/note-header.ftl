@@ -11,15 +11,15 @@
             </div>
 
 
-            <div class="col-xs-6 col-md-2">
-                <#--<div  id="fbLike" class="fb-share-button"-->
-                     <#--data-href="${nota.getPath()}"-->
-                     <#--data-layout="button_count" data-size="small" data-mobile-iframe="true">-->
-                    <#--<a class="fb-xfbml-parse-ignore" target="_blank"-->
-                       <#--href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">-->
-                        <img src="/activos/images/fb-share-tag.png" alt="">
-                    <#--</a></div>-->
-            </div>
+            <#--<div class="col-xs-6 col-md-2">-->
+                <#--&lt;#&ndash;<div  id="fbLike" class="fb-share-button"&ndash;&gt;-->
+                     <#--&lt;#&ndash;data-href="${nota.getPath()}"&ndash;&gt;-->
+                     <#--&lt;#&ndash;data-layout="button_count" data-size="small" data-mobile-iframe="true">&ndash;&gt;-->
+                    <#--&lt;#&ndash;<a class="fb-xfbml-parse-ignore" target="_blank"&ndash;&gt;-->
+                       <#--&lt;#&ndash;href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">&ndash;&gt;-->
+                        <#--<img src="/activos/images/fb-share-tag.png" alt="">-->
+                    <#--&lt;#&ndash;</a></div>&ndash;&gt;-->
+            <#--</div>-->
 
 
             <#--<script>-->
@@ -30,13 +30,18 @@
             <#--</script>-->
 
             <div class="col-xs-6 col-md-2">
-                <img src="/activos/images/tw-share-tag.png" alt="">
+                <img src="/activos/images/fb-share-tag.png" alt="" onclick="shareFB('${nota.getPath()}')">
+            </div>
+            <div class="col-xs-6 col-md-2">
+                <img src="/activos/images/tw-share-tag.png" alt="" onclick="shareFB('${nota.getPath()}')">
             </div>
             <div class="col-xs-6 col-md-2">
                 <img src="/activos/images/gp-share-tag.png" alt="">
             </div>
             <div class="col-xs-6 col-md-2">
-                <img src="/activos/images/mail-share-tag.png" alt="">
+                    <a href="mailto:?&subject=Compartido a través de LaIguana.tv&body=http://laiguana.tv${nota.getPath()}">
+                        <img src="/activos/images/mail-share-tag.png" alt="">
+                    </a>
             </div>
 
             <#--<div class="col-xs-6 col-md-3 ">-->
