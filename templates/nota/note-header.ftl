@@ -10,13 +10,6 @@
                 ${nota.getCreationDateString()}
             </div>
 
-            <meta property="og:url"           content="${nota.getPath()}" />
-            <meta property="og:type"          content="website" />
-            <meta property="og:title"         content="${nota.getTitulo()}" />
-            <meta property="og:description"   content="Your description" />
-            <#--<meta property="og:image"         content="${nota.getHeroImage()}" />-->
-            <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
-
 
             <div class="col-xs-6 col-md-2">
                 <#--<div  id="fbLike" class="fb-share-button"-->
