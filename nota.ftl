@@ -89,6 +89,10 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
 
             <#include "templates/nota/note-right.ftl">
 
+            <div class="col-g articulo ">
+
+                <#include "./templates/nota/comentarios.ftl">
+                </div>
         </div><!-- //row -->
 
 
