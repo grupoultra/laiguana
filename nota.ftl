@@ -62,7 +62,7 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
 
 
     <meta property="og:url"           content="${nota.getPath()}" />
-    <meta property="og:type"          content="website" />
+    <meta property="og:type"          content="article" />
     <meta property="og:title"         content="${nota.getTitulo()}" />
     <meta property="og:description"   content="${nota.getTitulo()}" />
     <meta property="og:image"         content="${nota.getHeroImage()}" />
