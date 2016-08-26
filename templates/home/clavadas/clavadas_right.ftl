@@ -6,20 +6,25 @@
     <div class=" banner-vertical margin-top-10 lomasleido vstretch hidden-sm hidden-xs">
         <div class="clean no-margin ucard h-normal vstretch round-left red-border">
             <img class="card-img-top" src="/activos/images/lomasleido_header.png" alt="Card image cap">
+                <ul class="list-group list-group-flush">
 
-        <#list notas.getLista("masleidas") as nota>
-            <a href="${nota.getPath()}">
+                <#list notas.getLista("masleidas") as nota>
+                    <li class="list-group-item clean">
+
+
+
+                    <a href="${nota.getPath()}">
                 <h3 class="titulo">
-                <span style="color:red">
-                    ${nota.getHits()} veces
-                </span>
-                    <br>
                 <span>
                 ${nota.getTitulo()}
                 </span>
                 </h3>
             </a>
+            </li>
+
         </#list>
+            </ul>
+
         </div>
     </div>
 
