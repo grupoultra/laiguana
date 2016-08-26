@@ -1,4 +1,4 @@
-<div  class="row image-row hidden-sm hidden-xs la-foto" style="background-image: url(${notas.getNota("lafoto",1).getHeroImage()}); height: 525px; width: 970px;">
+<div  class="row image-row hidden-sm hidden-xs hidden-xxs hidden-xxxs la-foto" style="background-image: url(${notas.getNota("lafoto",1).getHeroImage()}); height: 525px; width: 970px;">
     <div class="col-md-2 clean lafoto-titulo">
         <img src="/activos/images/lafoto_title.png" alt="La foto"
              style="-webkit-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.75);
