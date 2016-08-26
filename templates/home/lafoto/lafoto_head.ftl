@@ -7,7 +7,7 @@
     </div>
 
     <div class="col-md-1 col-md-offset-9">
-        <img src="/activos/images/igua_tag.png" alt="La Iguana">
+        <img class="img-responsive" src="/activos/images/igua_tag.png" alt="La Iguana">
     </div>
 
     <div class="clean lafoto-texto">
