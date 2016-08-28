@@ -17,15 +17,11 @@
 
     }
 
-
-
     .ucard img{
         width: 170px;
         height: auto;
         margin: 0px;
     }
-
-
 
     .h-normal{height: 190px;}
 
@@ -48,12 +44,7 @@
 
     .hero-title a{font-size: 16px;}
 
-
     .articulo-titulo span{font-size: 18px;}
-
-
-
-
 }
 
 /*@media (min-width: 768px) {}*/
@@ -61,13 +52,15 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #HA, .main-header {
+        display: block !important;
+    }
+
     .container{width:970px !important;}
 
     .col-m{width: 37.5%;}
 
     .col-g{width: 75%;}
-
-
 
     .ucard img{
         width: auto;
@@ -97,8 +90,6 @@
     }
 
     .articulo-titulo span{font-size: 45px;}
-
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -106,8 +97,6 @@
 
 .image-row {
     margin-top: 5px;
-
-
 }
 
 .mobile-header{
@@ -117,7 +106,6 @@
     padding-top: 7px;
     padding-bottom: 5px;
 }
-
 
 @font-face {
     font-family: 'folksbold';
@@ -136,11 +124,7 @@
     color: black;
     text-transform: uppercase;
     line-height: 150%;
-
-
-
 }
-
 
 .body{
     background: #f1f1f1;
@@ -157,7 +141,6 @@
     height: 150px;
     background-color: transparent;
 }
-
 
 .search-box{
     bottom: -112px;
