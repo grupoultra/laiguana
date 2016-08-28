@@ -3,7 +3,7 @@
     <#list notas.getLista("destacadas") as nota>
         <div class="destacado-item">
             <a href="${nota.getPath()}">
-                <img class="owl-lazy" data-src="${nota.getHeroImage()}" alt="${nota.getPath()}"
+                <img src="${nota.getHeroImage()}" alt="${nota.getPath()}"
                      title="#htmlcaption-${nota.getId()}">
             </a>
             <div class="destacado-caption">
