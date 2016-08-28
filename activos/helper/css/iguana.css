@@ -706,6 +706,9 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .lomasjot .ucard img {
     margin: 0px;
 }
+.lomasjot .h-normal{
+    height: auto;
+}
 
 .iguanazos .col-g .card {
     width: 99%;
@@ -719,6 +722,9 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 
 .margin-top-10{
     margin-top: 10px;
+}
+.margin-bottom-10{
+    margin-bottom: 10px;
 }
 
 .col-p .ucard {
@@ -780,6 +786,12 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 
     .destacado-title-a {
         font-size: 14px;
+    }
+}
+
+@media (min-width: 360px) {
+    .noticiasanteriores .thumbnail {
+        height: 180px;
     }
 }
 
@@ -864,3 +876,21 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     width: 970px;
 }
 
+.noticiasanteriores-container .owl-controls{
+    width: 100%;
+    top: 0;
+    margin-top: -5px;
+}
+
+.noticiasanteriores-container .owl-controls .owl-nav{
+    width: 100%;
+    display: block;
+}
+
+.noticiasanteriores-container .owl-prev {
+    float: left;
+}
+
+.noticiasanteriores-container .owl-next {
+    float: right;
+}
