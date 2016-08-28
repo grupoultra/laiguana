@@ -18,10 +18,3 @@
         <span>${notas.getNota("lafoto",1).getIntro()}</span>
     </div>
 </div>
-
-<#-- <div  class="row content-row la-foto hidden-md hidden-lg" >
-    <img src="/activos/images/lafoto_title.png" alt="La foto" style="width: 25%; height: auto; ">
-    <img src="${notas.getNota("lafoto",1).getHeroImage()}" style="width: 100%; height: auto; ">
-
-    <span>${notas.getNota("lafoto",1).getIntro()}</span>
-</div> -->
