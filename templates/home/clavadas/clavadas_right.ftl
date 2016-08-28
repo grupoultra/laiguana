@@ -1,10 +1,13 @@
 
 
 <div class="col-p">
-<@banner id="V1" zoneId="6" classString="margin-top-10 lomasrecomendado banner-vertical clean padding-left hidden-sm hidden-xs  " />
 
     <div class=" banner-vertical margin-top-10 lomasleido vstretch hidden-sm hidden-xs">
-        <div class="clean no-margin ucard h-normal vstretch round-left red-border">
+        
+	<a href="http://www.noticias24carabobo.com">
+		<img border="0" alt="Noticias24Carabobo" src="http://activos.laiguana.tv/ads/225x454lorecomendado.gif" width="225" height="454">
+	</a>
+	<div class="clean no-margin ucard h-normal vstretch round-left red-border">
             <img class="card-img-top" src="/activos/images/lomasleido_header.png" alt="Card image cap">
                 <ul class="list-group list-group-flush">
 
