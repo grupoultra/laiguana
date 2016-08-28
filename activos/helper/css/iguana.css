@@ -7,10 +7,9 @@
 
     .col-g{width: 100%;}
 
-    #HA {
+    #HA, .main-header {
         display: none !important;
     }
-
 
     .ucard{
         margin-left: 5px;
@@ -816,5 +815,9 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     margin: 25px 0; }
 
 /* ************************* */
-
+.main-header{
+    background-image: url(/activos/images/logo.png);
+    height: 155px;
+    width: 970px;
+}
 

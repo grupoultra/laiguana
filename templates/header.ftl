@@ -15,7 +15,7 @@
     </ul>
 </div>
 
-<div class="row  hidden-sm hidden-xs hidden-xxs hidden-xxxs" style="background-image: url(/activos/images/logo.png); height: 155px; width: 970px;">
+<div class="row main-header hidden-sm hidden-xs hidden-xxs hidden-xxxs">
     <a id="titlelink" href="/"></a>
 
     <div class="col-md-5 social-box">
