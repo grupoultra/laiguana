@@ -1,6 +1,6 @@
 <div class="col-g nota h-normal">
     <div class="card stretch green-border round-left"  style="overflow: hidden">
-        <img class="" src="/activos/images/iguanazos_header.png" alt="Iguanazos" style="width: 100%; height: auto;">
+        <img class="iguanazos-header-image" src="/activos/images/iguanazos_header.png" alt="Iguanazos">
 
         <img class="card-img-top img-responsive" src="${notas.getNota("iguanazos",1).getHeroImage()}" alt="Card image cap" style="width: 100%;">
     </div>
