@@ -4,7 +4,7 @@
     <img class=img-responsive" src="/activos/images/li_mobile_head.png" style="width: 50%; height: auto;">
 </div>
 
-<div class="row social-box hidden-md hidden-lg center-block">
+<div class="row social-box hidden-md hidden-lg center-block text-center">
     <ul class="social-nav model-9">
         <li><a class="rss" target="_blank" title="RSS" href="http://feeds.feedburner.com/laiguana-tv"><i class="fa fa-rss"></i></a></li>
         <li><a class="facebook" target="_blank" title="Facebook" href="http://www.facebook.com/iguana.tv"> <i class="fa fa-facebook"></i></a></li>
