@@ -60,7 +60,7 @@
 
     <link rel="stylesheet" href="/activos/helper/css/ultra.css">
     <link rel="stylesheet" href="/activos/helper/css/social.css">
-    <link rel="stylesheet" href="/activos/helper/css/iguana.css">
+    <link rel="stylesheet" href="/activos/helper/css/iguana.v1.css">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
 
