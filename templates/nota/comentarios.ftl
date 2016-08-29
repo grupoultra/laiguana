@@ -12,10 +12,13 @@
 		</a>
         </div>
 
-        <div class="col-md-9 title-span">
-            <img src="/activos/images/comentario.png" style="width: auto;">
-            <span class="clean">Comentarios</span>
-
+        <div class="col-xs-12 col-md-9 title-span">
+            <div class="col-xs-2">
+                <img class="clean img-responsive" src="/activos/images/comentario.png" style="padding: 0; margin: 0;">
+            </div>
+            <div class="col-xs-10">
+                <span class="clean">Comentarios</span>
+            </div>
             <div class="fb-comments" data-href="http://laiguana.tv${nota.getPath()}"
                  data-width="100%" data-numposts="10" ></div>
         </div>

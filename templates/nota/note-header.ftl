@@ -15,7 +15,7 @@
                 <img src="/activos/images/fb-share-tag.png" alt="" onclick="return share('FB', '${nota.getPath()}')">
             </div>
             <div class="col-xs-6 col-md-2">
-                <img src="/activos/images/tw-share-tag.png" alt="" onclick="return share('TW', '${nota.getPath()}')">
+                <img src="/activos/images/tw-share-tag.png" alt="" onclick="return share('TW', '${nota.getPath()}', '${nota.getTitulo()}')">
             </div>
             <div class="col-xs-6 col-md-2">
                 <img src="/activos/images/gp-share-tag.png" alt="" onclick="return share('GP', '${nota.getPath()}')">
