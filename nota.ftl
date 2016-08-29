@@ -56,7 +56,7 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
 
     <link rel="stylesheet" href="/activos/helper/css/ultra.css">
     <link rel="stylesheet" href="/activos/helper/css/social.css">
-    <link rel="stylesheet" href="/activos/helper/css/pruebaIguanaPrueba.css">
+    <link rel="stylesheet" href="/activos/helper/css/iguana.v2.css?version=1.0">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
 
