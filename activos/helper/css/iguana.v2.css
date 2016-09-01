@@ -675,18 +675,23 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .owl-nav, .owl-dots{
     display: inline;
 }
+
+
 .owl-controls {
     position: absolute;
     right: 0;
-    top: 40%;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 992px) {
+    .owl-controls {
+        top: 35%;
+    }
+}
+@media (max-width: 992px) {
     .owl-controls {
         top: 17%;
     }
 }
-
 
 .owl-carousel-destacados .owl-controls{
     width: 100%

@@ -8,6 +8,7 @@
     <meta name=“uversion" content="${notas.getCMSVersion()}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="max-age=200" />
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta HTTP-EQUIV="refresh" CONTENT="240">
@@ -17,18 +18,18 @@
 <!-- End Alexa Certify Javascript -->
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!--link rel="stylesheet" href="/activos/helper/bootstrap-4.0.0a/bootstrap.css"-->
+    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=2.0" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--link rel="stylesheet" href="/activos/helper/bootstrap-4.0.0a/bootstrap.css?version=2.0"-->
 
     <!-- Optional theme -->
-    <!--link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"-->
+    <!--link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css?version=2.0" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"-->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
-    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <!--script src="/activos/helper/bootstrap-4.0.0a/bootstrap.js" ></script-->
-    <link rel="stylesheet" href="/activos/helper/css/normalize.css">
-    <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=2.0" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!--script src="/activos/helper/bootstrap-4.0.0a/bootstrap.js?version=2.0" ></script-->
+    <link rel="stylesheet" href="/activos/helper/css/normalize.css?version=2.0">
+    <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js?version=2.0"></script>
 
     <!-- ************************************************* -->
 
@@ -43,24 +44,24 @@
     <link href="/activos/images/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
     <!-- ************************************************* -->
-    <link rel="stylesheet" href="/activos/helper/nivo-slider-master/themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/activos/helper/nivo-slider-master/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/activos/helper/nivo-slider-master/themes/default/default.css?version=2.0" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/activos/helper/nivo-slider-master/nivo-slider.css?version=2.0" type="text/css" media="screen" />
 
 
     <#--Owl Carrousel-->
-    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
-    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css?version=2.0">
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css?version=2.0">
 
-    <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+    <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js?version=2.0"></script>
     <#--Owl Carrousel-->
 
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="/activos/helper/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/activos/helper/font-awesome-4.6.3/css/font-awesome.min.css?version=2.0">
 
-    <link rel="stylesheet" href="/activos/helper/css/ultra.css">
-    <link rel="stylesheet" href="/activos/helper/css/social.css">
-    <link rel="stylesheet" href="/activos/helper/css/iguana.css">
+    <link rel="stylesheet" href="/activos/helper/css/ultra.css?version=2.0">
+    <link rel="stylesheet" href="/activos/helper/css/social.css?version=2.0">
+    <link rel="stylesheet" href="/activos/helper/css/iguana.v2.css?version=2.0">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
 
@@ -98,11 +99,11 @@
 
     <#include "./templates/footer.ftl">
 
-    <#--<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"></script>-->
-    <#--<script>window.jQuery || document.write('<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"><\/script>')</script>-->
-    <script src="/activos/helper/js/plugins.js"></script>
-    <script src="/activos/helper/js/main.js"></script>
-    <script type="text/javascript" src="/activos/helper/nivo-slider-master/jquery.nivo.slider.js"></script>
+    <#--<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js?version=2.0"></script>-->
+    <#--<script>window.jQuery || document.write('<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js?version=2.0"><\/script>')</script>-->
+    <script src="/activos/helper/js/plugins.js?version=2.0"></script>
+    <script src="/activos/helper/js/main.js?version=2.0"></script>
+    <script type="text/javascript" src="/activos/helper/nivo-slider-master/jquery.nivo.slider.js?version=2.0"></script>
 
     <!-- Start Alexa Certify Javascript -->
     <script type="text/javascript">

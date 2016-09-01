@@ -48,7 +48,7 @@ $(document).ready(function(){
     });
 });
 
-function share(platform, link){
+function share(platform, link, text){
 
     // FB.ui({
     //     method: 'share',
@@ -62,7 +62,7 @@ function share(platform, link){
             url = 'https://www.facebook.com/sharer/sharer.php?u=http://laiguana.tv' + link;
             break;
         case 'TW':
-            url = 'https://twitter.com/home?status=http://laiguana.tv' + link;
+            url = 'https://twitter.com/home?status='+ text +' http://laiguana.tv' + link + ' @la_iguanatv';
             break;
         case 'GP':
             url = 'https://plus.google.com/share?url=http://laiguana.tv' + link;

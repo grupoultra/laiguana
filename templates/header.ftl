@@ -1,7 +1,9 @@
 <@banner id="HA" zoneId="4" classString="banner row hidden-sm hidden-xs" />
 
 <div class="row  mobile-header hidden-md hidden-lg">
-    <img class=img-responsive" src="/activos/images/li_mobile_head.png" style="width: 50%; height: auto;">
+    <a href="/">
+        <img class=img-responsive" src="/activos/images/li_mobile_head.png" style="width: 50%; height: auto;">
+    </a>
 </div>
 
 <div class="row social-box hidden-md hidden-lg center-block text-center">
