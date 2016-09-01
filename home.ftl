@@ -19,20 +19,22 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=2.0" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!--link rel="stylesheet" href="/activos/helper/bootstrap-4.0.0a/bootstrap.css?version=2.0"-->
 
-    <!-- Optional theme -->
-    <!--link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css?version=2.0" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"-->
-    <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
     <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=2.0" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <!--script src="/activos/helper/bootstrap-4.0.0a/bootstrap.js?version=2.0" ></script-->
     <link rel="stylesheet" href="/activos/helper/css/normalize.css?version=2.0">
     <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js?version=2.0"></script>
 
-    <!-- ************************************************* -->
 
+    <#--Owl Carrousel-->
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css?version=2.0">
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css?version=2.0">
+
+    <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js?version=2.0"></script>
+    <#--Owl Carrousel-->
+
+    <!-- ************************************************* -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
     <!-- ************************************************* -->
@@ -43,18 +45,6 @@
     <link rel="apple-touch-icon" href="/activos/images/favicon/apple-touch-icon.png">
     <link href="/activos/images/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
-    <!-- ************************************************* -->
-    <link rel="stylesheet" href="/activos/helper/nivo-slider-master/themes/default/default.css?version=2.0" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/activos/helper/nivo-slider-master/nivo-slider.css?version=2.0" type="text/css" media="screen" />
-
-
-    <#--Owl Carrousel-->
-    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css?version=2.0">
-    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css?version=2.0">
-
-    <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js?version=2.0"></script>
-    <#--Owl Carrousel-->
-
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <link rel="stylesheet" href="/activos/helper/font-awesome-4.6.3/css/font-awesome.min.css?version=2.0">
@@ -64,8 +54,7 @@
     <link rel="stylesheet" href="/activos/helper/css/iguana.v2.css?version=2.0">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
-
-
+    <script src="/activos/helper/js/main.js?version=2.0"></script>
 </head>
 <body class="body">
     <!--[if lt IE 8]>
@@ -99,11 +88,7 @@
 
     <#include "./templates/footer.ftl">
 
-    <#--<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js?version=2.0"></script>-->
-    <#--<script>window.jQuery || document.write('<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js?version=2.0"><\/script>')</script>-->
     <script src="/activos/helper/js/plugins.js?version=2.0"></script>
-    <script src="/activos/helper/js/main.js?version=2.0"></script>
-    <script type="text/javascript" src="/activos/helper/nivo-slider-master/jquery.nivo.slider.js?version=2.0"></script>
 
     <!-- Start Alexa Certify Javascript -->
     <script type="text/javascript">
