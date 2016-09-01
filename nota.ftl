@@ -34,7 +34,6 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
     <!-- ************************************************* -->
     <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
     <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
-    <title>${nota.getTitulo()} | La iguana TV</title>
 
     <link rel="apple-touch-icon" href="/activos/images/favicon/apple-touch-icon.png">
     <link href="/activos/images/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />

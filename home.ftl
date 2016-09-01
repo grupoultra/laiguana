@@ -40,7 +40,6 @@
     <!-- ************************************************* -->
     <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
     <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
-    <title>La iguana TV | Noticias, información y política</title>
 
     <link rel="apple-touch-icon" href="/activos/images/favicon/apple-touch-icon.png">
     <link href="/activos/images/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
