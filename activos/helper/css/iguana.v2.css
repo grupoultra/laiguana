@@ -693,6 +693,20 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     }
 }
 
+.owl-carousel-destacados {
+    padding-top: 0px;
+    height: 492px;
+    min-height: 492px;
+    max-height: 492px;
+    overflow: hidden;
+}
+
+.destacado-item:nth-child(2),
+.destacado-item:nth-child(3)
+{
+    display: none;
+}
+
 .owl-carousel-destacados .owl-controls{
     width: 100%
 }
@@ -738,9 +752,6 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 
 
 
-.owl-carousel-destacados{
-    padding-top: 0px;
-}
 .destacado-item .destacado-caption{
     color: #FFFFFF;
     background-color: #000000;
