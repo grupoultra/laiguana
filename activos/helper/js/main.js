@@ -43,7 +43,6 @@ $(document).ready(function(){
             "<i class='icon-chevron-right icon-white'>></i>"
         ],
         loop: true,
-        lazyLoad: true,
         dots: false
     });
 });
