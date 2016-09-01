@@ -695,10 +695,20 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 
 .owl-carousel-destacados {
     padding-top: 0px;
-    height: 492px;
-    min-height: 492px;
-    max-height: 492px;
     overflow: hidden;
+}
+
+@media (min-width: 992px) {
+    .owl-carousel-destacados {
+        height: 492px;
+        min-height: 492px;
+        max-height: 492px;
+    }
+}
+@media (max-width: 992px) {
+    .owl-carousel-destacados {
+        height: auto;
+    }
 }
 
 .destacado-item:nth-child(2),
