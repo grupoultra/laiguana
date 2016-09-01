@@ -18,11 +18,11 @@
 <!-- End Alexa Certify Javascript -->
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=2.0" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=2.0">
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
-    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=2.0" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=2.0"></script>
     <link rel="stylesheet" href="/activos/helper/css/normalize.css?version=2.0">
     <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js?version=2.0"></script>
 
