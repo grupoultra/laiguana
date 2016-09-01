@@ -1,5 +1,5 @@
 <div class="lomasjot content-row h-normal">
-    <div class="col-md-8 clean h-normal vstretch">
+    <div class="col-md-8 clean vstretch">
         <div class="stretch">
             <img class="" src="/activos/images/elvideo_header.png" alt="Card image cap" style="width: 100%; heigth: auto; ">
 	<!-- YOUTUBE META START-->
