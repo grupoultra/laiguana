@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-    <title>La iguana TV | Noticias, información y política</title>
+    <title>Noticias, información y política | La iguana TV</title>
 
     <meta name="description" content="">
 
