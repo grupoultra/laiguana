@@ -4,7 +4,7 @@
     <div class="row clean content-row">
         <div class="col-md-12 clean">
         	<a href="http://noticias24carabobo.com/">
-			<img border="0" alt="Noticias24Carabobo" src="http://activos.laiguana.tv/ads/vertcalbannernv.gif" width="222" height="554">
+			<img border="0" alt="Noticias24Carabobo" src="http://activos.laiguana.tv/ads/3208225x554.gif" width="222" height="554">
 		</a>
 	</div>
     </div>
