@@ -16,14 +16,8 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
 <!-- End Alexa Certify Javascript -->
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!--link rel="stylesheet" href="/activos/helper/bootstrap-4.0.0a/bootstrap.css"-->
+    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css" >
 
-    <!-- Optional theme -->
-    <!--link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"-->
-    <!-- Latest compiled and minified JavaScript -->
-
-    <!--<script src="/activos/helper/bootstrap-4.0.0a/bootstrap.js" ></script>-->
     <link rel="stylesheet" href="/activos/helper/css/normalize.css">
     <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -96,13 +90,8 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
 
     <#include "./templates/footer.ftl">
 
-    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-
-    <#--<script>window.jQuery || document.write('<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"><\/script>')</script>-->
+    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
     <script src="/activos/helper/js/plugins.js"></script>
-    <#--<script type="text/javascript" src="/activos/helper/nivo-slider-master/jquery.nivo.slider.js"></script>-->
-
 
     <script type="text/javascript">
         $(window).load(function() {
