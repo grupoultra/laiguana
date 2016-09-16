@@ -1,3 +1,5 @@
+    <#outputformat "HTML">
+
     <div class="articulo-titulo">
         <span>
         ${nota.getTitulo()}
@@ -27,3 +29,5 @@
             </div>
         </div>
     </div>
+
+    </#outputformat>
