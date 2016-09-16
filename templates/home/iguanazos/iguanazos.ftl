@@ -5,8 +5,14 @@
 
     <#include "iguanazos_left.ftl">
     <#include "iguanazos_right.ftl">
-
-    <@banner id="H3" zoneId="12" classString="margin-top-10 banner row image-row  hidden-sm hidden-xs" />
+    <!--Banner revive H3-->
+    <!--<@banner id="H3" zoneId="12" classString="margin-top-10 banner row image-row  hidden-sm hidden-xs" />-->
+    <!-- /181537734/LI-H3 -->
+    <div id='div-gpt-ad-1473795112659-0'>
+    <script>
+       googletag.cmd.push(function() { googletag.display('div-gpt-ad-1473795112659-0'); });
+    </script>
+    </div>
     <@banner id="MH2" zoneId="25" classString="banner-horizontal-2c col-g content-row hidden-md hidden-lg" />
 
 </div>

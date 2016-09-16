@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col-md-3 hidden-sm hidden-xs">
             <img src="/activos/images/iguanacuadrorojo.png" style="width: 100%">
-		<a href="http://www.petrocasa.com.ve">
+		<a href="http://www.petrocasa.com.ve" target="_blank">
 		<img border="0" alt="Petrocasa" src="http://activos.laiguana.tv/ads/petrocasalatcom3.jpg" width="128" height="537">
 		</a>
         </div>

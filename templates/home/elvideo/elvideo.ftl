@@ -13,7 +13,9 @@
     <!--@banner id="H5" zoneId="14" classString="banner row image-row hidden-sm hidden-xs" /-->
 
     <div class="margin-top-10 row hidden-md hidden-sm hidden-xs">
-      <img src="http://activos.laiguana.tv/ads/horizontal-petrocasa.png" alt="">
+      	<a href="http://www.petrocasa.com.ve/" target="_blank">
+	<img src="http://activos.laiguana.tv/ads/horizontal-petrocasa.png" alt="">
+	</a>
     </div>
 
     <@banner id="MH3" zoneId="26" classString="banner-horizontal-2c col-g content-row hidden-md hidden-lg" />
