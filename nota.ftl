@@ -21,20 +21,13 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
     <link rel="stylesheet" href="/activos/helper/css/normalize.css">
     <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js"></script>
 
-    <!-- ************************************************* -->
-
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <!-- ************************************************* -->
     <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
     <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
 
     <link rel="apple-touch-icon" href="/activos/images/favicon/apple-touch-icon.png">
     <link href="/activos/images/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-
-    <!-- ************************************************* -->
-    <link rel="stylesheet" href="/activos/helper/nivo-slider-master/themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/activos/helper/nivo-slider-master/nivo-slider.css" type="text/css" media="screen" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -46,13 +39,11 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
     <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
     <#--Owl Carrousel-->
 
-
     <link rel="stylesheet" href="/activos/helper/css/ultra.css">
     <link rel="stylesheet" href="/activos/helper/css/social.css">
     <link rel="stylesheet" href="/activos/helper/css/iguana.v2.css?version=1.0">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
-
 
     <meta property="og:url"           content="${nota.getPath()}" />
     <meta property="og:type"          content="article" />
@@ -83,37 +74,12 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
 
             <#include "./templates/nota/comentarios.ftl">
         </div><!-- //row -->
-
-
-
     </div> <!-- //main-container -->
 
     <#include "./templates/footer.ftl">
 
     <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
     <script src="/activos/helper/js/plugins.js"></script>
-
-    <script type="text/javascript">
-        $(window).load(function() {
-            $('#nivoslider-1').nivoSlider({
-                effect:'fade',
-                slices:15,
-                boxRows:4,
-                boxCols:8,
-                animSpeed:500,
-                pauseTime:7000,
-                controlNav:false,
-                randomStart:false,
-                pauseOnHover:false });
-        });
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $(".owl-carousel").owlCarousel();
-        });
-    </script>
-
 
     <script>window.twttr = (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0],
@@ -132,8 +98,6 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
         return t;
     }(document, "script", "twitter-wjs"));</script>
     <script>/*<![CDATA[*/(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3&appId=320741088082447";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));/*]]>*/</script>
-
-
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script type="text/javascript">
