@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-    <title>La iguana TV | Noticias, información y política</title>
+    <title>Noticias, información y política | La iguana TV</title>
 
     <meta name="description" content="">
 
@@ -18,34 +18,13 @@
 <!-- End Alexa Certify Javascript -->
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=2.0" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!--link rel="stylesheet" href="/activos/helper/bootstrap-4.0.0a/bootstrap.css?version=2.0"-->
+    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=2.0">
 
-    <!-- Optional theme -->
-    <!--link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css?version=2.0" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"-->
-    <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
-    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=2.0" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <!--script src="/activos/helper/bootstrap-4.0.0a/bootstrap.js?version=2.0" ></script-->
+    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=2.0"></script>
     <link rel="stylesheet" href="/activos/helper/css/normalize.css?version=2.0">
     <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js?version=2.0"></script>
-
-    <!-- ************************************************* -->
-
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-    <!-- ************************************************* -->
-    <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
-    <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
-    <title>La iguana TV | Noticias, información y política</title>
-
-    <link rel="apple-touch-icon" href="/activos/images/favicon/apple-touch-icon.png">
-    <link href="/activos/images/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-
-    <!-- ************************************************* -->
-    <link rel="stylesheet" href="/activos/helper/nivo-slider-master/themes/default/default.css?version=2.0" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/activos/helper/nivo-slider-master/nivo-slider.css?version=2.0" type="text/css" media="screen" />
 
 
     <#--Owl Carrousel-->
@@ -54,6 +33,16 @@
 
     <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js?version=2.0"></script>
     <#--Owl Carrousel-->
+
+    <!-- ************************************************* -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- ************************************************* -->
+    <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
+    <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
+
+    <link rel="apple-touch-icon" href="/activos/images/favicon/apple-touch-icon.png">
+    <link href="/activos/images/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -64,7 +53,42 @@
     <link rel="stylesheet" href="/activos/helper/css/iguana.v2.css?version=2.0">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
+    <script src="/activos/helper/js/main.js?version=2.0"></script>
 
+    <!--Header DFP-->
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+    </script>
+
+    <script>
+      googletag.cmd.push(function() {
+        googletag.defineSlot('/181537734/LI-H3', [970, 90], 'div-gpt-ad-1474201209379-0').addService(googletag.pubads());
+        googletag.defineSlot('/181537734/LI-H2', [970, 90], 'div-gpt-ad-1474201209379-1').addService(googletag.pubads());
+        googletag.defineSlot('/181537734/LI-H4', [970, 90], 'div-gpt-ad-1474201209379-2').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+    </script>
+
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+        _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
+        (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+    </script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-33062755-1', 'auto');
+
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+    </script>
 
 </head>
 <body class="body">
@@ -99,28 +123,21 @@
 
     <#include "./templates/footer.ftl">
 
-    <#--<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js?version=2.0"></script>-->
-    <#--<script>window.jQuery || document.write('<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js?version=2.0"><\/script>')</script>-->
     <script src="/activos/helper/js/plugins.js?version=2.0"></script>
-    <script src="/activos/helper/js/main.js?version=2.0"></script>
-    <script type="text/javascript" src="/activos/helper/nivo-slider-master/jquery.nivo.slider.js?version=2.0"></script>
+	
+    <!-- DFP -->
+        <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+        <script>
+                var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+        </script>
 
-    <!-- Start Alexa Certify Javascript -->
-    <script type="text/javascript">
-        _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
-        (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
-    </script>
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-33062755-1', 'auto');
-
-        ga('require', 'displayfeatures');
-        ga('send', 'pageview');
-    </script>
+        <script>
+          googletag.cmd.push(function() {
+            googletag.defineOutOfPageSlot('/181537734/LI-H3', 'div-gpt-ad-1473791062472-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+          });
+        </script>
 </body>
 </html>
