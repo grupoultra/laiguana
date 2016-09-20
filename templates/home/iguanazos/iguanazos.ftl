@@ -2,17 +2,17 @@
     <#include "iguanazos_head.ftl">
 
     <@banner id="H2" zoneId="7" classString="margin-top-10 banner-horizontal row hidden-sm hidden-xs image-row" />
+    <!-- /181537734/LI-H2 -->
+    <!--<div id='div-gpt-ad-1474201209379-1' style='height:90px; width:970px;'>
+    <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474201209379-1'); });
+    </script>
+    </div>-->
 
     <#include "iguanazos_left.ftl">
     <#include "iguanazos_right.ftl">
     <!--Banner revive H3-->
-    <!--<@banner id="H3" zoneId="12" classString="margin-top-10 banner row image-row  hidden-sm hidden-xs" />-->
-    <!-- /181537734/LI-H3 -->
-    <div id='div-gpt-ad-1473795112659-0'>
-    <script>
-       googletag.cmd.push(function() { googletag.display('div-gpt-ad-1473795112659-0'); });
-    </script>
-    </div>
+    <@banner id="H3" zoneId="12" classString="margin-top-10 banner row image-row  hidden-sm hidden-xs" />
     <@banner id="MH2" zoneId="25" classString="banner-horizontal-2c col-g content-row hidden-md hidden-lg" />
 
 </div>

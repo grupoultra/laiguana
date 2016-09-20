@@ -55,6 +55,22 @@
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
     <script src="/activos/helper/js/main.js?version=2.0"></script>
 
+    <!--Header DFP-->
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+    </script>
+
+    <script>
+      googletag.cmd.push(function() {
+        googletag.defineSlot('/181537734/LI-H3', [970, 90], 'div-gpt-ad-1474201209379-0').addService(googletag.pubads());
+        googletag.defineSlot('/181537734/LI-H2', [970, 90], 'div-gpt-ad-1474201209379-1').addService(googletag.pubads());
+        googletag.defineSlot('/181537734/LI-H4', [970, 90], 'div-gpt-ad-1474201209379-2').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+    </script>
 
     <!-- Start Alexa Certify Javascript -->
     <script type="text/javascript">
