@@ -1,7 +1,14 @@
 <div class="margin-top-10">
     <#include "iguanazos_head.ftl">
 
-    <@banner id="H2" zoneId="7" classString="margin-top-10 banner-horizontal row hidden-sm hidden-xs image-row" />
+    <#--<@banner id="H2" zoneId="7" classString="margin-top-10 banner-horizontal row hidden-sm hidden-xs image-row" />-->
+
+    <!-- /181537734/LI-H2 -->
+    <div id='div-gpt-ad-1474201209379-1' style='height:90px; width:970px;'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474201209379-1'); });
+        </script>
+    </div>
 
     <#include "iguanazos_left.ftl">
     <#include "iguanazos_right.ftl">
