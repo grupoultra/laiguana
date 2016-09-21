@@ -1,4 +1,4 @@
-<div class="col-g nota h-normal">
+<div class="col-g nota h-normal iguanazos-container">
     <div class="card stretch green-border round-left"  style="overflow: hidden">
         <img class="iguanazos-header-image" src="/activos/images/iguanazos_header.png" alt="Iguanazos">
 

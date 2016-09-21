@@ -920,3 +920,9 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .noticiasanteriores-container .owl-next {
     float: right;
 }
+
+@media (min-width: 320px) {
+    .iguanazos-container {
+        height: auto;
+    }
+}
