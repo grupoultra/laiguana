@@ -1,4 +1,4 @@
-<div class="col-g">
+<div class="col-g margin-bottom-10">
 <#list 1..4 as pos>
     <@nota lista="clavadas" pos=pos />
 </#list>
