@@ -9,7 +9,7 @@
 	    </a> //-->
 	    <ins data-revive-zoneid="6" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e" style="margin-bottom: 10px"></ins>
     </div>
-	<div class="clean no-margin ucard h-normal vstretch round-left red-border" style="margin-left: 5px;">
+	<div class="clean no-margin ucard h-normal vstretch round-left red-border hidden-sm hidden-xs" style="margin-left: 5px;">
         <img class="card-img-top" src="/activos/images/lomasleido_header.png" alt="Card image cap">
             <ul class="list-group list-group-flush">
 
