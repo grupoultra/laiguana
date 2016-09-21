@@ -14,7 +14,7 @@
     </div>
 
     <!-- BANNER MH1 -->
-    <div id='div-gpt-ad-1474387975608-1' class="hidden-mg hidden-lg margin-top-10"  style='height:90px; width:970px;'>
+    <div id='div-gpt-ad-1474487302876-0' class="hidden-md hidden-lg margin-top-10"  style='height:80px; width:340px;'>
         <script>
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474387975608-1'); });
         </script>
