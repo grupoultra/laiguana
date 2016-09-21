@@ -4,7 +4,7 @@
     <#--<@banner id="H2" zoneId="7" classString="margin-top-10 banner-horizontal row hidden-sm hidden-xs image-row" />-->
 
     <!-- /181537734/LI-H2 -->
-    <div id='div-gpt-ad-1474201209379-1' style='height:90px; width:970px; margin-left: -15px;'>
+    <div id='div-gpt-ad-1474201209379-1' class="margin-top-10 hidden-sm hidden-xs" style='height:90px; width:970px; margin-left: -15px;'>
         <script>
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474201209379-1'); });
         </script>
@@ -16,7 +16,7 @@
     <#--<@banner id="H3" zoneId="12" classString="margin-top-10 banner row image-row  hidden-sm hidden-xs" />-->
 
     <!-- /181537734/LI-H3 -->
-    <div id='div-gpt-ad-1474201209379-0' style='height:90px; width:970px; margin-left: -15px;'>
+    <div id='div-gpt-ad-1474201209379-0' class="margin-top-10 hidden-sm hidden-xs" style='height:90px; width:970px; margin-left: -15px;'>
         <script>
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474201209379-0'); });
         </script>

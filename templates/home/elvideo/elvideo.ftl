@@ -5,7 +5,7 @@
 
 
     <!-- /181537734/LI-H4 -->
-    <div id='div-gpt-ad-1474201209379-2' style='height:90px; width:970px;margin-left: -15px;'>
+    <div id='div-gpt-ad-1474201209379-2' class="margin-top-10 hidden-sm hidden-xs" style='height:90px; width:970px;margin-left: -15px;'>
         <script>
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474201209379-2'); });
         </script>

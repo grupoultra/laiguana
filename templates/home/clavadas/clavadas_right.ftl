@@ -2,34 +2,34 @@
 
 <div class="col-p">
 
-    <div class=" banner-vertical margin-top-10 lomasleido vstretch hidden-sm hidden-xs">
+    <div class=" banner-vertical margin-top-10 margin-bottom-10 lomasleido vstretch hidden-sm hidden-xs">
         <!-- Banner Fijo -->
-	<!--<a href="http://www.noticias24carabobo.com">
+	    <!--<a href="http://www.noticias24carabobo.com">
 		<img border="0" alt="Noticias24Carabobo" src="http://activos.laiguana.tv/ads/3108225x454.gif" width="225" height="454">
-	</a> //-->
-	<ins data-revive-zoneid="6" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>
-	<div class="clean no-margin ucard h-normal vstretch round-left red-border">
-            <img class="card-img-top" src="/activos/images/lomasleido_header.png" alt="Card image cap">
-                <ul class="list-group list-group-flush">
+	    </a> //-->
+	    <ins data-revive-zoneid="6" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e" style="margin-bottom: 10px"></ins>
+    </div>
+	<div class="clean no-margin ucard h-normal vstretch round-left red-border" style="margin-left: 5px;">
+        <img class="card-img-top" src="/activos/images/lomasleido_header.png" alt="Card image cap">
+            <ul class="list-group list-group-flush">
 
-                <#list notas.getLista("masleidas") as nota>
-                    <li class="list-group-item clean">
+            <#list notas.getLista("masleidas") as nota>
+                <li class="list-group-item clean">
 
 
 
-                    <a href="${nota.getPath()}">
-                <h3 class="titulo">
-                <span>
-                ${nota.getTitulo()}
-                </span>
-                </h3>
-            </a>
-            </li>
+                <a href="${nota.getPath()}">
+            <h3 class="titulo">
+            <span>
+            ${nota.getTitulo()}
+            </span>
+            </h3>
+        </a>
+        </li>
 
-        </#list>
-            </ul>
+    </#list>
+        </ul>
 
-        </div>
     </div>
 
 <@banner id="V2" zoneId="2" classString="banner-vertical margin-top-10 vstretch   hidden-sm hidden-xs" />

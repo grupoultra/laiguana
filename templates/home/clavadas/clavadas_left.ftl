@@ -16,9 +16,9 @@
     </div>
     <!--<@banner id="H1" zoneId="16" classString="banner-horizontal-2c col-g content-row hidden-sm hidden-xs" />-->
     <!--<@banner id="MH1" zoneId="24" classString="banner-horizontal-2c col-g content-row hidden-md hidden-lg" />-->
-    <div id='div-gpt-ad-1474387975608-1' style='height:90px; width:970px;'>
-	<script>
-		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474387975608-1'); });
-	</script>
+    <div id='div-gpt-ad-1474387975608-1' class="hidden-sm hidden-xs" style='height:90px; width:970px;'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474387975608-1'); });
+        </script>
     </div>
 </div>
