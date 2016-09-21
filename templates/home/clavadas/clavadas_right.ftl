@@ -38,7 +38,7 @@
         <div class="ucard h-normal h-plus round-left green-border vstretch">
             <img class="card-img-top" src="/activos/images/lomaspolemico_header_223X33.jpg" alt="Lo + Polémico">
 
-            <ul class="list-group list-group-flush">
+            <ul class="list-group list-group-flush" style="background-color: white">
             <#list notas.getLista("polemico") as nota>
                 <li class="list-group-item clean">
                     <a class="nolink" href="${nota.getPath()}">
