@@ -23,4 +23,5 @@
     </div>
 
     <@banner id="V6" zoneId="11" classString="margin-top-10 banner-vertical col-p   hidden-sm hidden-xs" />
+
 </div>

@@ -63,6 +63,12 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
         ga('require', 'displayfeatures');
         ga('send', 'pageview');
     </script>
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+  	var googletag = googletag || {};
+  	googletag.cmd = googletag.cmd || [];
+    </script>
+
 </head>
 <body class="body">
     <!--[if lt IE 8]>

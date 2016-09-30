@@ -6,17 +6,5 @@
     <@nota lista="restantes" pos=pos />
 </#list>
     <div class="clearfix"></div>
-    <!-- BANNER H1 -->
-    <div id='div-gpt-ad-1474404658612-0' class="hidden-sm hidden-xs margin-top-10"  style='height:90px; width:728px; margin-left: -15px; margin-top: 10px;'>
-        <script>
-            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474404658612-0'); });
-        </script>
-    </div>
-
-    <!-- BANNER MH1 -->
-    <div id='div-gpt-ad-1474487302876-0' class="hidden-md hidden-lg margin-top-10"  style='height:80px; width:340px;'>
-        <script>
-            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474387975608-1'); });
-        </script>
-    </div>
+    <@banner id="H1" zoneId="16" classString="hidden-sm hidden-xs margin-top-10" />
 </div>

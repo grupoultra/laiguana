@@ -2,6 +2,7 @@
 
 <div class="col-p">
 
+
     <div class=" banner-vertical margin-top-10 margin-bottom-10 lomasleido vstretch hidden-sm hidden-xs">
         <!-- Banner Fijo -->
 	    <!--<a href="http://www.noticias24carabobo.com">
@@ -33,7 +34,6 @@
     </div>
 
 <@banner id="V2" zoneId="2" classString="banner-vertical margin-top-10 vstretch   hidden-sm hidden-xs" />
-
     <div class="lomaspolemico margin-top-10 vstretch  hidden-sm hidden-xs">
         <div class="ucard h-normal h-plus round-left green-border vstretch">
             <img class="card-img-top" src="/activos/images/lomaspolemico_header_223X33.jpg" alt="Lo + Polémico">
