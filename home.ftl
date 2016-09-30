@@ -11,8 +11,10 @@
     <meta http-equiv="Cache-Control" content="max-age=200" />
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta HTTP-EQUIV="refresh" CONTENT="240">
-
+    <#--<meta HTTP-EQUIV="refresh" CONTENT="240">-->
+    <script type="text/javascript">
+        window.setTimeout(function(){ document.location.reload(true); }, 240000);
+    </script>
 
 <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=trjMk1a4eFf2L7" style="display:none" height="1" width="1" alt="" /></noscript>
 <!-- End Alexa Certify Javascript -->
@@ -106,7 +108,7 @@
     <#include "./templates/footer.ftl">
 
     <script src="/activos/helper/js/plugins.js?version=2.0"></script>
-	
+
     <!-- DFP -->
         <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
         <script>
