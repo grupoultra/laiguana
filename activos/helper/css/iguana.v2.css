@@ -921,8 +921,23 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     float: right;
 }
 
+
+.el-video-container{
+    height: 452px;
+    overflow: hidden;
+}
+
 @media (min-width: 320px) {
     .iguanazos-container {
         height: auto;
     }
 }
+@media (max-width: 992px) {
+
+    .el-video-container, .el-video{
+        height: 220px;
+        overflow: hidden;
+    }
+}
+
+

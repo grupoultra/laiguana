@@ -1,9 +1,13 @@
-<div class="lomasjot content-row h-normal">
+<div class="lomasjot el-video content-row h-normal">
     <div class="col-md-8 clean vstretch">
-        <div class="stretch">
+        <div class="stretch el-video-container">
             <img class="" src="/activos/images/elvideo_header.png" alt="Card image cap" style="width: 100%; heigth: auto; ">
             <#include "elvideo_container.ftl">
+            <div class="clearfix"></div>
+
         </div>
+        <div class="clearfix"></div>
+
     </div>
 
     <div class="col-md-4 h-normal hidden-sm hidden-xs" style="padding-right: 5px; padding-left: 0px">
