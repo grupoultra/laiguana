@@ -925,6 +925,11 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 .el-video-container{
     height: 452px;
     overflow: hidden;
+    background-color: #000000;
+}
+
+.el-video-container iframe{
+    margin-top: 15px;
 }
 
 @media (min-width: 320px) {
@@ -937,6 +942,13 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
     .el-video-container, .el-video{
         height: 220px;
         overflow: hidden;
+        background-color: transparent;
+    }
+
+
+    .el-video-container iframe{
+        margin-top: 0px;
+        height: 100%;
     }
 }
 
