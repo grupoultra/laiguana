@@ -60,7 +60,9 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475770129007-16')
                                      width:180px;
                                      height: auto;">
 
-                        <h3 class="titulo">${nota.getTitulo(75)}</h3>
+                        <h3 class="titulo">
+                            ${nota.getTitulo(75)}
+                        </h3>
                     </a>
                 </li>
             </#list>
