@@ -4,7 +4,7 @@
         <div class="destacado-item">
             <a href="${nota.getPath()}">
                 <img src="${nota.getHeroImage()}" alt="${nota.getPath()}"
-                     title="#htmlcaption-${nota.getId()}">
+                     title="${nota.getTitulo()}">
             </a>
             <div class="destacado-caption">
                 <a class="destacado-title-a " href="${nota.getPath()}" title="${nota.getTitulo()}">
