@@ -22,7 +22,7 @@
                     <#--<img src="/activos/images/tw-share-tag.png"/>-->
                 <#--</a>-->
 
-                    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=${nota.getTitulo()?replace("'","")?replace("%"," por ciento")?replace("#","")?replace("$","USD")?replace("&","y")} http://laiguana.tv${nota.getPath()} @la_iguanatv'">
+                    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=${nota.getTitulo()?replace("'","")?replace("%"," por ciento")?replace("#","")?replace("$","USD")?replace("&","y")} @la_iguanatv'">
 
                         <#--text +' http://laiguana.tv' + link + ' @la_iguanatv'-->
 
