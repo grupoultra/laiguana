@@ -1,11 +1,12 @@
-var i;
-var charsLimit = 60;
-var divs = document.getElementsByClassName('titulo-wrap');
-for(i=0;i<divs.length;i++) {
-    if(divs[i].innerHTML.length > charsLimit){
-        divs[i].innerHTML = divs[i].innerHTML.substring(0,charsLimit) + '...';
-    }
-}
+// var i;
+// var charsLimit = 10;
+// var divs = document.getElementsByClassName('titulo-wrap');
+//
+// for(i=0;i<divs.length;i++) {
+//     if(divs[i].innerHTML.length > charsLimit){
+//         divs[i].innerHTML = divs[i].innerHTML.substring(0,charsLimit) + '...';
+//     }
+// }
 
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
