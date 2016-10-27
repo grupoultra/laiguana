@@ -122,6 +122,14 @@
 
     <div id="white-container" class="container">
 
+        <!--<@banner id="HA" zoneId="4" classString="banner row hidden-sm hidden-xs" />-->
+        <!-- /181537734/01-LI -->
+        <div id='div-gpt-ad-1475770129007-6' style='height:90px; width:970px;' class='banner row hidden-sm hidden-xs'>
+            <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475770129007-6'); });
+            </script>
+        </div>
+
         <#include "./templates/header.ftl">
 
         <#include "./templates/menu-principal.ftl">
@@ -143,7 +151,7 @@
 
     <script src="/activos/helper/js/plugins.js?version=2.0"></script>
 
-    <!-- DFP 
+    <!-- DFP
         <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
         <script>
                 var googletag = googletag || {};

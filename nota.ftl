@@ -112,6 +112,14 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
 
     <div id="white-container" class="container">
 
+        <!--<@banner id="HA" zoneId="4" classString="banner row hidden-sm hidden-xs" />-->
+        <!-- /181537734/01-LI -->
+        <div id='div-gpt-ad-1475770129007-6' style='height:90px; width:970px;' class='banner row hidden-sm hidden-xs'>
+            <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475770129007-6'); });
+            </script>
+        </div>
+
         <#include "./templates/header.ftl">
 
         <#include "./templates/menu-principal.ftl">
@@ -150,7 +158,7 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
     }(document, "script", "twitter-wjs"));</script>
     <script>/*<![CDATA[*/(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3&appId=320741088082447";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));/*]]>*/</script>
 
-   
+
     <script src="/activos/helper/js/main.js"></script>
 
 </body>
