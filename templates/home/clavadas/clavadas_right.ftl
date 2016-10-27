@@ -8,7 +8,13 @@
 	    <!--<a href="http://www.noticias24carabobo.com">
 		<img border="0" alt="Noticias24Carabobo" src="http://activos.laiguana.tv/ads/3108225x454.gif" width="225" height="454">
 	    </a> //-->
-	    <ins data-revive-zoneid="6" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e" style="margin-bottom: 10px"></ins>
+	    <!--<ins data-revive-zoneid="6" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e" style="margin-bottom: 10px"></ins>-->
+		<!-- /181537734/LI-V1 -->
+		<div id='div-gpt-ad-1475770129007-15' style='height:454px; width:225px;' class='banner-vertical margin-top-10 vstretch hidden-sm hidden-xs'>
+		<script>
+			googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475770129007-15'); });
+		</script>
+		</div>
     </div>
 	<div class="clean no-margin ucard h-normal vstretch round-left red-border hidden-sm hidden-xs" style="margin-left: 5px;">
         <img class="card-img-top" src="/activos/images/lomasleido_header.png" alt="Card image cap">
@@ -33,7 +39,13 @@
 
     </div>
 
-<@banner id="V2" zoneId="2" classString="banner-vertical margin-top-10 vstretch   hidden-sm hidden-xs" />
+<!--<@banner id="V2" zoneId="2" classString="banner-vertical margin-top-10 vstretch   hidden-sm hidden-xs" />-->
+<!-- /181537734/LI-V2 -->
+<div id='div-gpt-ad-1475770129007-16' style='height:454px; width:225px;' class='banner-vertical margin-top-10 vstretch   hidden-sm hidden-xs'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475770129007-16'); });
+</script>
+</div>
     <div class="lomaspolemico margin-top-10 vstretch  hidden-sm hidden-xs">
         <div class="ucard h-normal h-plus round-left green-border vstretch">
             <img class="card-img-top" src="/activos/images/lomaspolemico_header_223X33.jpg" alt="Lo + Polémico">
