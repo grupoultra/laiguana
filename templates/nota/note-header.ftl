@@ -17,22 +17,9 @@
                 <img src="/activos/images/fb-share-tag.png" alt="" onclick="return share('FB', '${nota.getPath()}')">
             </div>
             <div class="col-xs-6 col-md-2">
-                <#--<a class="" href="https://twitter.com/intent/tweet">-->
-                    <#--Tweet-->
-                    <#--<img src="/activos/images/tw-share-tag.png"/>-->
-                <#--</a>-->
-
-                    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=${nota.getTitulo()?replace("'","")?replace("%"," por ciento")?replace("#","")?replace("$","USD")?replace("&","y")} @la_iguanatv'">
-
-                        <#--text +' http://laiguana.tv' + link + ' @la_iguanatv'-->
-
-
-                        <#--Tweet-->
+                <a class="twitter-shar-button" href="https://twitter.com/intent/tweet?text=${nota.getTitulo()?replace("'","")?replace("%"," por ciento")?replace("#","")?replace("$","USD")?replace("&","y")} http://laiguana.tv${nota.getPath()} @la_iguanatv'">
                     <img src="/activos/images/tw-share-tag.png"/>
-
-                    </a>
-
-                <#--<img src="/activos/images/tw-share-tag.png" alt="" onclick="return share('TW', '${nota.getPath()}', '${nota.getTitulo()?replace("'","")?replace("%"," por ciento")?replace("#","")?replace("$","USD")?replace("&","y")}')">-->
+                </a>
             </div>
             <div class="col-xs-6 col-md-2">
                 <img src="/activos/images/gp-share-tag.png" alt="" onclick="return share('GP', '${nota.getPath()}')">
