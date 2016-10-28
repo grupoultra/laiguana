@@ -13,10 +13,13 @@
     <div class="row">
         <div class="col-md-3 hidden-sm hidden-xs">
             <img src="/activos/images/iguanacuadrorojo.png" style="width: 100%">
-		<a href="http://www.petrocasa.com.ve" target="_blank">
-		<img border="0" alt="Petrocasa" src="http://activos.laiguana.tv/ads/petrocasalatcom3.jpg" width="128" height="537">
-		</a>
-        </div>
+        <!-- /181537734/LI-NV3 -->
+	<div id='div-gpt-ad-1477673774373-0' style='height:537px; width:128px;'>
+	<script>
+	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1477673774373-0'); });
+	</script>
+	</div>
+	</div>
 
         <div class="col-xs-12 col-md-9 title-span">
             <div class="col-xs-2">
