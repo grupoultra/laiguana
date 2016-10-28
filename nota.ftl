@@ -92,6 +92,7 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
     googletag.defineSlot('/181537734/LI-NH2', [970, 90], 'div-gpt-ad-1475770129007-12').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-NV1', [225, 554], 'div-gpt-ad-1475770129007-13').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-NV2', [225, 554], 'div-gpt-ad-1475770129007-14').addService(googletag.pubads());
+    googletag.defineSlot('/181537734/LI-NV3', [128, 537], 'div-gpt-ad-1477673774373-0').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-V1', [225, 454], 'div-gpt-ad-1475770129007-15').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-V2', [225, 454], 'div-gpt-ad-1475770129007-16').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-V3', [223, 454], 'div-gpt-ad-1475770129007-17').addService(googletag.pubads());
@@ -113,13 +114,12 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
     <div id="white-container" class="container">
 
         <!--<@banner id="HA" zoneId="4" classString="banner row hidden-sm hidden-xs" />-->
-        <!-- /181537734/01-LI -->
-        <div id='div-gpt-ad-1475770129007-6' style='height:90px; width:970px;' class='banner row hidden-sm hidden-xs'>
-            <script>
-                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475770129007-6'); });
-            </script>
-        </div>
-
+	<!-- /181537734/LI-NA -->
+	<div id='div-gpt-ad-1475770129007-10' style='height:90px; width:970px;'>
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475770129007-10'); });
+	</script>
+	</div>
         <#include "./templates/header.ftl">
 
         <#include "./templates/menu-principal.ftl">
