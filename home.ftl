@@ -119,6 +119,9 @@
     <#include "./templates/macros/banners.ftl">
     <#include "./templates/macros/trio-item.ftl">
 
+    <#include "templates/banners/rascacielosIzquierdo.ftl">
+    <#include "templates/banners/rascacielosDerecho.ftl">
+    <#include "templates/banners/splash.ftl">
 
     <div id="white-container" class="container">
 
@@ -150,20 +153,5 @@
     <#include "./templates/footer.ftl">
 
     <script src="/activos/helper/js/plugins.js?version=2.0"></script>
-
-    <!-- DFP
-        <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-        <script>
-                var googletag = googletag || {};
-                googletag.cmd = googletag.cmd || [];
-        </script>
-
-        <script>
-          googletag.cmd.push(function() {
-            googletag.defineOutOfPageSlot('/181537734/LI-H3', 'div-gpt-ad-1473791062472-0').addService(googletag.pubads());
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-          });
-        </script> -->
 </body>
 </html>
