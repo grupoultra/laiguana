@@ -14,10 +14,10 @@
                 <h3 class="titulo titulo-wrap">
 
                 <#assign minititle=(nota.getTitulo()!"")>
-                <#if minititle?length &lt; 70>
+                <#if minititle?length &lt; 65>
                     ${minititle}
                 <#else>
-                    ${minititle?substring(0,70)} ...
+                    ${minititle?substring(0,65)} ...
                 </#if>
 
                 </h3>
