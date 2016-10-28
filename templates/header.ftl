@@ -48,5 +48,4 @@
     </div>
 </div>
 
-<@banner id="MA" zoneId="27" classString="row content-row hidden-md hidden-lg" />
-
+<#include "./banners/MA.ftl">
