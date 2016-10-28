@@ -8,7 +8,7 @@
                 <#list notas.getLista(lista) as nota>
                     <li class="list-group-item trio-list-item">
                         <a class="nolink" href="${nota.getPath()}" title="${nota.getTitulo()}" target="_self">
-                            <h4 class="titulo hcenter clean titulo-wrap">${nota.getTitulo(70)}</h4>
+                            <h4 class="titulo hcenter clean titulo-wrap">${nota.getTitulo(65)}</h4>
                         </a>
                     </li>
                     <#if nota?counter == 5>
