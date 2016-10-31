@@ -13,6 +13,9 @@
                 <p class="destacado-date">Publicada el ${nota.getCreationDate()?date}</p>
             </div>
         </div>
+        <#if nota?counter == 3>
+            <#break>
+        </#if>
     </#list>
     </div>
 </div>
