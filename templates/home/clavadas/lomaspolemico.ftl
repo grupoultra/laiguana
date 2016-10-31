@@ -13,7 +13,7 @@
                                  height: auto;">
 
                     <h3 class="titulo">
-                    ${nota.getTitulo(70)}
+                    ${nota.getTitulo(65)}
                     </h3>
                 </a>
             </li>

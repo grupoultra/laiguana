@@ -11,7 +11,7 @@
                              width:180px;
                              height: auto;">
                 <h3 class="titulo" style="font-size: 14px">
-                    ${nota.getTitulo(70)}
+                    ${nota.getTitulo(65)}
                 </h3>
             </a>
         </li>
