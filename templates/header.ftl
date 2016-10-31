@@ -40,7 +40,7 @@
             <div>
                 <input type="hidden" name="cx" value="partner-pub-8216476634474264:8992413038" />
                 <input type="hidden" name="ie" value="UTF-8" />
-                <input class="width-160" type="text" name="q" size="21"/>
+                <input class="width-160" type="text" name="q" size="21" style="width: 160px;"/>
             </div>
         </form>
 
