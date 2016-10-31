@@ -15,6 +15,8 @@
     </div>
 
     <div class="lafoto-texto">
-        ${notas.getNota("lafoto",1).getIntro()}
+        <span>
+            ${notas.getNota("lafoto",1).getIntro()}
+        </span>
     </div>
 </div>
