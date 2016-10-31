@@ -416,23 +416,20 @@
     margin-top: 20%;
 }
 
-.lafoto-texto{
-    position: relative;
-    top: -50px;
+.la-foto .lafoto-texto{
+    background: linear-gradient(to right, #E90C2F, #BE1622);
     text-align: right;
+    padding: 5px;
+    font-family: "Futura Std", "Open Sans";
+    font-size: 12px;
+    color: white;
+    vertical-align: middle;
+
 }
 
 .la-foto  img{
     width: 100%;
     height: auto;
-}
-.la-foto  span{
-    padding: 5px;
-    background: linear-gradient(to right, #E90C2F, #BE1622);
-    font-family: "Futura Std", "Open Sans";
-    font-size: 12px;
-    color: white;
-    vertical-align: middle;
 }
 
 @media (min-width: 992px) {

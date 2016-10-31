@@ -14,7 +14,7 @@
         </div>
     </div>
 
-    <div class="clean lafoto-texto">
-        <span>${notas.getNota("lafoto",1).getIntro()}</span>
+    <div class="lafoto-texto">
+        ${notas.getNota("lafoto",1).getIntro()}
     </div>
 </div>
