@@ -11,13 +11,9 @@
     <meta http-equiv="Cache-Control" content="max-age=200" />
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <#--<meta HTTP-EQUIV="refresh" CONTENT="240">-->
-    <script type="text/javascript">
-        window.setTimeout(function(){ document.location.reload(true); }, 240000);
-    </script>
 
-<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=trjMk1a4eFf2L7" style="display:none" height="1" width="1" alt="" /></noscript>
-<!-- End Alexa Certify Javascript -->
+    <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=trjMk1a4eFf2L7" style="display:none" height="1" width="1" alt="" /></noscript>
+    <!-- End Alexa Certify Javascript -->
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=2.0">
