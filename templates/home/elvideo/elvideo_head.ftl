@@ -1,3 +1,4 @@
+<#if notas.getNota("lomasjot",1).getYoutube()??>
 <div class="lomasjot el-video content-row h-normal">
     <div class="col-md-8 clean vstretch">
         <div class="stretch el-video-container">
@@ -30,3 +31,4 @@
         </div>
     </div>
 </div>
+</#if>

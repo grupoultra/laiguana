@@ -15,7 +15,7 @@
         player = new YT.Player('player', {
             height: '88%',
             width: '100%',
-            videoId: '${notas.getNota("lomasjot",1).getYoutube()}',
+            videoId: '${notas.getNota("lomasjot",2).getYoutube()}',
             events: {
                 'onReady': onPlayerReady,
                 'onStateChange': onPlayerStateChange
@@ -36,9 +36,6 @@
                 document.location.reload(true);
             }, pageRefreshMinutes*1000*60);
         }
-    }
-    function stopVideo() {
-        player.stopVideo();
     }
 
     window.setTimeout(function(){
