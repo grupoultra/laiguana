@@ -1,8 +1,52 @@
-<div style="height: 100%; position:relative; overflow:hidden;">
-    <#--<iframe src="//content.jwplatform.com/players/EqQhWj8e-gxQq543p.html" width="100%" height="83%" frameborder="0" scrolling="auto" allowfullscreen style="position:absolute;"></iframe>-->
+<div id="player"></div>
 
-    <!-- YOUTUBE META START-->
-    <!-- YOUTUBE id="${notas.getNota("lomasjot",1).getYoutube()}"-->
-    <!-- FIN -->
-    <iframe src="http://www.youtube.com/embed/${notas.getNota("lomasjot",1).getYoutube()}?rel=0&amp;fs=1&amp;wmode=transparent&amp;autohide=1&amp;iv_load_policy=3&amp;modestbranding=1&amp;rel=0" width="100%" height="85%" frameborder="0" allowfullscreen="no" title="Google iframe Player"></iframe>
-</div>
+<script>
+
+    //    Documentation: https://developers.google.com/youtube/iframe_api_reference
+    var tag = document.createElement('script');
+    var pageRefreshMinutes = 4;
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var player;
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            height: '88%',
+            width: '100%',
+            videoId: '${notas.getNota("lomasjot",1).getYoutube()}',
+            events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+            }
+        });
+    }
+
+    function onPlayerReady(event) {
+    }
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            console.log('playing');
+        }
+        if (event.data == 2){
+            console.log("espero ", pageRefreshMinutes, " minutos y refresco");
+            window.setTimeout(function(){
+                document.location.reload(true);
+            }, pageRefreshMinutes*1000*60);
+        }
+    }
+    function stopVideo() {
+        player.stopVideo();
+    }
+
+    window.setTimeout(function(){
+        if(player.getPlayerState() != 1){
+            document.location.reload(true);
+        } else {
+            console.log('El video se está reproduciendo, no se recarga el site');
+        }
+    }, pageRefreshMinutes*1000*60);
+
+</script>
