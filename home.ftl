@@ -86,6 +86,7 @@
     googletag.defineSlot('/181537734/LI-H5', [970, 90], 'div-gpt-ad-1475770129007-4').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-H6', [970, 90], 'div-gpt-ad-1475770129007-5').addService(googletag.pubads());
     googletag.defineSlot('/181537734/01-LI', [970, 90], 'div-gpt-ad-1475770129007-6').addService(googletag.pubads());
+    googletag.defineSlot('/181537734/LI-HM', [320, 50], 'div-gpt-ad-1478201882954-0').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-MH-1', [320, 50], 'div-gpt-ad-1475770129007-7').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-MA-2', [320, 50], 'div-gpt-ad-1475770129007-8').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-M3', [320, 50], 'div-gpt-ad-1475770129007-9').addService(googletag.pubads());
@@ -100,6 +101,8 @@
     googletag.defineSlot('/181537734/LI-V4', [223, 454], 'div-gpt-ad-1475770129007-18').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-V5', [223, 454], 'div-gpt-ad-1475770129007-19').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-V6', [223, 454], 'div-gpt-ad-1475770129007-20').addService(googletag.pubads());
+    googletag.defineSlot('/181537734/Sky-HI', [120, 600], 'div-gpt-ad-1478201882954-1').addService(googletag.pubads());
+    googletag.defineSlot('/181537734/Sky-HR', [120, 600], 'div-gpt-ad-1478201882954-2').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });
