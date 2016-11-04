@@ -1,4 +1,4 @@
-<div class="skyscrapper-banner right">
+<div class="skyscrapper-banner right hidden-sm">
     <#--<img src="http://placehold.it/120x600" alt="">-->
     <!-- /181537734/Sky-HR -->
     <div id='div-gpt-ad-1478201882954-2' style='height:600px; width:120px;'>
