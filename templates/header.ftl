@@ -1,4 +1,4 @@
-
+<#include "./banners/MA.ftl">
 
 <div class="row  mobile-header hidden-md hidden-lg">
     <a href="/">
@@ -48,4 +48,3 @@
     </div>
 </div>
 
-<#include "./banners/MA.ftl">
