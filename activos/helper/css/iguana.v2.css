@@ -951,10 +951,6 @@ ul.menu-principal > li:nth-child(6) a {background: transparent url('/activos/ima
 
 .skyscrapper-banner{
     position: fixed;
-    /*width: 120px; */
-    /*height: 600px; */
-    /*z-index: -1; */
-    /*right: 0;*/
 }
 
 .skyscrapper-banner.right{
