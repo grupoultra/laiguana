@@ -16,20 +16,20 @@
     <!-- End Alexa Certify Javascript -->
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=2.0">
+    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=4.0">
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
-    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=2.0"></script>
-    <link rel="stylesheet" href="/activos/helper/css/normalize.css?version=2.0">
-    <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js?version=2.0"></script>
+    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=4.0"></script>
+    <link rel="stylesheet" href="/activos/helper/css/normalize.css?version=4.0">
+    <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js?version=4.0"></script>
 
 
     <#--Owl Carrousel-->
-    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css?version=2.0">
-    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css?version=2.0">
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css?version=4.0">
+    <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css?version=4.0">
 
-    <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js?version=2.0"></script>
+    <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js?version=4.0"></script>
     <#--Owl Carrousel-->
 
     <!-- ************************************************* -->
@@ -44,14 +44,14 @@
 
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="/activos/helper/font-awesome-4.6.3/css/font-awesome.min.css?version=2.0">
+    <link rel="stylesheet" href="/activos/helper/font-awesome-4.6.3/css/font-awesome.min.css?version=4.0">
 
-    <link rel="stylesheet" href="/activos/helper/css/ultra.css?version=2.0">
-    <link rel="stylesheet" href="/activos/helper/css/social.css?version=2.0">
-    <link rel="stylesheet" href="/activos/helper/css/iguana.v2.css?version=3.0">
+    <link rel="stylesheet" href="/activos/helper/css/ultra.css?version=4.0">
+    <link rel="stylesheet" href="/activos/helper/css/social.css?version=4.0">
+    <link rel="stylesheet" href="/activos/helper/css/iguana.v2.css?version=4.0">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
-    <script src="/activos/helper/js/main.js?version=2.0"></script>
+    <script src="/activos/helper/js/main.js?version=4.0"></script>
     <!-- Start Alexa Certify Javascript -->
     <script type="text/javascript">
         _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
@@ -145,6 +145,6 @@
 
     <#include "./templates/footer.ftl">
 
-    <script src="/activos/helper/js/plugins.js?version=2.0"></script>
+    <script src="/activos/helper/js/plugins.js?version=4.0"></script>
 </body>
 </html>

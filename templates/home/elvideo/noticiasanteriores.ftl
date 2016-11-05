@@ -5,7 +5,7 @@
         <div id="noticiasanteriores-container" class="owl-carousel noticiasanteriores-container no-padding no-margin ucard h-normal vstretch row orange-border">
             <#list notas.getLista("historico") as nota>
                 <#if !nota?is_even_item>
-                <div class="col-sm-4 noticiasanteriores-item">
+                <div class="col-m-4 noticiasanteriores-item">
                 </#if>
                     <div class="thumbnail">
                         <a href="${nota.getPath()}">
