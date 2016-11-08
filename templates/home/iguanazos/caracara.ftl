@@ -1,25 +1,16 @@
-<div class="margin-top-10 caraacara ucard h-normal  round-left orange-border vstretch">
-    <img class="card-img-top" src="/activos/images/cara-a-cara-head.jpg" alt="Card image cap">
+<div class="list-news-card single-size caraacara hidden-sm hidden-xs margin-left-5 margin-top-10">
+    <img class="img-responsive" src="/activos/images/cara-a-cara-head.jpg" alt="Card image cap">
 
     <ul class="list-group list-group-flush">
     <#list notas.getLista("caracara") as nota>
-        <li class="list-group-item clean">
-            <img src="${notas.getNota("caracara",1).getHeroImage()}" alt="Cara a Cara"
-                 style="
-                     <#if nota?index != 0>display: none;</#if>
-                         width:180px;
-                         height: auto;">
+        <li class="list-group-item clean <#if nota?index == 0>with-image</#if>">
+            <#if nota?index == 0>
+                <img src="${notas.getNota("caracara",1).getHeroImage()}" alt="Cara a Cara">
+            </#if>
 
             <a href="${nota.getPath()}">
                 <h3 class="titulo titulo-wrap">
-
-                <#assign minititle=(nota.getTitulo()!"")>
-                <#if minititle?length &lt; 65>
-                    ${minititle}
-                <#else>
-                    ${minititle?substring(0,65)} ...
-                </#if>
-
+                    ${nota.getTitulo(65)}
                 </h3>
             </a>
         </li>

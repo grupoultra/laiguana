@@ -48,7 +48,7 @@
 
     <link rel="stylesheet" href="/activos/helper/css/ultra.css?version=4.0">
     <link rel="stylesheet" href="/activos/helper/css/social.css?version=4.0">
-    <link rel="stylesheet" href="/activos/helper/css/iguana.v2.css?version=4.0">
+    <link rel="stylesheet" href="/activos/helper/css/iguana.css?version=4.0">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
     <script src="/activos/helper/js/main.js?version=4.0"></script>
