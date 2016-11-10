@@ -1,6 +1,6 @@
 <#if notas.getNota("lomasjot",1).getYoutube()??>
 <div class="lomasjot el-video content-row h-normal">
-    <div class="col-md-8 clean vstretch">
+    <div class="col-md-8 clean vstretch" style="overflow: hidden;">
         <div class="stretch el-video-container">
             <img class="" src="/activos/images/elvideo_header.png" alt="Card image cap" style="width: 100%; heigth: auto; ">
             <#include "elvideo_container.ftl">
