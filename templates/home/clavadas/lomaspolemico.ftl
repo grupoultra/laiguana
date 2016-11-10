@@ -4,15 +4,13 @@
     <ul class="list-group list-group-flush" style="background-color: white">
     <#list notas.getLista("polemico") as nota>
         <li class="list-group-item clean <#if nota?index == 0>with-image</#if>">
-            <a class="nolink" href="${nota.getPath()}">
-                <img src="${notas.getNota("polemico",1).getImagen()}" alt="Lo + Polémico"
-                     style="
-                         <#if nota?index != 0>display: none;</#if>
-                             width:180px;
-                             height: auto;">
+            <a href="${nota.getPath()}">
+                <#if nota?index == 0>
+                    <img src="${notas.getNota("polemico",1).getImagen()}" alt="Lo + Polémico">
+                </#if>
 
                 <h3 class="titulo">
-                ${nota.getTitulo(65)}
+                    ${nota.getTitulo(80)}
                 </h3>
             </a>
         </li>
@@ -21,7 +19,7 @@
     <li class="list-group-item clean">
         <a class="nolink" href="${notas.getNota("restantes",14).getPath()}">
             <h3 class="titulo">
-            ${notas.getNota("restantes",14).getTitulo(65)}
+            ${notas.getNota("restantes",14).getTitulo(80)}
             </h3>
         </a>
     </li>

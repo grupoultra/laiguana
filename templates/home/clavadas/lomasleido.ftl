@@ -5,13 +5,12 @@
     <#list notas.getLista("masleidas") as nota>
         <li class="list-group-item clean <#if nota?index == 0>with-image</#if>">
             <a href="${nota.getPath()}">
-                <img src="${notas.getNota("masleidas",1).getImagen()}" alt="Lo + Polémico"
-                     style="
-                         <#if nota?index != 0>display: none;</#if>
-                             width:180px;
-                             height: auto;">
+                <#if nota?index == 0>
+                    <img src="${notas.getNota("masleidas",1).getImagen()}" alt="Lo + Polémico">
+                </#if>
+
                 <h3 class="titulo">
-                    ${nota.getTitulo(65)}
+                    ${nota.getTitulo(80)}
                 </h3>
             </a>
         </li>
