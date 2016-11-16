@@ -16,7 +16,13 @@
 
 <script type="text/javascript">
     $(window).load(function(){
-        // el argumento del model recibe 'show' para ser mostrado y 'hide' para ocultarlo
-        $('#splashBanner').modal('hide');
+        if(false){
+            // el argumento del model recibe 'show' para ser mostrado y 'hide' para ocultarlo
+            $('#splashBanner').modal('show');
+            window.setTimeout(function(){
+                $('#splashBanner').modal('hide');
+            }, 1000*10);
+        }
+
     });
 </script>
