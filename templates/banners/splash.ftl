@@ -5,14 +5,13 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
-                <img src="http://placehold.it/600x375" alt="">
             	<!-- /181537734/Splash -->
-		<div id='div-gpt-ad-1479321308076-0' style='height:375px; width:600px;'>
-		<script>
-			googletag.cmd.push(function() { googletag.display('div-gpt-ad-1479321308076-0'); });
-		</script>
-		</div>
-	    </div>
+                <div id='div-gpt-ad-1479321308076-0' style='height:375px; width:600px;'>
+                <script>
+                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1479321308076-0'); });
+                </script>
+                </div>
+	        </div>
             <#--<div class="modal-footer">-->
             <#--</div>-->
         </div><!-- /.modal-content -->
