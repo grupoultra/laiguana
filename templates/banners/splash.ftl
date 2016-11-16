@@ -6,7 +6,13 @@
             </div>
             <div class="modal-body">
                 <img src="http://placehold.it/600x375" alt="">
-            </div>
+            	<!-- /181537734/Splash -->
+		<div id='div-gpt-ad-1479321308076-0' style='height:375px; width:600px;'>
+		<script>
+			googletag.cmd.push(function() { googletag.display('div-gpt-ad-1479321308076-0'); });
+		</script>
+		</div>
+	    </div>
             <#--<div class="modal-footer">-->
             <#--</div>-->
         </div><!-- /.modal-content -->
