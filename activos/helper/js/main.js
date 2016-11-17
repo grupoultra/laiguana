@@ -73,3 +73,53 @@ function share(platform, link, text){
     return false;
 };
 
+function setCookie(cname, cvalue, exminutes) {
+    console.log('Setting cookie ', cname, 'to', cvalue);
+    var d = new Date();
+    d.setTime(d.getTime() + (exminutes*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+function cookieValid(cname) {
+    return getCookie("showSplash") != ""
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length,c.length);
+        }
+    }
+    return "";
+}
+
+$(window).load(function(){
+    var enableSplash = true;
+
+    // splashCookie se configura con un valor para no mostrar el splash con showSplashCookieExpiracy de tiempo de expiracion
+    var showSplashCookieExpiracy = 10;
+
+    if (cookieValid("showSplash")){
+        console.log("splashCookie is set, not showing the splash");
+
+    } else {
+        console.log("splashCookie is not set, showing splash");
+
+        if(enableSplash && $(window).width() > 992){
+            // el argumento del model recibe 'show' para ser mostrado y 'hide' para ocultarlo
+            $('#splashBanner').modal('show');
+            window.setTimeout(function(){
+                $('#splashBanner').modal('hide');
+            }, 1000*10);
+        }
+
+        setCookie("showSplash", 1, showSplashCookieExpiracy);
+    }
+});
