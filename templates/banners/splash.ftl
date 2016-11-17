@@ -18,16 +18,3 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-
-<script type="text/javascript">
-    $(window).load(function(){
-        if(false){
-            // el argumento del model recibe 'show' para ser mostrado y 'hide' para ocultarlo
-            $('#splashBanner').modal('show');
-            window.setTimeout(function(){
-                $('#splashBanner').modal('hide');
-            }, 1000*10);
-        }
-
-    });
-</script>
