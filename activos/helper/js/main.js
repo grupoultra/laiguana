@@ -73,15 +73,15 @@ function share(platform, link, text){
     return false;
 };
 
-function setCookie(cname, cvalue, exminutes) {
+function setCookie(cname, cvalue, exminutes, session) {
     console.log('Setting cookie ', cname, 'to', cvalue);
     var d = new Date();
     d.setTime(d.getTime() + (exminutes*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    var expires = session ? "" : ";" + "expires="+ d.toUTCString() + ";path=/";
+    document.cookie = cname + "=" + cvalue + expires ;
 }
 function cookieValid(cname) {
-    return getCookie("showSplash") != ""
+    return getCookie(cname) != ""
 }
 
 function getCookie(cname) {
@@ -104,22 +104,29 @@ $(window).load(function(){
     var enableSplash = true;
 
     // splashCookie se configura con un valor para no mostrar el splash con showSplashCookieExpiracy de tiempo de expiracion
-    var showSplashCookieExpiracy = 10;
+    var showSplashCookieExpiracy = 1;
 
-    if (cookieValid("showSplash")){
-        console.log("splashCookie is set, not showing the splash");
+    if (!cookieValid("showSplash")){
+        console.log("showSplash Cookie is not set");
 
-    } else {
-        console.log("splashCookie is not set, showing splash");
+        // if (true) {
+        if (!cookieValid("sessionSplash")) {
+            console.log("sessionSplash Cookie is not set");
 
-        if(enableSplash && $(window).width() > 992){
-            // el argumento del model recibe 'show' para ser mostrado y 'hide' para ocultarlo
-            $('#splashBanner').modal('show');
-            window.setTimeout(function(){
-                $('#splashBanner').modal('hide');
-            }, 1000*10);
+            if (enableSplash && $(window).width() > 992) {
+                // el argumento del model recibe 'show' para ser mostrado y 'hide' para ocultarlo
+                $('#splashBanner').modal('show');
+                window.setTimeout(function () {
+                    $('#splashBanner').modal('hide');
+                }, 1000 * 10);
+            }
+
+            setCookie("showSplash", 1, showSplashCookieExpiracy, false);
+            setCookie("sessionSplash", 1, showSplashCookieExpiracy, true);
+        } else {
+            console.log("sessionSplash Cookie is set, not showing the splash");
         }
-
-        setCookie("showSplash", 1, showSplashCookieExpiracy);
+    } else {
+        console.log("showSplash Cookie is set, not showing the splash");
     }
 });
