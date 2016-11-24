@@ -1,4 +1,4 @@
-<#if notas.getNota("lomasjot",1).getYoutube()??>
+<#if notas.getNota("lomasjot",2).getYoutube()??>
 <div class="lomasjot el-video content-row h-normal">
     <div class="col-md-8 clean vstretch" style="overflow: hidden;">
         <div class="stretch el-video-container">
