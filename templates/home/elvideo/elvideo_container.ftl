@@ -15,7 +15,7 @@
         player = new YT.Player('player', {
             height: '88%',
             width: '100%',
-            videoId: '${notas.getNota("lomasjot",2).getYoutube()}',
+            videoId: '${notas.getNota("lomasjot", elvideoindex).getYoutube()}',
             events: {
                 'onReady': onPlayerReady,
                 'onStateChange': onPlayerStateChange
