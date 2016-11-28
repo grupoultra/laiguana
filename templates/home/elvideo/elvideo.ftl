@@ -1,5 +1,5 @@
 <div class="margin-top-10">
-    <#assign elvideoindex = 2>
+    <#assign elvideoindex = 1>
     <#include "elvideo_head.ftl">
 
     <#include "../../banners/H4.ftl">

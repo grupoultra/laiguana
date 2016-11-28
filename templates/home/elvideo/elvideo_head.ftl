@@ -31,4 +31,11 @@
         </div>
     </div>
 </div>
+<#else>
+<!-- uAlert: La nota ${notas.getNota("lomasjot", elvideoindex).getId()} no tiene video de Youtube asignado -->
+<script>
+    console.log("uAlert: La nota ${notas.getNota("lomasjot", elvideoindex).getId()} no tiene video de Youtube asignado");
+</script>
+
 </#if>
+
