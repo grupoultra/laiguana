@@ -1,3 +1,6 @@
+<div style='height:90px; width:970px;' class='banner row image-row hidden-sm hidden-xs  margin-top-10'>
+<img src="http://activos.laiguana.tv/ads/HOME-HA.jpg">
+</div>
 <#-- -->
 <#-- !--<@banner id="NA" zoneId="4" classString="banner row hidden-sm hidden-xs" />---->
 <#-- !-- /181537734/LI-NA ---->

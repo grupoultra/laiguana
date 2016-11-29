@@ -1,3 +1,8 @@
+<div style='height:454px; width:225px;' class='banner-vertical vstratch hidden-sm hidden-xs margin-top-10'>
+<img src="http://activos.laiguana.tv/ads/NV2.jpg" width="225" height="554">
+</div>
+
+
 <#-- -->
 <#-- !--<ins data-revive-zoneid="21" data-revive-id="38ec9e535834d2deaccb0c4ab130d46e"></ins>---->
 <#-- !-- /181537734/LI-NV2 ---->

@@ -1,3 +1,8 @@
+<div style='height:454px; width:225px;' class='banner-vertical vstratch hidden-sm hidden-xs margin-top-10'>
+<a href="http://www.noticias24carabobo.com" target="_blank">
+<img src="http://activos.laiguana.tv/ads/225x554.gif" width="225" height="454">
+</a>
+</div>
 <#-- !-- Banner fijo ---->
 <#-- !--<a href="http://noticias24carabobo.com/"-->
     <#-- img border="0" alt="Noticias24Carabobo" src="http://activos.laiguana.tv/ads/3208225x554.gif" width="222" height="554"-->

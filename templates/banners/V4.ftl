@@ -1,3 +1,7 @@
+<div style='height:454px; width:225px;' class='banner-vertical vstratch hidden-sm hidden-xs margin-top-10'>
+<img src="http://activos.laiguana.tv/ads/V3.jpg" width="223" height="454">
+</div>
+
 <#-- -->
 <#-- !-- <@banner id="V4" zoneId="9" classString="margin-top-10 banner-vertical hidden-sm hidden-xs" /> ---->
 <#-- -->
