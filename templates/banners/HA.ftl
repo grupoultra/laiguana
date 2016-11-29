@@ -1,5 +1,5 @@
-<div style='height:90px; width:970px;' class='banner row image-row hidden-sm hidden-xs  margin-top-10'>
-<img src="http://activos.laiguana.tv/ads/HOME-HA.jpg">
+<div style='height:90px; width:970px;' class='banner row image-row hidden-sm hidden-xs'>
+    <img src="http://activos.laiguana.tv/ads/HOME-HA.jpg">
 </div>
 
 <#-- -->

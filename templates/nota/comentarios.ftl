@@ -1,8 +1,6 @@
 <div class="col-g articulo ">
 
-    <div class="row content-row">
-        <#include "../banners/NH1.ftl">
-    </div>
+    <#include "../banners/NH1.ftl">
 
     <div class="row">
         <div class="col-md-3 hidden-sm hidden-xs">
@@ -23,7 +21,5 @@
         </div>
     </div>
 
-    <div class="row content-row">
-        <#include "../banners/NH2.ftl">
-    </div>
+    <#include "../banners/NH2.ftl">
 </div>
