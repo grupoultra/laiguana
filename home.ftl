@@ -117,8 +117,8 @@
     <#include "./templates/macros/banners.ftl">
     <#include "./templates/macros/trio-item.ftl">
 
-    <#include "templates/banners/rascacielosIzquierdo.ftl">
-    <#include "templates/banners/rascacielosDerecho.ftl">
+    <#include "templates/banners/SCL.ftl">
+    <#include "templates/banners/SCR.ftl">
     <#include "templates/banners/splash.ftl">
 
     <div id="white-container" class="container">
