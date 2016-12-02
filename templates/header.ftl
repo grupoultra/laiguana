@@ -1,5 +1,3 @@
-<#include "./banners/MA.ftl">
-
 <div class="row  mobile-header hidden-md hidden-lg">
     <a href="/">
         <img class=img-responsive" src="/activos/images/li_mobile_head.png" style="width: 50%; height: auto;">
