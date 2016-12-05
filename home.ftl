@@ -102,6 +102,8 @@
     googletag.defineSlot('/181537734/Sky-HI', [120, 600], 'div-gpt-ad-1478201882954-1').addService(googletag.pubads());
     googletag.defineSlot('/181537734/Sky-HR', [120, 600], 'div-gpt-ad-1478201882954-2').addService(googletag.pubads());
     googletag.defineSlot('/181537734/Splash', [600, 375], 'div-gpt-ad-1479321308076-0').addService(googletag.pubads());
+    googletag.defineSlot('/181537734/NRCD', [120, 600], 'div-gpt-ad-1480542001263-0').addService(googletag.pubads());
+    googletag.defineSlot('/181537734/NRCI', [120, 600], 'div-gpt-ad-1480542001263-1').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });

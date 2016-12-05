@@ -99,6 +99,8 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
     googletag.defineSlot('/181537734/LI-V4', [223, 454], 'div-gpt-ad-1475770129007-18').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-V5', [223, 454], 'div-gpt-ad-1475770129007-19').addService(googletag.pubads());
     googletag.defineSlot('/181537734/LI-V6', [223, 454], 'div-gpt-ad-1475770129007-20').addService(googletag.pubads());
+    googletag.defineSlot('/181537734/NRCD', [120, 600], 'div-gpt-ad-1480542001263-0').addService(googletag.pubads());
+    googletag.defineSlot('/181537734/NRCI', [120, 600], 'div-gpt-ad-1480542001263-1').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });
