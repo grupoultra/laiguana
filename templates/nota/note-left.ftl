@@ -12,6 +12,8 @@
 
     ${nota.getContentHTML()}
 
+    <#include "../banners/NH2.ftl">
+
     <#include "./articulosrelacionados.ftl">
 
 </div>
