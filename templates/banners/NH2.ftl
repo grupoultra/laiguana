@@ -6,5 +6,5 @@
 <div id='div-gpt-ad-1475770129007-0' style='margin-left: -5px; height:90px; width:970px;' class='hidden-sm hidden-xs'>
     <script>
         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475770129007-0'); });
-    </script>git s
+    </script>
 </div>
