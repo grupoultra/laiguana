@@ -1,4 +1,4 @@
-<@banner id="div-gpt-ad-1478201882954-0" tag="MHA" classString="banner320x50 hidden-md hidden-lg" />
+<@banner id="div-gpt-ad-1480971413350-11" tag="MHA" classString="banner320x50 hidden-md hidden-lg" />
 
 <#--<div id='div-gpt-ad-1478201882954-0' class="hidden-md hidden-lg" style='height:50px; width:320px;'>-->
     <#--<script>-->

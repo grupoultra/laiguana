@@ -89,6 +89,8 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
     <div id="white-container" class="container">
         <#include "templates/banners/NHA.ftl">
 
+        <#include "./templates/banners/MNHA.ftl">
+
         <#include "./templates/header.ftl">
 
         <#include "./templates/menu-principal.ftl">
