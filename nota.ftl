@@ -75,7 +75,7 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
   googletag.cmd = googletag.cmd || [];
 </script>
 
-<#include "./templates/home/dfp.ftl">
+<#include "./templates/dfp.ftl">
 
 </head>
 <body class="body">

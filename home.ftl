@@ -75,7 +75,7 @@
   googletag.cmd = googletag.cmd || [];
 </script>
 
-<#include "./templates/home/dfp.ftl">
+<#include "./templates/dfp.ftl">
 
 </head>
 <body class="body">
