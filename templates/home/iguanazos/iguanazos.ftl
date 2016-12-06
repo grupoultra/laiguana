@@ -10,6 +10,4 @@
 </div>
 
 <#include "../../banners/H3.ftl">
-<#include "../../banners/MA2.ftl">
-
-<!--<@banner id="H4" zoneId="12" classString="banner row image-row hidden-sm hidden-xs" />-->
+<#include "../../banners/MH2.ftl">

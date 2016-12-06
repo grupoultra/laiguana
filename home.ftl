@@ -88,8 +88,8 @@
     <#include "./templates/macros/banners.ftl">
     <#include "./templates/macros/trio-item.ftl">
 
-    <#include "templates/banners/SCL.ftl">
-    <#include "templates/banners/SCR.ftl">
+    <#include "templates/banners/RI.ftl">
+    <#include "templates/banners/RD.ftl">
     <#include "templates/banners/splash.ftl">
 
     <div id="white-container" class="container">
