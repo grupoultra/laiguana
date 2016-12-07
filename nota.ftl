@@ -34,7 +34,7 @@
 
     <link rel="stylesheet" href="/activos/helper/css/ultra.css">
     <link rel="stylesheet" href="/activos/helper/css/social.css">
-    <link rel="stylesheet" href="/activos/helper/css/iguana.css?version=3.0">
+    <link rel="stylesheet" href="/activos/helper/css/iguana.css?version=6.0">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
 
