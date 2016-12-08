@@ -1,3 +1,3 @@
 <div class="skyscrapper-banner right hidden-sm hidden-xs">
-    <@banner id="div-gpt-ad-1481143887744-30" tag="RD" classString="banner120x600" />
+<@banner id="div-gpt-ad-1481212244627-30" tag="RD" classString="banner120x600" />
 </div>

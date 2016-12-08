@@ -1,1 +1,1 @@
-<@banner id="div-gpt-ad-1481143887744-29" tag="NV3" classString="banner128x537" />
+<@banner id="div-gpt-ad-1481212244627-29" tag="NV3" classString="banner128x537" />
