@@ -1,6 +1,6 @@
 <div class="col-g articulo ">
 
-    <#include "../banners/NH1.ftl">
+    <#include "../banners/NH3.ftl">
 
     <div class="row">
         <div class="col-md-3 hidden-sm hidden-xs">
@@ -21,5 +21,5 @@
         </div>
     </div>
 
-    <#include "../banners/NH3.ftl">
+    <#include "../banners/NH4.ftl">
 </div>
