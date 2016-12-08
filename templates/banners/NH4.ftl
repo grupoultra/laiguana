@@ -1,4 +1,4 @@
-<@banner id="div-gpt-ad-1480971413350-6" tag="NH4" classString="banner970x90" />
+<@banner id="div-gpt-ad-1481143887744-23" tag="NH4" classString="banner970x90 hidden-xs hidden-sm" />
 
 <#--<div id='div-gpt-ad-1480971413350-5' style='height:90px; width:970px;'>-->
     <#--<script>-->
