@@ -11,7 +11,7 @@
     <div class="clearfix"></div>
 
     <#include "./noticiasanteriores.ftl">
-    <#include "../../banners/MR2.ftl">
+    <#include "../../banners/MC2.ftl">
 
     <#include "../../banners/H5.ftl">
 

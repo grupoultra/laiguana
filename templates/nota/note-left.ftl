@@ -16,7 +16,7 @@
     ${nota.getContentHTML()}
 
     <#include "../banners/NH2.ftl">
-    <#include "../banners/MNR1.ftl">
+    <#include "../banners/MNC1.ftl">
 
     <#include "./articulosrelacionados.ftl">
     <#include "../banners/MNH2.ftl">
