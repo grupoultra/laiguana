@@ -90,7 +90,7 @@
 
     <#include "templates/banners/RI.ftl">
     <#include "templates/banners/RD.ftl">
-    <#include "templates/banners/splash.ftl">
+    <#include "templates/banners/Splash.ftl">
 
     <div id="white-container" class="container">
 
