@@ -96,6 +96,7 @@
 
 
         <#include "./templates/banners/HA.ftl">
+        <#include "./templates/banners/MHA.ftl">
         <#include "./templates/header.ftl">
 
         <#include "./templates/menu-principal.ftl">
