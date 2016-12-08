@@ -3,7 +3,7 @@
     <@nota lista="clavadas" pos=pos />
 </#list>
 
-<#include "../../banners/MR1.ftl">
+<#include "../../banners/MC1.ftl">
 
 <#list 1..4 as pos>
     <@nota lista="restantes" pos=pos />

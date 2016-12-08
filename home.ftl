@@ -90,12 +90,13 @@
 
     <#include "templates/banners/RI.ftl">
     <#include "templates/banners/RD.ftl">
-    <#include "templates/banners/splash.ftl">
+    <#include "templates/banners/Splash.ftl">
 
     <div id="white-container" class="container">
 
 
         <#include "./templates/banners/HA.ftl">
+        <#include "./templates/banners/MHA.ftl">
         <#include "./templates/header.ftl">
 
         <#include "./templates/menu-principal.ftl">
