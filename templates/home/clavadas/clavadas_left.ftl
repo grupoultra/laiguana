@@ -2,7 +2,10 @@
 <#list 1..4 as pos>
     <@nota lista="clavadas" pos=pos />
 </#list>
-    <#list 1..4 as pos>
+
+<#include "../../banners/MR1.ftl">
+
+<#list 1..4 as pos>
     <@nota lista="restantes" pos=pos />
 </#list>
     <div class="clearfix"></div>
