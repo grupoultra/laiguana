@@ -10,7 +10,7 @@
                 </#if>
 
                 <h3 class="titulo">
-                    ${nota.getTitulo(80)}
+                    ${nota.getTitulo(75)}
                 </h3>
             </a>
         </li>
@@ -19,7 +19,7 @@
     <li class="list-group-item clean">
         <a class="nolink" href="${notas.getNota("restantes",14).getPath()}">
             <h3 class="titulo">
-            ${notas.getNota("restantes",14).getTitulo(80)}
+            ${notas.getNota("restantes",14).getTitulo(75)}
             </h3>
         </a>
     </li>
