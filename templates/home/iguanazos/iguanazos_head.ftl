@@ -1,18 +1,21 @@
-<div class="col-g nota h-normal height-515">
+<div class="col-g nota">
     <div class="card stretch green-border round-left"  style="overflow: hidden">
         <img class="iguanazos-header-image" src="/activos/images/iguanazos_header.png" alt="Iguanazos">
 
-        <img class="card-img-top img-responsive" src="${notas.getNota("iguanazos",1).getHeroImage()}" alt="Card image cap" style="width: 100%;">
+        <img class="iguanazos-header-body card-img-top img-responsive" src="${notas.getNota("iguanazos",1).getHeroImage()}" alt="Card image cap" >
     </div>
 </div>
 
-<div class="col-p vstretch hidden-sm hidden-xs h-normal height-515">
+<div class="col-p hidden-sm hidden-xs">
     <div class="ucard orange-border round-right vstretch">
         <img class="card-img-top" src="/activos/images/iguant_header.png" alt="Iguanazos Anteriores">
 
     <#list 2..4 as pos>
-        <img class="iguanant-img" src="${notas.getNota("iguanazos",pos).getHeroImage()}" alt="Card image cap" style="margin-bottom:0; width:205px; height: auto;">
+        <div class="iguanant">
+            <img class="iguanant-img img-responsive" src="${notas.getNota("iguanazos",pos).getHeroImage()}" a lt="Card image cap" style="">
+        </div>
     </#list>
+
     </div>
 </div>
 
