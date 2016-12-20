@@ -1,3 +1,4 @@
+<#if notas.getNota("lomasjot", elvideoindex).getYoutube()??>
 <div class="lomasjot el-video content-row h-normal">
     <div class="col-md-8 clean vstretch" style="overflow: hidden;">
         <div class="stretch el-video-container">
@@ -30,4 +31,11 @@
         </div>
     </div>
 </div>
+<#else>
+<!-- uAlert: La nota ${notas.getNota("lomasjot", elvideoindex).getId()} no tiene video de Youtube asignado -->
+<script>
+    console.log("uAlert: La nota ${notas.getNota("lomasjot", elvideoindex).getId()} no tiene video de Youtube asignado");
+</script>
+
+</#if>
 
