@@ -1,6 +1,6 @@
 <div class="margin-top-10">
     <#assign elvideoindex = 1>
-    <#include "elvideo_head.ftl">
+    <#include "elvideo_head_jwplayer.ftl">
 
     <#include "../../banners/MH6.ftl">
 

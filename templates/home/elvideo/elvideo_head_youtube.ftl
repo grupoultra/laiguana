@@ -3,7 +3,7 @@
     <div class="col-md-8 clean vstretch" style="overflow: hidden;">
         <div class="stretch el-video-container">
             <img class="" src="/activos/images/elvideo_header.png" alt="Card image cap" style="width: 100%; heigth: auto; ">
-            <#include "elvideo_container.ftl">
+            <#include "elvideo_container_youtube.ftl">
             <div class="clearfix"></div>
 
         </div>
