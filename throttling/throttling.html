@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>A pausarnos un poco</title>
+    <link href="favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <meta HTTP-EQUIV="refresh" CONTENT="60; URL=http://laiguana.tv/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        * {
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        html {
+            color: #888;
+            display: table;
+            font-family: sans-serif;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+        }
+
+        body {
+            display: table-cell;
+            vertical-align: middle;
+            margin: 2em auto;
+        }
+
+        h1 {
+            color: #555;
+            font-size: 2em;
+            font-weight: 400;
+        }
+
+        p {
+            margin: 0 auto;
+            width: 280px;
+        }
+
+        @media only screen and (max-width: 280px) {
+
+            body, p {
+                width: 95%;
+            }
+
+            h1 {
+                font-size: 1.5em;
+                margin: 0 0 0.3em;
+            }
+
+        }
+
+    </style>
+    <link rel="stylesheet" href="error.css">
+</head>
+<body class="error_bg">
+    <h2></h2>
+    <img class="borde_errr" src="error.jpg" alt="Error Iguana">
+    <div class="clr"></div>
+    <div class="pedacito"></div>
+    <h2>¿Es usted un Robot?</h2>
+    <div class="clr"></div>
+    <div style="color:#fff" id="errorboxbody">
+        <br>
+        Es eso, o usted usa el teclado como una iguana hiperquinética. (jajaja)<br>
+        Vamos a esperar 60 segundos y lo redirigiremos de vuelta al sitio web.
+
+        <form name="Tick">
+            <input type="text" size="11" name="Clock">
+        </form>
+        <script>
+            <!--
+            /*By George Chiang (JK's JavaScript tutorial)
+             http://javascriptkit.com
+             Credit must stay intact for use*/
+            function show(){
+                var Digital=new Date()
+                var hours=Digital.getHours()
+                var minutes=Digital.getMinutes()
+                var seconds=Digital.getSeconds()
+                var dn="AM"
+                if (hours>12){
+                    dn="PM"
+                    hours=hours-12
+                }
+                if (hours==0)
+                    hours=12
+                if (minutes<=9)
+                    minutes="0"+minutes
+                if (seconds<=9)
+                    seconds="0"+seconds
+                document.Tick.Clock.value=hours+":"+minutes+":"
+                    +seconds+" "+dn
+                setTimeout("show()",1000)
+            }
+            show()
+            //-->
+        </script>
+    </div>
+</body>
+</html>
+<!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->
