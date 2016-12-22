@@ -51,7 +51,6 @@
     <link rel="stylesheet" href="/activos/helper/css/iguana.css?version=6.3">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
-    <script src="/activos/helper/js/main.js?version=6.1"></script>
     <!-- Start Alexa Certify Javascript -->
     <script type="text/javascript">
         _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
@@ -117,5 +116,6 @@
     <#include "./templates/footer.ftl">
 
     <script src="/activos/helper/js/plugins.js?version=5.0"></script>
+	<script src="/activos/helper/js/main.js?version=6.1"></script>
 </body>
 </html>
