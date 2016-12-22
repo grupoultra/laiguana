@@ -1,12 +1,28 @@
-// var i;
-// var charsLimit = 10;
-// var divs = document.getElementsByClassName('titulo-wrap');
-//
-// for(i=0;i<divs.length;i++) {
-//     if(divs[i].innerHTML.length > charsLimit){
-//         divs[i].innerHTML = divs[i].innerHTML.substring(0,charsLimit) + '...';
-//     }
-// }
+var i;
+var divs = document.getElementsByClassName("titulo-wrap");
+var wordsLimit = $(window).width() > 992 ? 50 : 13;
+
+function wordCount(str) {
+    return getWords(str).length;
+}
+
+function getWords(str){
+    return str.split(" ");
+}
+
+function sliceWords(str){
+    return str.slice(0, wordsLimit);
+}
+
+function joinEllipsis(str){
+    return str.join(" ") + "...";
+}
+
+for(i=0;i<divs.length;i++) {
+    if(wordCount(divs[i].innerHTML) > wordsLimit){
+        divs[i].innerHTML = joinEllipsis(sliceWords(getWords(divs[i].innerHTML)));
+    }
+}
 
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
