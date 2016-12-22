@@ -13,7 +13,7 @@
                         </a>
                         <div class="caption">
                             <a href="${nota.getPath()}">
-                                <h3 class="titulo titulo-wrap">${nota.getTitulo(65)}</h3>
+                                <h3 class="titulo">${nota.getTitulo(65)}</h3>
                             </a>
                         </div>
                     </div>

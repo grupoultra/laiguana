@@ -11,7 +11,7 @@
                          height: auto;">
 
             <a href="${nota.getPath()}">
-                <h3 class="titulo titulo-wrap">${nota.getTitulo()}</h3>
+                <h3 class="titulo">${nota.getTitulo()}</h3>
             </a>
         </li>
     </#list>

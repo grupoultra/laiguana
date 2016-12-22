@@ -10,7 +10,7 @@
             </a>
             <div class="card-block">
                 <a class="nolink" href="${nota.getPath()}" title="${nota.getTitulo()}" style="font-family: folksbold; font-size: 13px; font-weight: 500; color: #000">
-                    <h4 class="card-title titulo-wrap" style="">${nota.getTitulo()}</h4>
+                    <h4 class="card-title" style="">${nota.getTitulo()}</h4>
                 </a>
             </div>
         </div>
