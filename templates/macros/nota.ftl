@@ -7,7 +7,7 @@
                  alt="Card image cap"
                  style="width:95%; heigth:auto;">
             </#if>
-            <h2 class="titulo titulo-wrap">${notas.getNota(lista,pos).getTitulo()}</h2>
+            <h2 class="titulo">${notas.getNota(lista,pos).getTitulo()}</h2>
         </a>
         <p class="hidden-sm hidden-xs">${notas.getNota(lista,pos).getIntro()}</p>
     </div>
