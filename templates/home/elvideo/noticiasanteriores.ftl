@@ -1,6 +1,6 @@
 <div class="noticiasanteriores margin-top-10">
     <div class="card stretch green-border no-border">
-        <img class="" src="/activos/images/anteriores_header.png" alt="Iguanazos" style="width: 100%; height: auto;">
+        <img class="" src="/activos/images/anteriores_header.png" alt="Noticias anteriores" style="width: 100%; height: auto;">
 
         <div id="noticiasanteriores-container" class="owl-carousel noticiasanteriores-container no-padding no-margin ucard h-normal vstretch row orange-border">
             <#list notas.getLista("historico") as nota>
@@ -9,7 +9,7 @@
                 </#if>
                     <div class="thumbnail">
                         <a href="${nota.getPath()}">
-                            <img data-src="${nota.getHeroImage()}" class="owl-lazy no-padding no-margin" height="121px">
+                            <img data-src="${nota.getHeroImage()}" class="owl-lazy no-padding no-margin" height="121px" alt="${nota.getTitulo()}">
                         </a>
                         <div class="caption">
                             <a href="${nota.getPath()}">

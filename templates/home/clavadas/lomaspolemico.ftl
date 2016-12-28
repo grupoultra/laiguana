@@ -6,7 +6,7 @@
         <li class="list-group-item clean <#if nota?index == 0>with-image</#if>">
             <a href="${nota.getPath()}">
                 <#if nota?index == 0>
-                    <img src="${notas.getNota("polemico",1).getImagen()}" alt="Lo + Polémico">
+                    <img src="${notas.getNota("polemico",1).getImagen()}" alt="${nota.getTitulo()}">
                 </#if>
 
                 <h3 class="titulo">

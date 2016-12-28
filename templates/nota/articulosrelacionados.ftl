@@ -5,7 +5,7 @@
     <#list notas.getLista("lomasjot") as nota>
         <div class="col-md-4 col-xs-12 ucard round-corners clean padded no-border" style="margin: 0px 0px;">
             <a class="nolink" href="${nota.getPath()}">
-                <img class="card-img-top"  src="${nota.getHeroImage()}" alt="${nota.getPath()}"
+                <img class="card-img-top"  src="${nota.getHeroImage()}" alt="${nota.getTitulo()}"
                      title="#htmlcaption-${nota.getId()}">
             </a>
             <div class="card-block">
