@@ -1,5 +1,5 @@
 <div class="list-news-card double-size lomasreciente hidden-sm hidden-xs margin-left-5 margin-top-10">
-    <img class="img-responsive" src="/activos/images/lo-reciente-head.jpg" alt="Card image cap">
+    <img class="img-responsive" src="/activos/images/lo-reciente-head.jpg" alt="Lo + reciente">
 
     <ul class="list-group list-group-flush">
     <#list notas.getLista("restantes") as nota>
@@ -7,7 +7,7 @@
             <a href="${nota.getPath()}">
 
                 <#if nota?index == 0>
-                    <img src="${notas.getNota("restantes",1).getHeroImage()}" alt="Cara a Cara">
+                    <img src="${notas.getNota("restantes",1).getHeroImage()}" alt="${notas.getNota("restantes",1).getTitulo()}">
                 </#if>
                 <h3 class="titulo">
                     ${nota.getTitulo(80)}

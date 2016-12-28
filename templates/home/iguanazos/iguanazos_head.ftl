@@ -2,7 +2,7 @@
     <div class="card stretch green-border round-left"  style="overflow: hidden">
         <img class="iguanazos-header-image" src="/activos/images/iguanazos_header.png" alt="Iguanazos">
 
-        <img class="iguanazos-header-body card-img-top img-responsive" src="${notas.getNota("iguanazos",1).getHeroImage()}" alt="Card image cap" >
+        <img class="iguanazos-header-body card-img-top img-responsive" src="${notas.getNota("iguanazos",1).getHeroImage()}" alt="${notas.getNota("iguanazos",1).getTitulo()}" >
     </div>
 </div>
 
@@ -12,7 +12,7 @@
 
     <#list 2..4 as pos>
         <div class="iguanant">
-            <img class="iguanant-img img-responsive" src="${notas.getNota("iguanazos",pos).getHeroImage()}" a lt="Card image cap" style="">
+            <img class="iguanant-img img-responsive" src="${notas.getNota("iguanazos",pos).getHeroImage()}" alt="${notas.getNota("iguanazos",pos).getTitulo()}" style="">
         </div>
     </#list>
 

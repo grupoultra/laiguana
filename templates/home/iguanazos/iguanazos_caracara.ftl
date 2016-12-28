@@ -4,7 +4,7 @@
     <ul class="list-group list-group-flush">
     <#list notas.getLista("caracara") as nota>
         <li class="list-group-item clean">
-            <img src="${notas.getNota("caracara",1).getHeroImage()}" alt="Cara a Cara"
+            <img src="${notas.getNota("caracara",1).getHeroImage()}" alt="${notas.getNota("caracara",1).getTitulo()}"
                  style="
                      <#if nota?index != 0>display: none;</#if>
                          width:180px;

@@ -4,13 +4,13 @@
 
     <div class="row">
         <div class="col-md-3 hidden-sm hidden-xs">
-            <img src="/activos/images/iguanacuadrorojo.png" style="width: 100%">
+            <img src="/activos/images/iguanacuadrorojo.png" style="width: 100%" alt="La Iguana">
             <#include "../banners/NV3.ftl">
     	</div>
 
         <div class="col-xs-12 col-md-9 title-span">
             <div class="col-xs-2">
-                <img class="clean img-responsive" src="/activos/images/comentario.png" style="padding: 0; margin: 0;">
+                <img class="clean img-responsive" src="/activos/images/comentario.png" style="padding: 0; margin: 0;" alt="La Iguana comentarios">
             </div>
             <div class="col-xs-10">
                 <span class="clean">Comentarios</span>

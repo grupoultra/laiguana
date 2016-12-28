@@ -1,6 +1,6 @@
 <div  class="row image-row la-foto">
 
-    <img src="${notas.getNota("lafoto",1).getHeroImage()}">
+    <img src="${notas.getNota("lafoto",1).getHeroImage()}" alt="${notas.getNota("lafoto",1).getTitulo()}">
 
     <div class="lafoto-titulo">
 

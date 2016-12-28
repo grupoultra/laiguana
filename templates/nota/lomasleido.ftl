@@ -3,7 +3,7 @@
 
     <#list notas.getLista("masleidas") as nota>
         <a href="${nota.getPath()}">
-            <img src="${nota.getHeroImage()}" alt="${nota.getPath()}"
+            <img src="${nota.getHeroImage()}" alt="${nota.getTitulo()}"
                  title=""
                  style="width: 90%;heigth: auto;">
             <h3 class="titulo">
