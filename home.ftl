@@ -87,9 +87,16 @@
     <#include "./templates/macros/banners.ftl">
     <#include "./templates/macros/trio-item.ftl">
 
+    <#include "./templates/macros/DFP/dfpI.ftl">
+    <#include "./templates/macros/DFP/dfpII.ftl">
+    <#include "./templates/macros/DFP/dfpIII.ftl">
+
     <#include "templates/banners/RI.ftl">
     <#include "templates/banners/RD.ftl">
     <#include "templates/banners/Splash.ftl">
+
+
+
 
     <div id="white-container" class="container">
 

@@ -83,6 +83,9 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <#include "./templates/macros/banners.ftl">
+    <#include "./templates/macros/DFP/dfpI.ftl">
+    <#include "./templates/macros/DFP/dfpII.ftl">
+    <#include "./templates/macros/DFP/dfpIII.ftl">
 
     <#include "templates/banners/NRI.ftl">
     <#include "templates/banners/NRD.ftl">
