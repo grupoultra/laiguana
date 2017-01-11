@@ -78,7 +78,7 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
 <#include "./templates/dfp.ftl">
 
 </head>
-<body class="body">
+<body class="body nota">
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
