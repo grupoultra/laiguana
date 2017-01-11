@@ -3,4 +3,4 @@
 <#--</div>-->
 
 <#--<@dfpIII class="skyscrapper-banner left hidden-sm hidden-xs" width="120" height="600"/>-->
-<@dfpII class="skyscrapper-banner left hidden-sm hidden-xs" id="605378"/>
+<@dfpII tag="RI" class="skyscrapper-banner left hidden-sm hidden-xs" id="605378"/>
