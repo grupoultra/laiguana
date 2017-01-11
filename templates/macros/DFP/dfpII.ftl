@@ -1,4 +1,6 @@
-<#macro dfpII class id>
+<#macro dfpII tag class id>
+    <!-- ${tag} -->
+
     <div class="${class}">
 		<script async type='text/javascript' src='//s.clickiocdn.com/t/common_258.js'></script>
 		<script class='__lxGc__' type='text/javascript'>
