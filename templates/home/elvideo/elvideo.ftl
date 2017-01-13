@@ -2,7 +2,7 @@
     <#assign elvideoindex = 1>
 
     <#include "jwplayer_id.ftl">
-    <#include "elvideo_head_jwplayer.ftl">
+    <#include "elvideo_head_youtube.ftl">
 
     <#include "../../banners/MH6.ftl">
 

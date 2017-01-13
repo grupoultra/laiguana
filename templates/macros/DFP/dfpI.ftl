@@ -1,4 +1,6 @@
-<#macro dfpI class client slot width height>
+<#macro dfpI tag class client slot width height>
+    <!-- ${tag} -->
+
     <div class="${class}">
         <script type="text/javascript"><!--
             google_ad_client = "${client}";
