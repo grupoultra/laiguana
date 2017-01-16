@@ -5,7 +5,9 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
-<@banner id="div-gpt-ad-1481212244627-32" tag="Splash" classString="banner600x375" />
+				<img src="http://activos.laiguana.tv/images/ads/splash.jpg" alt="">
+
+                <#--<@banner id="div-gpt-ad-1481212244627-32" tag="Splash" classString="banner600x375" />-->
             </div>
         </div>
     </div>
