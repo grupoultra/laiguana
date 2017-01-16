@@ -116,6 +116,13 @@ function getCookie(cname) {
     return "";
 }
 
+// $(document).ready(function(){
+    const twitterButton = document.querySelector('.twitter-shar-button');
+
+    twitterButton.innerHTML ='<img src="/activos/images/tw-share-tag.png" alt="La Iguana Twitter" />';
+    console.log(twitterButton);
+// });
+
 $(window).load(function(){
     var enableSplash = true;
 
