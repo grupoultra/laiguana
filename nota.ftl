@@ -133,7 +133,7 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
     <script>/*<![CDATA[*/(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3&appId=320741088082447";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));/*]]>*/</script>
 
 
-    <script src="/activos/helper/js/main.js"></script>
+    <script src="/activos/helper/js/main.js?version=6.5"></script>
 
 </body>
 </html>
