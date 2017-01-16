@@ -119,12 +119,13 @@ function getCookie(cname) {
 // $(document).ready(function(){
     const twitterButton = document.querySelector('.twitter-shar-button');
 
-    twitterButton.innerHTML ='<img src="/activos/images/tw-share-tag.png" alt="La Iguana Twitter" />';
-    console.log(twitterButton);
+    if(twitterButton){
+        twitterButton.innerHTML ='<img src="/activos/images/tw-share-tag.png" alt="La Iguana Twitter" />';
+    }
 // });
 
 $(window).load(function(){
-    var enableSplash = false;
+    var enableSplash = true;
 
     // splashCookie se configura con un valor para no mostrar el splash con showSplashCookieExpiracy de tiempo de expiracion
     var showSplashCookieExpiracy = 30;
