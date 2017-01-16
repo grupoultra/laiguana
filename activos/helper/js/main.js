@@ -124,7 +124,7 @@ function getCookie(cname) {
 // });
 
 $(window).load(function(){
-    var enableSplash = true;
+    var enableSplash = false;
 
     // splashCookie se configura con un valor para no mostrar el splash con showSplashCookieExpiracy de tiempo de expiracion
     var showSplashCookieExpiracy = 30;
