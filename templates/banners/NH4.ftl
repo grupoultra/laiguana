@@ -1,3 +1,12 @@
-<#--<@banner id="div-gpt-ad-1481212244627-23" tag="NH4" classString="banner970x90 margin-left-minus-5 hidden-xs hidden-sm" />-->
-
-<@dfpII tag="NH4" class="banner970x90 margin-left-minus-5 hidden-xs hidden-sm" id="605372" />
+<#-- NH4 -->
+<div class="banner970x90 margin-left-minus-5 hidden-xs hidden-sm">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- 970x90 -->
+	<ins class="adsbygoogle"
+		 style="display:inline-block;width:970px;height:90px"
+		 data-ad-client="ca-pub-8216476634474264"
+		 data-ad-slot="9169907434"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
