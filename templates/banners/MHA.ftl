@@ -1,9 +1,12 @@
-<#--<@banner id="div-gpt-ad-1481212244627-15" tag="MHA" classString="banner320x50 hcenter hidden-md hidden-lg" />-->
-
 <#-- MHA -->
-
 <div class="banner320x50 hcenter hidden-md hidden-lg">
-	<script src='https://www.googletagservices.com/tag/js/gpt.js'>
-		googletag.pubads().definePassback('/40135427/laiguana_tv_Mobile_Leaderboard_2', [320, 50]).display();
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- 320x50 -->
+	<ins class="adsbygoogle"
+		 style="display:inline-block;width:320px;height:50px"
+		 data-ad-client="ca-pub-8216476634474264"
+		 data-ad-slot="1646640634"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
 </div>
