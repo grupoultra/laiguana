@@ -1,3 +1,12 @@
-<#--<@banner id="div-gpt-ad-1481212244627-0" tag="H1" classString="banner728x90 banner row image-row hidden-sm hidden-xs margin-top-10" />-->
-
-<@dfpII tag="H1" class="banner728x90 banner row image-row hidden-sm hidden-xs margin-top-10" id="605379" />
+<#-- H1 -->
+<div class="banner728x90 banner row image-row hidden-sm hidden-xs margin-top-10" >
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- H1-ADSENSE -->
+	<ins class="adsbygoogle"
+		 style="display:inline-block;width:728px;height:90px"
+		 data-ad-client="ca-pub-8216476634474264"
+		 data-ad-slot="6787417830"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
