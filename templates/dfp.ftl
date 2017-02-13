@@ -28,13 +28,13 @@
         googletag.defineSlot('/181537734/LI-NRD', [160, 600], 'div-gpt-ad-1481212244627-25').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-NRI', [160, 600], 'div-gpt-ad-1481212244627-26').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-NV1', [225, 554], 'div-gpt-ad-1481212244627-27').addService(googletag.pubads());
-        googletag.defineSlot('/181537734/LI-NV2', [225, 554], 'div-gpt-ad-1481212244627-28').addService(googletag.pubads());
+		googletag.defineSlot('/181537734/LI-NV2', [225, 554], 'div-gpt-ad-1486993200616-0').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-NV3', [128, 537], 'div-gpt-ad-1481212244627-29').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-RD', [120, 600], 'div-gpt-ad-1481212244627-30').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-RI', [120, 600], 'div-gpt-ad-1481212244627-31').addService(googletag.pubads());
         googletag.defineSlot('/181537734/Splash', [600, 375], 'div-gpt-ad-1481212244627-32').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-V1', [225, 454], 'div-gpt-ad-1481212244627-33').addService(googletag.pubads());
-        googletag.defineSlot('/181537734/LI-V2', [225, 454], 'div-gpt-ad-1481212244627-34').addService(googletag.pubads());
+		googletag.defineSlot('/181537734/LI-V2', [225, 454], 'div-gpt-ad-1486993200616-1').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-V3', [223, 454], 'div-gpt-ad-1481212244627-35').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-V4', [223, 454], 'div-gpt-ad-1481212244627-36').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-V5', [223, 454], 'div-gpt-ad-1481212244627-37').addService(googletag.pubads());
