@@ -44,8 +44,6 @@
 
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="/activos/helper/font-awesome-4.6.3/css/font-awesome.min.css?version=5.0">
-
     <link rel="stylesheet" href="/activos/helper/css/ultra.css?version=5.0">
     <link rel="stylesheet" href="/activos/helper/css/social.css?version=5.0">
     <link rel="stylesheet" href="/activos/helper/css/iguana.css?version=6.4">
