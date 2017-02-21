@@ -24,8 +24,6 @@
 
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="/activos/helper/font-awesome-4.6.3/css/font-awesome.min.css">
-
     <#--Owl Carrousel-->
     <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
     <#--<script src="/activos/helper/js/vendor/jquery-2.2.3.min.js"></script>-->
