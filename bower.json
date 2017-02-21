@@ -1,0 +1,21 @@
+{
+  "name": "laiguana",
+  "homepage": "https://github.com/ultra-sur/laiguana",
+  "authors": [
+    "Alexis Ibarra <ar.ibarrasalas@gmail.com>"
+  ],
+  "description": "Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.2.0"
+  }
+}
