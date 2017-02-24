@@ -9,14 +9,17 @@
 
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="/activos/helper/css/normalize.css">
+
+	<link rel="stylesheet" href="/activos/assets/styles/normalize.css">
     <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js"></script>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
+	<link rel="stylesheet" href="/activos/assets/bower_components/font-awesome/css/font-awesome.min.css">
+
+	<meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
     <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
 
     <link rel="apple-touch-icon" href="/activos/assets/img/favicon/apple-touch-icon.png">
@@ -30,9 +33,9 @@
     <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
     <#--Owl Carrousel-->
 
-    <link rel="stylesheet" href="/activos/helper/css/ultra.css">
-    <link rel="stylesheet" href="/activos/helper/css/social.css">
-    <link rel="stylesheet" href="/activos/helper/css/iguana.css?version=6.5">
+    <link rel="stylesheet" href="/activos/assets/styles/ultra.css">
+    <link rel="stylesheet" href="/activos/assets/styles/social.css">
+    <link rel="stylesheet" href="/activos/assets/styles/iguana.css?version=6.5">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
 
@@ -109,8 +112,9 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
 
     <#include "./templates/footer.ftl">
 
-    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-    <script src="/activos/helper/js/plugins.js"></script>
+	<link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js">
+
+	<script src="/activos/helper/js/plugins.js"></script>
 
     <script>window.twttr = (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0],

@@ -16,12 +16,17 @@
     <!-- End Alexa Certify Javascript -->
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=5.0">
+    <#--<link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=5.0">-->
+    <link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
-    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=5.0"></script>
-    <link rel="stylesheet" href="/activos/helper/css/normalize.css?version=5.0">
+    <#--<script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=5.0"></script>-->
+	<link rel="stylesheet" href="/activos/assets/bower_components/font-awesome/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js">
+
+	<link rel="stylesheet" href="/activos/assets/styles/normalize.css?version=5.0">
     <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js?version=5.0"></script>
 
 
@@ -44,9 +49,9 @@
 
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="/activos/helper/css/ultra.css?version=5.0">
-    <link rel="stylesheet" href="/activos/helper/css/social.css?version=5.0">
-    <link rel="stylesheet" href="/activos/helper/css/iguana.css?version=6.4">
+    <link rel="stylesheet" href="/activos/assets/styles/ultra.css?version=5.0">
+    <link rel="stylesheet" href="/activos/assets/styles/social.css?version=5.0">
+    <link rel="stylesheet" href="/activos/assets/styles/iguana.css?version=6.4">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
     <!-- Start Alexa Certify Javascript -->
