@@ -1,5 +1,5 @@
 <div class="list-news-card single-size lomasleido hidden-sm hidden-xs margin-left-5 margin-top-10">
-    <img class="img-responsive" src="/activos/images/lomasleido_header.png" alt="Lo + leido">
+    <img class="img-responsive" src="/activos/assets/img/lomasleido_header.png" alt="Lo + leido">
     <ul class="list-group list-group-flush">
 
     <#list notas.getLista("masleidas") as nota>

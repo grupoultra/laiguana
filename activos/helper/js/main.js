@@ -120,7 +120,7 @@ function getCookie(cname) {
     const twitterButton = document.querySelector('.twitter-shar-button');
 
     if(twitterButton){
-        twitterButton.innerHTML ='<img src="/activos/images/tw-share-tag.png" alt="La Iguana Twitter" />';
+        twitterButton.innerHTML ='<img src="/activos/assets/img/tw-share-tag.png" alt="La Iguana Twitter" />';
     }
 // });
 

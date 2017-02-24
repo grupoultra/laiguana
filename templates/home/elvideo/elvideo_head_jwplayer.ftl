@@ -1,7 +1,7 @@
 <div class="lomasjot el-video content-row h-normal">
     <div class="col-md-8 clean vstretch" style="overflow: hidden;">
         <div class="stretch el-video-container">
-            <img class="" src="/activos/images/elvideo_header.png" alt="El video" style="width: 100%; heigth: auto; ">
+            <img class="" src="/activos/assets/img/elvideo_header.png" alt="El video" style="width: 100%; heigth: auto; ">
             <#include "elvideo_container_jwplayer.ftl">
             <div class="clearfix"></div>
 
@@ -12,7 +12,7 @@
 
     <div class="col-md-4 h-normal hidden-sm hidden-xs" style="padding-right: 5px; padding-left: 0px">
         <div class="ucard h-normal stretch round-right clean no-border">
-            <img class="card-img-top" src="/activos/images/lohot_header.png" alt="Lo + jot" >
+            <img class="card-img-top" src="/activos/assets/img/lohot_header.png" alt="Lo + jot" >
 
             <ul class="orange-border list-group list-group-flush" style="padding-top: 5px; margin-bottom: 0px; height: 421px;">
             <#list 2..4 as x>

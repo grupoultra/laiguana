@@ -1,5 +1,5 @@
 <div class="margin-top-10 caraacara ucard h-normal  round-left orange-border vstretch">
-    <img class="card-img-top" src="/activos/images/cara-a-cara-head.jpg" alt="Card image cap">
+    <img class="card-img-top" src="/activos/assets/img/cara-a-cara-head.jpg" alt="Card image cap">
 
     <ul class="list-group list-group-flush">
     <#list notas.getLista("caracara") as nota>
