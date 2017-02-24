@@ -18,6 +18,7 @@
   "dependencies": {
     "owl.carousel": "^2.2.0",
     "bootstrap": "^3.3.7",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "modernizr": "^3.3.1"
   }
 }
