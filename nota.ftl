@@ -13,9 +13,9 @@
 
 
 	<link rel="stylesheet" href="/activos/assets/styles/normalize.css">
-    <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js"></script>
+	<script src="activos/assets/bower_components/modernizr/src/Modernizr.js"></script>
 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 	<link rel="stylesheet" href="/activos/assets/bower_components/font-awesome/css/font-awesome.min.css">
 
@@ -114,7 +114,7 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
 
 	<link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js">
 
-	<script src="/activos/helper/js/plugins.js"></script>
+	<script src="/activos/assets/js/plugins.js"></script>
 
     <script>window.twttr = (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0],
@@ -135,7 +135,7 @@ _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true};
     <script>/*<![CDATA[*/(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3&appId=320741088082447";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));/*]]>*/</script>
 
 
-    <script src="/activos/helper/js/main.js?version=6.5"></script>
+    <script src="/activos/assets/js/main.js?version=6.5"></script>
 
 </body>
 </html>

@@ -27,8 +27,8 @@
 	<link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js">
 
 	<link rel="stylesheet" href="/activos/assets/styles/normalize.css?version=5.0">
-    <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js?version=5.0"></script>
 
+	<script src="activos/assets/bower_components/modernizr/src/Modernizr.js"></script>
 
     <#--Owl Carrousel-->
     <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css?version=5.0">
@@ -125,7 +125,7 @@
 
     <#include "./templates/footer.ftl">
 
-    <script src="/activos/helper/js/plugins.js?version=5.0"></script>
-	<script src="/activos/helper/js/main.js?version=6.1"></script>
+    <script src="/activos/assets/js/plugins.js?version=5.0"></script>
+	<script src="/activos/assets/js/main.js?version=6.1"></script>
 </body>
 </html>
