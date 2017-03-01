@@ -1,6 +1,6 @@
 <div class="noticiasanteriores margin-top-10">
     <div class="card stretch green-border no-border">
-        <img class="" src="/activos/images/anteriores_header.png" alt="Noticias anteriores" style="width: 100%; height: auto;">
+        <img class="" src="/activos/assets/img/anteriores_header.png" alt="Noticias anteriores" style="width: 100%; height: auto;">
 
         <div id="noticiasanteriores-container" class="owl-carousel noticiasanteriores-container no-padding no-margin ucard h-normal vstretch row orange-border">
             <#list notas.getLista("historico") as nota>

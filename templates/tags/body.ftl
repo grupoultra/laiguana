@@ -22,7 +22,7 @@
                     mollit ipsum voluptate amet tempor ex.
                 </p>
                 <a href="" class="item-link">
-                    <img src="/activos/images/btn_leer.png" alt="">
+                    <img src="/activos/assets/img/btn_leer.png" alt="">
                 </a>
             </div>
         </div>

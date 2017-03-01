@@ -1,5 +1,5 @@
 <div class="list-news-card double-size lomasreciente hidden-sm hidden-xs margin-left-5 margin-top-10">
-    <img class="img-responsive" src="/activos/images/lo-reciente-head.jpg" alt="Lo + reciente">
+    <img class="img-responsive" src="/activos/assets/img/lo-reciente-head.jpg" alt="Lo + reciente">
 
     <ul class="list-group list-group-flush">
     <#list notas.getLista("restantes") as nota>

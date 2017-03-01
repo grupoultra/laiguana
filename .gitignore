@@ -4,3 +4,6 @@
 .DS_Store
 .sass-cache/
 *.swp
+bower_components/
+main.css
+main.css.map
