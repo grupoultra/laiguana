@@ -33,9 +33,9 @@
     <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
     <#--Owl Carrousel-->
 
-    <link rel="stylesheet" href="/activos/assets/styles/ultra.css">
-    <link rel="stylesheet" href="/activos/assets/styles/social.css">
-    <link rel="stylesheet" href="/activos/assets/styles/iguana.css?version=6.5">
+    <link rel="stylesheet" href="/activos/assets/styles/2-basics/_utils.sass">
+    <link rel="stylesheet" href="/activos/assets/styles/3-modules/_social.sass">
+    <link rel="stylesheet" href="/activos/assets/styles/main.css?version=2.0">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
 

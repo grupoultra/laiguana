@@ -26,8 +26,6 @@
 
 	<link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js">
 
-	<link rel="stylesheet" href="/activos/assets/styles/normalize.css?version=5.0">
-
 	<script src="activos/assets/bower_components/modernizr/src/Modernizr.js"></script>
 
     <#--Owl Carrousel-->
@@ -49,9 +47,9 @@
 
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="/activos/assets/styles/ultra.css?version=5.0">
-    <link rel="stylesheet" href="/activos/assets/styles/social.css?version=5.0">
-    <link rel="stylesheet" href="/activos/assets/styles/iguana.css?version=6.4">
+    <link rel="stylesheet" href="/activos/assets/styles/2-basics/_utils.sass?version=5.0">
+    <link rel="stylesheet" href="/activos/assets/styles/3-modules/_social.sass?version=5.0">
+    <link rel="stylesheet" href="/activos/assets/styles/main.css?version=2.0">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
     <!-- Start Alexa Certify Javascript -->
@@ -110,7 +108,7 @@
 
         <#include "./templates/menu-principal.ftl">
 
-        <#include "./templates/home/slideshow.ftl">
+        <#include "templates/home/destacados.ftl">
 
         <#include "./templates/home/clavadas/clavadas.ftl">
 
