@@ -1,3 +1,8 @@
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script><script>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+</script>
+
 <script>
     googletag.cmd.push(function() {
         googletag.defineSlot('/181537734/LI-H1', [728, 90], 'div-gpt-ad-1481212244627-0').addService(googletag.pubads());
