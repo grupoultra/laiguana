@@ -2,7 +2,6 @@
     <img src="${notas.getNota("lafoto",1).getHeroImage()}" alt="${notas.getNota("lafoto",1).getTitulo()}">
 
     <div class="lafoto-titulo">
-
         <div class="col-xs-2 clean">
             <img src="/activos/assets/img/lafoto_title.png" alt="La foto"
 				 class="img-responsive lafoto-etiqueta">
