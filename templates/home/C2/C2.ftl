@@ -5,3 +5,5 @@
 
 <#include "../../banners/H3.ftl">
 <#include "../../banners/MH3.ftl">
+
+<div class="clearfix"></div>
