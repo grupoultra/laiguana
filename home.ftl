@@ -26,6 +26,7 @@
     <#include "./templates/macros/DFP/dfpI.ftl">
     <#include "./templates/macros/DFP/dfpII.ftl">
     <#include "./templates/macros/DFP/dfpIII.ftl">
+    <#include "./templates/macros/listanotas.ftl">
 
     <#include "./templates/banners/RI.ftl">
     <#include "./templates/banners/RD.ftl">
@@ -40,13 +41,21 @@
 
         <#include "./templates/home/destacados.ftl">
 
-        <#include "./templates/home/clavadas/clavadas.ftl">
+        <#include "./templates/home/C1/C1.ftl">
 
-        <#include "./templates/home/iguanazos/iguanazos.ftl">
+        <#include "./templates/home/iguanazos/iguanazos_head.ftl">
+
+        <#include "./templates/home/C2/C2.ftl">
 
         <#include "./templates/home/lafoto/lafoto.ftl">
 
-        <#include "./templates/home/elvideo/elvideo.ftl">
+        <#include "./templates/home/C3/C3.ftl">
+
+        <#include "templates/home/elvideo/elvideo_head.ftl">
+
+        <#include "./templates/home/C4/C4.ftl">
+
+        <#include "./templates/home/noticiasanteriores.ftl">
 
         <#include "./templates/home/trio/trio.ftl">
     </div>
