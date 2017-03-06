@@ -1,6 +1,6 @@
 <div class="row  mobile-header hidden-md hidden-lg">
     <a href="/">
-        <img class=img-responsive" src="/activos/images/li_mobile_head.png" style="width: 50%; height: auto;">
+        <img class=img-responsive" src="/activos/assets/img/li_mobile_head.png" style="width: 50%; height: auto;">
     </a>
 </div>
 

@@ -16,14 +16,19 @@
     <!-- End Alexa Certify Javascript -->
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=5.0">
+    <#--<link rel="stylesheet" href="/activos/helper/bootstrap-3.3.6-dist/css/bootstrap.min.css?version=5.0">-->
+    <link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
-    <script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=5.0"></script>
-    <link rel="stylesheet" href="/activos/helper/css/normalize.css?version=5.0">
-    <script src="/activos/helper/js/vendor/modernizr-2.8.3.min.js?version=5.0"></script>
+    <#--<script src="/activos/helper/bootstrap-3.3.6-dist/js/bootstrap.min.js?version=5.0"></script>-->
+	<link rel="stylesheet" href="/activos/assets/bower_components/font-awesome/css/font-awesome.min.css">
 
+	<link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js">
+
+	<link rel="stylesheet" href="/activos/assets/styles/normalize.css?version=5.0">
+
+	<script src="activos/assets/bower_components/modernizr/src/Modernizr.js"></script>
 
     <#--Owl Carrousel-->
     <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css?version=5.0">
@@ -39,14 +44,14 @@
     <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
     <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
 
-    <link rel="apple-touch-icon" href="/activos/images/favicon/apple-touch-icon.png">
-    <link href="/activos/images/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link rel="apple-touch-icon" href="/activos/assets/img/favicon/apple-touch-icon.png">
+    <link href="/activos/assets/img/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="/activos/helper/css/ultra.css?version=5.0">
-    <link rel="stylesheet" href="/activos/helper/css/social.css?version=5.0">
-    <link rel="stylesheet" href="/activos/helper/css/iguana.css?version=6.4">
+    <link rel="stylesheet" href="/activos/assets/styles/ultra.css?version=5.0">
+    <link rel="stylesheet" href="/activos/assets/styles/social.css?version=5.0">
+    <link rel="stylesheet" href="/activos/assets/styles/iguana.css?version=6.4">
 
     <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
     <!-- Start Alexa Certify Javascript -->
@@ -121,7 +126,7 @@
 
     <#include "./templates/footer.ftl">
 
-    <script src="/activos/helper/js/plugins.js?version=5.0"></script>
-	<script src="/activos/helper/js/main.js?version=6.1"></script>
+    <script src="/activos/assets/js/plugins.js?version=5.0"></script>
+	<script src="/activos/assets/js/main.js?version=6.1"></script>
 </body>
 </html>

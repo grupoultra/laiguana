@@ -1,5 +1,5 @@
 <div class="list-news-card auto-size lomaspolemico hidden-sm hidden-xs margin-left-5 margin-top-10">
-    <img class="img-responsive" src="/activos/images/lomaspolemico_header_223X33.jpg" alt="Lo + Polémico">
+    <img class="img-responsive" src="/activos/assets/img/lomaspolemico_header_223X33.jpg" alt="Lo + Polémico">
 
     <ul class="list-group list-group-flush" style="background-color: white">
     <#list notas.getLista("polemico") as nota>

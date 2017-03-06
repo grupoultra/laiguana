@@ -5,12 +5,12 @@
     <div class="lafoto-titulo">
 
         <div class="col-xs-2 clean">
-            <img src="/activos/images/lafoto_title.png" alt="La foto"
+            <img src="/activos/assets/img/lafoto_title.png" alt="La foto"
                  class="img-responsive lafoto-etiqueta">
         </div>
 
         <div class="col-xs-1 col-xs-offset-9">
-            <img class="img-responsive" src="/activos/images/igua_tag.png" alt="La Iguana">
+            <img class="img-responsive" src="/activos/assets/img/igua_tag.png" alt="La Iguana">
         </div>
     </div>
 
