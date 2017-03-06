@@ -1,14 +1,7 @@
-<div class="margin-top-10">
-    <#include "iguanazos_head.ftl">
-    <#include "../../banners/H2.ftl">
-    <#include "../../banners/MH2.ftl">
+<div class="col-g nota">
+	<div class="card stretch green-border round-left"  style="overflow: hidden">
+		<img class="iguanazos-header-image" src="/activos/assets/img/iguanazos_header.png" alt="Iguanazos">
 
-    <#include "iguanazos_left.ftl">
-    <#include "iguanazos_right.ftl">
+		<img class="iguanazos-header-body card-img-top img-responsive" src="${notas.getNota("iguanazos",1).getHeroImage()}" alt="${notas.getNota("iguanazos",1).getTitulo()}" >
+	</div>
 </div>
-
-<div class="clearfix">
-</div>
-
-<#include "../../banners/H3.ftl">
-<#include "../../banners/MH3.ftl">
