@@ -1,21 +1,10 @@
-<div class="margin-top-10">
-    <#assign elvideoindex = 1>
+<div class="col-md-8 clean vstretch" style="overflow: hidden;">
+	<div class="stretch el-video-container">
+		<img class="" src="/activos/assets/img/elvideo_header.png" alt="El video" style="width: 100%; heigth: auto; ">
+        <#include "elvideo_container_youtube.ftl">
+		<div class="clearfix"></div>
 
-    <#include "jwplayer_id.ftl">
-    <#include "elvideo_head_youtube.ftl">
+	</div>
+	<div class="clearfix"></div>
 
-    <#include "../../banners/MH6.ftl">
-
-    <#include "../../banners/H4.ftl">
-    <#include "elvideo_left.ftl">
-    <#include "elvideo_right.ftl">
-
-    <div class="clearfix"></div>
-
-    <#include "./noticiasanteriores.ftl">
-    <#include "../../banners/MC2.ftl">
-
-    <#include "../../banners/H5.ftl">
-
-    <div class="clearfix"></div>
 </div>
