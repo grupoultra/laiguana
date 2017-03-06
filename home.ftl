@@ -19,6 +19,7 @@
     <#include "./templates/common/browserhappy.ftl">
 
     <#include "./templates/macros/nota.ftl">
+    <#include "./templates/macros/listanotas.ftl">
     <#include "./templates/macros/tarjetas.ftl">
     <#include "./templates/macros/banners.ftl">
     <#include "./templates/macros/trio-item.ftl">
