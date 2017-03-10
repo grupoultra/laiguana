@@ -27,6 +27,6 @@
 </div>
 
 <#include "../banners/MC2.ftl">
-<#include "../banners/H12.ftl">
+<#include "../banners/nuevos/HL6.ftl">
 
 <div class="clearfix"></div>

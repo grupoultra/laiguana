@@ -1,20 +1,13 @@
-<div class="col-g margin-bottom-10">
-    <@listanotas "clavadas" 1 4 />
+<div class="col-g">
+    <@listanotas "clavadas" 1 2 />
+    <#include "../../banners/nuevos/HM1.ftl">
+    <@listanotas "clavadas" 3 4 />
 
-    <#include "../../banners/HVID1.ftl">
-    <#include "../../banners/MC1.ftl">
+    <#include "../../banners/nuevos/HM2.ftl">
 
     <@listanotas "restantes" 1 2 />
 
-    <#include "../../banners/H2.ftl">
+    <#include "../../banners/nuevos/HM3.ftl">
 
-    <@listanotas "restantes" 3 6 />
-
-    <#include "../../banners/H3.ftl">
-
-    <@listanotas "restantes" 7 8 />
-
-    <#include "../../banners/HVID2.ftl">
-
-    <#include "../../banners/MH1.ftl">
+    <@listanotas "restantes" 3 4 />
 </div>

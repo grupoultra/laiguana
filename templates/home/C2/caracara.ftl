@@ -1,4 +1,4 @@
-<div class="list-news-card single-size caraacara hidden-sm hidden-xs margin-left-5 margin-top-10">
+<div class="list-news-card single-size caraacara hidden-sm hidden-xs margin-top-10">
     <img class="img-responsive" src="/activos/assets/img/cara-a-cara-head.jpg" alt="Card image cap">
 
     <ul class="list-group list-group-flush">

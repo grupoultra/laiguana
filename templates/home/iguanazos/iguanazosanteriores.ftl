@@ -1,5 +1,5 @@
 <div class="col-p hidden-sm hidden-xs">
-	<div class="ucard orange-border round-right vstretch">
+	<div class="orange-border round-right vstretch">
 		<img class="card-img-top" src="/activos/assets/img/iguant_header.png" alt="Iguanazos Anteriores">
 
     <#list 2..4 as pos>

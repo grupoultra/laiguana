@@ -4,6 +4,4 @@
 
 		<img class="iguanazos-header-body card-img-top img-responsive" src="${notas.getNota("iguanazos",1).getHeroImage()}" alt="${notas.getNota("iguanazos",1).getTitulo()}" >
 	</div>
-
-    <#include "../../banners/H4.ftl">
 </div>

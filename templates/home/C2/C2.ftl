@@ -3,7 +3,6 @@
 
 <div class="clearfix"></div>
 
-<#include "../../banners/H6.ftl">
 <#include "../../banners/MH3.ftl">
 
 <div class="clearfix"></div>

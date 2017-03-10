@@ -3,7 +3,7 @@
 <#include "jwplayer_id.ftl">
 
 <#if notas.getNota("lomasjot", elvideoindex).getYoutube()??>
-    <div class="lomasjot el-video content-row h-normal">
+    <div class="lomasjot el-video content-row">
         <#include "elvideo.ftl">
         <#include "lomasjot.ftl">
     </div>
@@ -14,6 +14,7 @@
     </script>
 </#if>
 
-<#include "../../banners/MH6.ftl">
-<#include "../../banners/H10.ftl">
+<div class="clearfix"></div>
+
+<#include "../../banners/nuevos/HL5.ftl">
 

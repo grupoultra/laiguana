@@ -19,5 +19,5 @@
     </div>
 </div>
 
-<#include "../../banners/H7.ftl">
+<#include "../../banners/nuevos/HL4.ftl">
 <#include "../../banners/MH4.ftl">

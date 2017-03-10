@@ -20,5 +20,5 @@
     </div>
 </div>
 
-<#include "../banners/H1.ftl">
+<#include "../banners/nuevos/HL1.ftl">
 
