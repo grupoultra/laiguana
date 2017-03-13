@@ -16,5 +16,5 @@
 
 <div class="clearfix"></div>
 
-<#include "../../banners/nuevos/HL5.ftl">
+<#include "../../banners/nuevos/HB3.ftl">
 

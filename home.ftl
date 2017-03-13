@@ -34,7 +34,7 @@
     <#include "./templates/banners/Splash.ftl">
 
     <div id="white-container" class="container">
-        <#include "./templates/banners/HA.ftl">
+        <#include "./templates/banners/nuevos/HB1.ftl">
         <#include "./templates/banners/MHA.ftl">
         <#include "./templates/common/header.ftl">
 

@@ -5,7 +5,7 @@
 
     <div class="clearfix"></div>
 
-    <#include "../../banners/nuevos/HL3.ftl">
+    <#include "../../banners/nuevos/HB2.ftl">
 
 
     <#--<#include "../../banners/H2.ftl">-->
