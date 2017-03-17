@@ -10,7 +10,7 @@
                     <img src="${notas.getNota("restantes",1).getHeroImage()}" alt="${notas.getNota("restantes",1).getTitulo()}">
                 </#if>
                 <h3 class="titulo">
-                    ${nota.getTitulo(80)}
+                    ${nota.getTitulo(100)}
                 </h3>
             </a>
         </li>

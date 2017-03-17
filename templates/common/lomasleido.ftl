@@ -6,19 +6,24 @@
         <li class="list-group-item clean <#if nota?index == 0 || imagesLoMasLeido>with-image</#if>">
             <a href="${nota.getPath()}">
                 <#if nota?index == 0 || imagesLoMasLeido >
-                    <img src="${nota.getHeroImage()}" alt="${nota.getTitulo()}"
-                         title=""
-                         style="width: 90%;heigth: auto;">
+                    <img src="${nota.getHeroImage()}" alt="${nota.getTitulo()}" title="">
                 </#if>
 
                 <h3 class="titulo">
-                    ${nota.getTitulo(80)}
+                    ${nota.getTitulo(100)}
                 </h3>
             </a>
         </li>
-        <#if nota?counter == 4>
-            <#break>
-        </#if>
     </#list>
+    <#-- TODO: esta nota está coleada aquí. No debe ir.-->
+    <#if !imagesLoMasLeido>
+        <li class="list-group-item clean">
+            <a class="nolink" href="${notas.getNota("restantes",14).getPath()}">
+                <h3 class="titulo">
+                    ${notas.getNota("restantes",14).getTitulo(100)}
+                </h3>
+            </a>
+        </li>
+    </#if>
     </ul>
 </div>

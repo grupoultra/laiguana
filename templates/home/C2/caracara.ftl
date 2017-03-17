@@ -10,10 +10,19 @@
                 </#if>
 
                 <h3 class="titulo">
-                    ${nota.getTitulo(80)}
+                    ${nota.getTitulo(100)}
                 </h3>
             </a>
         </li>
     </#list>
+    <#-- TODO: esta nota está coleada aquí. No debe ir.-->
+    <li class="list-group-item clean">
+        <a class="nolink" href="${notas.getNota("restantes",14).getPath()}">
+            <h3 class="titulo">
+            ${notas.getNota("restantes",16).getTitulo(100)}
+            </h3>
+        </a>
+    </li>
+
     </ul>
 </div>
