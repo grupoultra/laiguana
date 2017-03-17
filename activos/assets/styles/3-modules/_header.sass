@@ -1,11 +1,3 @@
-@media (min-width: 320px)
-    .main-header
-        display: none !important
-
-@media (min-width: 992px)
-    .main-header
-        display: block !important
-
 .main-header
     background-image: url(/activos/assets/img/logo.png)
     background-size: cover
@@ -23,7 +15,13 @@
     .social-box
         bottom: -80px
         left: 200px
+        margin-bottom: 10px
+.social-mobile-box
+    +hidden-desktop()
 .mobile-header
+    display: none
+    +hidden-desktop()
+    margin-bottom: 10px
     background-color: #be1e2d
     height: 50px
     text-align: center

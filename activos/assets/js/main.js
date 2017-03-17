@@ -40,7 +40,7 @@ $(document).ready(function(){
             0 : {
                 items: 2
             },
-            992 : {
+            1090 : {
                 items: 3
             }
         }
