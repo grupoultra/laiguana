@@ -1,5 +1,5 @@
 <div class="col-g">
-    <#include "../banners/nota/desktop/HD-HM1.ftl">
+    <#include "../banners/nota/desktop/ND-HM1.ftl">
     <#include "../banners/nota/mobile/NM-HS2.ftl">
 
     <div class="articulo ">
@@ -19,7 +19,7 @@
     </div>
 
     <#include "../banners/nota/mobile/NM-C1.ftl">
-    <#include "../banners/nota/desktop/HD-HM2.ftl">
+    <#include "../banners/nota/desktop/ND-HM2.ftl">
 
     <#include "./comentarios.ftl">
 </div>

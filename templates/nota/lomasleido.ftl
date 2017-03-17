@@ -11,10 +11,10 @@
             </h3>
         </a>
         <#if nota?counter == 3>
-            <#include "../banners/nota/desktop/HD-C1.ftl">
+            <#include "../banners/nota/desktop/ND-C1.ftl">
         </#if>
     </#list>
 
-    <#include "../banners/nota/desktop/HD-C1.ftl">
-    <#include "../banners/nota/desktop/HD-V1.ftl">
+    <#include "../banners/nota/desktop/ND-C1.ftl">
+    <#include "../banners/nota/desktop/ND-V1.ftl">
 </div>

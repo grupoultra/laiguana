@@ -32,7 +32,7 @@
     <#include "./templates/macros/DFP/dfpIII.ftl">
 
     <div id="white-container" class="container">
-        <#include "templates/banners/nota/desktop/HD-HB1.ftl">
+        <#include "templates/banners/nota/desktop/ND-HB1.ftl">
         <#include "templates/banners/nota/mobile/NM-HS1.ftl">
         <#include "./templates/common/header.ftl">
 
@@ -46,7 +46,7 @@
 
         <div class="clearfix"></div>
 
-        <#include "templates/banners/nota/desktop/HD-HL1.ftl">
+        <#include "templates/banners/nota/desktop/ND-HL1.ftl">
         <#include "templates/banners/nota/mobile/NM-HS3.ftl">
 
     </div> <!-- //main-container -->
