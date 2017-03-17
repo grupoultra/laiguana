@@ -29,13 +29,11 @@
     <#include "./templates/macros/DFP/dfpIII.ftl">
     <#include "./templates/macros/listanotas.ftl">
 
-    <#--<#include "./templates/banners/RI.ftl">-->
-    <#--<#include "./templates/banners/RD.ftl">-->
     <#include "./templates/banners/Splash.ftl">
 
     <div id="white-container" class="container">
-        <#include "./templates/banners/nuevos/HB1.ftl">
-        <#include "./templates/banners/MHA.ftl">
+        <#include "templates/banners/home/desktop/HD-HB1.ftl">
+        <#include "templates/banners/home/mobile/HM-HS1.ftl">
         <#include "./templates/common/header.ftl">
 
         <#include "./templates/common/menu-principal.ftl">

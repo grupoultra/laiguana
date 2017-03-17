@@ -1,13 +1,12 @@
 <div class="col-g">
-    <@listanotas "clavadas" 1 2 />
-    <#include "../../banners/nuevos/HM1.ftl">
-    <@listanotas "clavadas" 3 4 />
+    <@listanotas "clavadas" 1 4 />
 
-    <#include "../../banners/nuevos/HM2.ftl">
+    <#include "../../banners/home/desktop/HD-HM1.ftl">
+    <#include "../../banners/home/mobile/HM-HS2.ftl">
 
-    <@listanotas "restantes" 1 2 />
+    <@listanotas "restantes" 1 4 />
 
-    <#include "../../banners/nuevos/HM3.ftl">
+    <div class="clearfix"></div>
 
-    <@listanotas "restantes" 3 4 />
+    <#include "../../banners/home/mobile/HM-HS3.ftl">
 </div>

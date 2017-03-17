@@ -20,5 +20,4 @@
     </div>
 </div>
 
-<#include "../banners/nuevos/HL1.ftl">
 

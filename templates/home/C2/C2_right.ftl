@@ -1,7 +1,7 @@
-<div class="col-p   hidden-sm hidden-xs">
+<div class="col-p hidden-mobile">
+    <#include "../../banners/home/desktop/HD-C2.ftl">
     <#include "caracara.ftl">
-    <#include "../../banners/nuevos/V2.ftl">
-    <#include "../../banners/nuevos/V3.ftl">
+    <#include "../../banners/home/desktop/HD-V2.ftl">
 </div>
 
 <div class="clearfix"></div>

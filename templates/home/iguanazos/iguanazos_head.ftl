@@ -4,12 +4,8 @@
     <#include "./iguanazosanteriores.ftl">
 
     <div class="clearfix"></div>
+    <#include "../../banners/home/mobile/HM-C1.ftl">
 
-    <#include "../../banners/nuevos/HB2.ftl">
-
-
-    <#--<#include "../../banners/H2.ftl">-->
-    <#include "../../banners/MH2.ftl">
 </div>
 
 

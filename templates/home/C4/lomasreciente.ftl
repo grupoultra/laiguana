@@ -1,5 +1,5 @@
-<div class="list-news-card double-size lomasreciente hidden-sm hidden-xs margin-top-10">
-    <img class="img-responsive" src="/activos/assets/img/lo-reciente-head.jpg" alt="Lo + reciente">
+<div class="list-news-card double-size lomasreciente hidden-mobile margin-top-10">
+    <img class="card-img-top" src="/activos/assets/img/lo-reciente-head.jpg" alt="Lo + reciente">
 
     <ul class="list-group list-group-flush">
     <#list notas.getLista("restantes") as nota>
@@ -14,7 +14,7 @@
                 </h3>
             </a>
         </li>
-        <#if nota?counter == 16>
+        <#if nota?counter == 12>
             <#break>
         </#if>
     </#list>
