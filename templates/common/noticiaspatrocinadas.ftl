@@ -1,5 +1,5 @@
 <div class="list-news-card single-size lomasleido hidden-mobile margin-top-10">
-    <img class="card-img-top" src="/activos/assets/img/lomasleido_header.png" alt="Lo + leido">
+    <img class="card-img-top" src="/activos/assets/img/lo-mas-reciente_header.jpg" alt="Lo + leido">
     <ul class="list-group list-group-flush">
 
     <#list [1,2,3,4,5,6,7,8] as nota>
