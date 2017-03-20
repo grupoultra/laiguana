@@ -1,7 +1,7 @@
 <div class="list-news-card single-size lomasleido hidden-mobile margin-top-10 <#if imagesLoMasLeido>with-image</#if> ">
     <img class="card-img-top" src="/activos/assets/img/lomasleido_header.png" alt="Lo + leido">
-    <ul class="list-group list-group-flush">
 
+    <ul class="list-group list-group-flush">
     <#list notas.getLista("masleidas") as nota>
         <li class="list-group-item clean <#if nota?index == 0 || imagesLoMasLeido>with-image</#if>">
             <a href="${nota.getPath()}">
