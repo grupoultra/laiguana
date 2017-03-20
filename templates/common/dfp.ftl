@@ -44,6 +44,11 @@
         googletag.defineSlot('/181537734/LI-V4', [223, 454], 'div-gpt-ad-1481212244627-36').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-V5', [223, 454], 'div-gpt-ad-1481212244627-37').addService(googletag.pubads());
         googletag.defineSlot('/181537734/LI-V6', [223, 454], 'div-gpt-ad-1481212244627-38').addService(googletag.pubads());
+
+        googletag.defineSlot('/181537734/LI-HD-V1', [300, 600], 'div-gpt-ad-1490033906025-0').addService(googletag.pubads());
+        googletag.defineSlot('/181537734/LI-ND-V1', [300, 600], 'div-gpt-ad-1490033906025-1').addService(googletag.pubads());
+
+
         googletag.pubads().enableSingleRequest();
         googletag.enableServices();
     });

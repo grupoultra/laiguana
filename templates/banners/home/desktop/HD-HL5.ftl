@@ -1,11 +1,6 @@
 <div id="HD-HL5" class="margin-top-10 banner-c banner970x90 hidden-mobile">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- 970x90 -->
-    <ins class="adsbygoogle"
-         style="display:inline-block;width:970px;height:90px"
-         data-ad-client="ca-pub-8216476634474264"
-         data-ad-slot="9169907434"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
+    <script async type='text/javascript' src='//s.clickiocdn.com/t/common_258.js'></script>
+    <script class='__lxGc__' type='text/javascript'>
+        ((__lxGc__=window.__lxGc__||{'s':{},'b':0})['s']['_205553']=__lxGc__['s']['_205553']||{'b':{}})['b']['_605372']={'i':__lxGc__.b++};
     </script>
 </div>
