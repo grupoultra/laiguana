@@ -1,5 +1,5 @@
-<div class="list-news-card double-size lomasreciente hidden-sm hidden-xs margin-left-5 margin-top-10">
-    <img class="img-responsive" src="/activos/assets/img/lo-reciente-head.jpg" alt="Lo + reciente">
+<div class="list-news-card double-size lomasreciente hidden-mobile margin-top-10">
+    <img class="card-img-top" src="/activos/assets/img/lo-reciente-head.jpg" alt="Lo + reciente">
 
     <ul class="list-group list-group-flush">
     <#list notas.getLista("restantes") as nota>
@@ -10,7 +10,7 @@
                     <img src="${notas.getNota("restantes",1).getHeroImage()}" alt="${notas.getNota("restantes",1).getTitulo()}">
                 </#if>
                 <h3 class="titulo">
-                    ${nota.getTitulo(80)}
+                    ${nota.getTitulo(100)}
                 </h3>
             </a>
         </li>

@@ -1,6 +1,8 @@
 <div class="col-p">
-    <#include "../../banners/V1.ftl">
-    <#include "lomasleido.ftl">
-    <#include "../../banners/V2.ftl">
-    <#include "lomaspolemico.ftl">
+    <#include "../../banners/home/desktop/HD-V1.ftl">
+    <#assign imagesLoMasLeido = false >
+
+    <#include "../../common/lomasleido.ftl">
+    <#include "../../banners/home/desktop/HD-C1.ftl">
+    <#include "../../common/lomaspolemico.ftl">
 </div>

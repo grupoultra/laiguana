@@ -10,12 +10,10 @@
                     <div class="thumbnail">
                         <a href="${nota.getPath()}">
                             <img data-src="${nota.getHeroImage()}" class="owl-lazy no-padding no-margin" height="121px" alt="${nota.getTitulo()}">
-                        </a>
-                        <div class="caption">
-                            <a href="${nota.getPath()}">
+                            <div class="caption">
                                 <h3 class="titulo">${nota.getTitulo(65)}</h3>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
 
                 <#if nota?is_even_item>
@@ -26,7 +24,7 @@
     </div>
 </div>
 
-<#include "../banners/MC2.ftl">
-<#include "../banners/H5.ftl">
+<#include "../banners/home/desktop/HD-HL4.ftl">
+<#include "../banners/home/mobile/HM-C4.ftl">
 
 <div class="clearfix"></div>

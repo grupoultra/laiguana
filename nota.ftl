@@ -22,7 +22,7 @@
         ga('send', 'pageview');
     </script>
 </head>
-<body class="body nota">
+<body class="body">
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -31,26 +31,24 @@
     <#include "./templates/macros/DFP/dfpII.ftl">
     <#include "./templates/macros/DFP/dfpIII.ftl">
 
-    <#include "./templates/banners/NRI.ftl">
-    <#include "./templates/banners/NRD.ftl">
     <div id="white-container" class="container">
-        <#include "./templates/banners/NHA.ftl">
-
-        <#include "./templates/banners/MNHA.ftl">
-
+        <#include "templates/banners/nota/desktop/ND-HB1.ftl">
+        <#include "templates/banners/nota/mobile/NM-HS1.ftl">
         <#include "./templates/common/header.ftl">
 
         <#include "./templates/common/menu-principal.ftl">
 
         <#include "./templates/nota/note-header.ftl">
 
-        <div class="row  content-row">
-            <#include "./templates/nota/note-left.ftl">
+        <#include "./templates/nota/note-left.ftl">
 
-            <#include "./templates/nota/note-right.ftl">
+        <#include "./templates/nota/note-right.ftl">
 
-            <#include "./templates/nota/comentarios.ftl">
-        </div><!-- //row -->
+        <div class="clearfix"></div>
+
+        <#include "templates/banners/nota/desktop/ND-HL1.ftl">
+        <#include "templates/banners/nota/mobile/NM-HS3.ftl">
+
     </div> <!-- //main-container -->
 
     <#include "./templates/common/footer.ftl">

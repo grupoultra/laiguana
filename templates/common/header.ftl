@@ -1,10 +1,10 @@
-<div class="row  mobile-header hidden-md hidden-lg">
+<div class="row mobile-header">
     <a href="/">
         <img class=img-responsive" src="/activos/assets/img/li_mobile_head.png" style="width: 50%; height: auto;">
     </a>
 </div>
 
-<div class="row social-box hidden-md hidden-lg center-block text-center">
+<div class="row social-mobile-box center-block text-center">
     <ul class="social-nav model-9">
         <li><a class="rss" target="_blank" title="RSS" href="http://feeds.feedburner.com/laiguana-tv"><i class="fa fa-rss"></i></a></li>
         <li><a class="facebook" target="_blank" title="Facebook" href="http://www.facebook.com/iguana.tv"> <i class="fa fa-facebook"></i></a></li>
@@ -15,7 +15,7 @@
     </ul>
 </div>
 
-<div class="row main-header hidden-sm hidden-xs hidden-xxs hidden-xxxs">
+<div class="row main-header hidden-mobile">
     <a id="titlelink" href="/"></a>
 
     <div class="col-md-5 social-box">

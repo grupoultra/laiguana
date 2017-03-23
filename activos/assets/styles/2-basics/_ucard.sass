@@ -21,7 +21,7 @@
             font-weight: 900
             padding: 2px
             border-bottom: none
-        @media (min-width: 992px)
+        @media (min-width: $desktop-break)
             height: 85px
             font-size: 15px
             line-height: 150%
@@ -63,8 +63,6 @@
 
 @media (min-width: 320px)
     .ucard
-        margin-left: 5px
-        margin-right: 5px
         img
             width: 95%
             height: auto
@@ -76,7 +74,7 @@
             text-align: justify
             text-justify: inter-word
 
-@media (min-width: 992px)
+@media (min-width: $desktop-break)
     .ucard img
         width: auto
         height: auto

@@ -1,12 +1,12 @@
-<div class="col-g margin-bottom-10">
+<div class="col-g">
     <@listanotas "clavadas" 1 4 />
 
-    <#include "../../banners/MC1.ftl">
+    <#include "../../banners/home/desktop/HD-HM1.ftl">
+    <#include "../../banners/home/mobile/HM-HS2.ftl">
 
     <@listanotas "restantes" 1 4 />
 
-	<div class="clearfix"></div>
+    <div class="clearfix"></div>
 
-    <#include "../../banners/H1.ftl">
-    <#include "../../banners/MH1.ftl">
+    <#include "../../banners/home/mobile/HM-HS3.ftl">
 </div>

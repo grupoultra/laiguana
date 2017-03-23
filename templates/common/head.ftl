@@ -32,4 +32,11 @@
 <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=trjMk1a4eFf2L7" style="display:none" height="1" width="1" alt="" /></noscript>
 <!-- End Alexa Certify Javascript -->
 
+<#-- Clickio -->
+<script async type="text/javascript" src="//s.clickiocdn.com/t/pb205553.js"></script>
+<script async type="text/javascript" src="//s.clickiocdn.com/t/common_258.js"></script>
+<#-- Clickio -->
+
+
+
 <#include "./dfp.ftl">

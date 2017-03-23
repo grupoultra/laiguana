@@ -1,4 +1,4 @@
-<div class="col-md-4 h-normal hidden-sm hidden-xs" style="padding-right: 5px; padding-left: 0px">
+<div class="col-p h-normal hidden-mobile">
 	<div class="ucard h-normal stretch round-right clean no-border">
 		<img class="card-img-top" src="/activos/assets/img/lohot_header.png" alt="Lo + jot" >
 

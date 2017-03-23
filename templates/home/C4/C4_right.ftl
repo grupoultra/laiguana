@@ -1,4 +1,4 @@
-<div class="col-p hidden-sm hidden-xs">
+<div class="col-p hidden-mobile">
     <#include "./lomasreciente.ftl">
-    <#include "../../banners/V6.ftl">
+    <#include "../../banners/home/desktop/HD-V4.ftl">
 </div>

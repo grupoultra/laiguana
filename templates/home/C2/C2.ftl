@@ -3,7 +3,7 @@
 
 <div class="clearfix"></div>
 
-<#include "../../banners/H3.ftl">
-<#include "../../banners/MH3.ftl">
+<#include "../../banners/home/desktop/HD-HL2.ftl">
+<#include "../../banners/home/mobile/HM-HS4.ftl">
 
 <div class="clearfix"></div>

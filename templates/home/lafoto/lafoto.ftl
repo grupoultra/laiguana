@@ -19,4 +19,4 @@
     </div>
 </div>
 
-<#include "../../banners/MH4.ftl">
+<#include "../../banners/home/mobile/HM-C2.ftl">
