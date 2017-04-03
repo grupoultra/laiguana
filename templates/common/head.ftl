@@ -8,21 +8,23 @@
 <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
 <meta name="apple-mobile-web-app-capable" content="yes">
 
-<script src="https://code.jquery.com/jquery-2.2.4.min.js?version=3.0"></script>
-<script src="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js?version=3.0"></script>
-<#--&lt;#&ndash;<script src="activos/assets/bower_components/modernizr/src/Modernizr.js?version=3.0"></script>&ndash;&gt;-->
+<#assign assets_version = "3.2">
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js?version=${assets_version}"></script>
+<script src="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js?version=${assets_version}"></script>
+<#--&lt;#&ndash;<script src="activos/assets/bower_components/modernizr/src/Modernizr.js?version=${assets_version}"></script>&ndash;&gt;-->
 
 <script async src="//as.ultramedios.sur.top/www/delivery/asyncjs.php"></script>
 
-<link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/css/bootstrap.min.css?version=4.0">
-<link rel="stylesheet" href="/activos/assets/bower_components/font-awesome/css/font-awesome.min.css?version=4.0">
+<link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/css/bootstrap.min.css?version=${assets_version}">
+<link rel="stylesheet" href="/activos/assets/bower_components/font-awesome/css/font-awesome.min.css?version=${assets_version}">
 <link rel="apple-touch-icon" href="/activos/assets/img/favicon/apple-touch-icon.png">
-<link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css?version=4.0">
-<link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css?version=4.0">
-<link rel="stylesheet" href="/activos/assets/styles/main.css?version=4.0">
+<link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css?version=${assets_version}">
+<link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css?version=${assets_version}">
+<link rel="stylesheet" href="/activos/assets/styles/main.css?version=${assets_version}">
 <link href="/activos/assets/img/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
-<script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js?version=2.0"></script>
+<script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js?version=${assets_version}"></script>
 
 <#--<!-- Start Alexa Certify Javascript &ndash;&gt;-->
 <script type="text/javascript">
@@ -33,8 +35,8 @@
 <!-- End Alexa Certify Javascript -->
 
 <#-- Clickio -->
-<script async type="text/javascript" src="//s.clickiocdn.com/t/pb205553.js?version=3.0"></script>
-<script async type="text/javascript" src="//s.clickiocdn.com/t/common_258.js?version=3.0"></script>
+<script async type="text/javascript" src="//s.clickiocdn.com/t/pb205553.js?version=${assets_version}"></script>
+<script async type="text/javascript" src="//s.clickiocdn.com/t/common_258.js?version=${assets_version}"></script>
 <#-- Clickio -->
 
 
