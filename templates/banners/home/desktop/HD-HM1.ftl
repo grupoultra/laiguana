@@ -1,8 +1,8 @@
 <div id="HD-HM1" class="margin-top-10 banner-c banner728x90 hidden-mobile">
     <script type="text/javascript"><!--
-    google_ad_client = "ca-pub-7363809219244122";
-    /* Laiguana.tv */
-    google_ad_slot = "9131118847";
+    google_ad_client = "ca-pub-4903453974745530";
+    /* laiguana.tv | web | 728X90 | */
+    google_ad_slot = "4200771186";
     google_ad_width = 728;
     google_ad_height = 90;
     //-->

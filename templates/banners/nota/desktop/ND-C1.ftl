@@ -1,8 +1,8 @@
 <div class="margin-top-10 banner banner300x250 hidden-mobile">
     <script type="text/javascript"><!--
-    google_ad_client = "ca-pub-7363809219244122";
-    /* Laiguana.tv */
-    google_ad_slot = "9131118847";
+    google_ad_client = "ca-pub-4903453974745530";
+    /* laiguana.tv | web | 300x250 | */
+    google_ad_slot = "5677479066";
     google_ad_width = 300;
     google_ad_height = 250;
     //-->
