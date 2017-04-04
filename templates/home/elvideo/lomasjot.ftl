@@ -1,4 +1,4 @@
-<div class="col-p h-normal hidden-mobile">
+<div class="lomasjot col-p h-normal hidden-mobile">
 	<div class="ucard h-normal stretch round-right clean no-border">
 		<img class="card-img-top" src="/activos/assets/img/lohot_header.png" alt="Lo + jot" >
 

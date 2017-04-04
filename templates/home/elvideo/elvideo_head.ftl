@@ -3,9 +3,11 @@
 <#include "jwplayer_id.ftl">
 
 <#if notas.getNota("lomasjot", elvideoindex).getYoutube()??>
-    <div class="lomasjot el-video margin-top-10">
+    <div class="el-video margin-top-10">
         <#include "elvideo.ftl">
-        <#include "lomasjot.ftl">
+        <#if desktop_template>
+            <#include "lomasjot.ftl">
+        </#if>
 
         <div class="clearfix"></div>
     </div>

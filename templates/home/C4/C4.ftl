@@ -1,5 +1,8 @@
 <#include "C4_left.ftl">
-<#include "C4_right.ftl">
+<#if desktop_template>
+    <#include "C4_right.ftl">
+</#if>
+
 
 <div class="clearfix"></div>
 

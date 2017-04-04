@@ -1,4 +1,9 @@
-<div class="col-g">
+<#if desktop_template>
+    <div class="col-g">
+<#else>
+    <div class="col-xs-12">
+</#if>
+
     <@listanotas "clavadas" 1 4 />
 
     <#include "../../banners/home/desktop/HD-HM1.ftl">

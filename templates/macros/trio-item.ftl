@@ -1,5 +1,5 @@
 <#macro trioItem lista nombre>
-<div class="ucard trio-item h-small round-left">
+<div class="trio-item round-left col-sm-4">
     <img class="card-img-top" src="/activos/assets/img/lo-mas-${nombre}_header.jpg" alt="lo-mas-${nombre}">
 
     <div class="trio-item-body" >
