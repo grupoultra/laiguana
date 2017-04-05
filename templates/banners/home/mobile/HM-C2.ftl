@@ -1,4 +1,4 @@
-<div id="HM-C2" class="margin-top-10 banner-c banner300x250 hidden-desktop">
+<div id="HM-C2" class="margin-top-10 banner-c banner300x250">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Rectangulares LI -->
     <ins class="adsbygoogle"

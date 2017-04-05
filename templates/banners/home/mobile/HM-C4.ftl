@@ -1,4 +1,4 @@
-<div id="HM-C4" class="margin-top-10 banner-c banner300x250 hidden-desktop">
+<div id="HM-C4" class="margin-top-10 banner-c banner300x250">
     <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
     <script>
         var googletag = googletag || {};

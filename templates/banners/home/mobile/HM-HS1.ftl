@@ -1,4 +1,4 @@
-<div id="HM-HS1" class="margin-top-10 margin-bottom-10 banner-c banner320x50 hidden-desktop">
+<div id="HM-HS1" class="margin-top-10 margin-bottom-10 banner-c banner320x50">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- 320x50 -->
     <ins class="adsbygoogle"

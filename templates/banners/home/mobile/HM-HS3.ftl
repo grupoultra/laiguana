@@ -1,4 +1,4 @@
-<div id="HM-HS3" class="margin-top-10 banner-c banner320x50 hidden-desktop">
+<div id="HM-HS3" class="margin-top-10 banner-c banner320x50">
     <script type="text/javascript"><!--
     google_ad_client = "ca-pub-7363809219244122";
     /* Laiguana.tv */
