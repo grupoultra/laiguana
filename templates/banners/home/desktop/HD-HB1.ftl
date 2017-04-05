@@ -1,4 +1,4 @@
-<div id="HD-HB1" class="banner-c banner970x250 hidden-mobile margin-top-10 margin-bottom-10">
+<div id="HD-HB1" class="banner-c banner970x250 margin-top-10 margin-bottom-10">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- HB-970x250 -->
     <ins class="adsbygoogle"

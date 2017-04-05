@@ -1,3 +1,3 @@
-<div id="HD-HM3" class="margin-top-10 banner-c banner728x90 hidden-mobile">
+<div id="HD-HM3" class="margin-top-10 banner-c banner728x90">
     <img src="http://placehold.it/728x90?text=HD-HM3-728x90">
 </div>
