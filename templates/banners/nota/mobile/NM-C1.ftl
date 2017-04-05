@@ -1,4 +1,4 @@
-<div class="margin-top-10 banner-c banner300x250 hidden-desktop">
+<div class="margin-top-10 banner-c banner300x250">
     <script type="text/javascript"><!--
     google_ad_client = "ca-pub-7363809219244122";
     /* Laiguana.tv */
