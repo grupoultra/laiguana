@@ -1,6 +1,13 @@
 <div id="HD-HL5" class="margin-top-10 banner-c banner970x90 hidden-mobile">
-    <script async type='text/javascript' src='//s.clickiocdn.com/t/common_258.js'></script>
-    <script class='__lxGc__' type='text/javascript'>
-        ((__lxGc__=window.__lxGc__||{'s':{},'b':0})['s']['_205553']=__lxGc__['s']['_205553']||{'b':{}})['b']['_605372']={'i':__lxGc__.b++};
+    <script type="text/javascript"><!--
+    google_ad_client = "ca-pub-4903453974745530";
+    /* laiguana.tv | web | 970x90 | */
+    google_ad_slot = "7154186946";
+    google_ad_width = 970;
+    google_ad_height = 90;
+    //-->
+    </script>
+    <script type="text/javascript"
+            src="//pagead2.googlesyndication.com/pagead/show_ads.js">
     </script>
 </div>
