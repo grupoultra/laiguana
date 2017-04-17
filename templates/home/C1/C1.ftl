@@ -1,8 +1,10 @@
-<#include "C1_left.ftl">
+<div class="layout-padded">
+    <#include "C1_left.ftl">
 
-<#if desktop_template>
-    <#include "C1_right.ftl">
-</#if>
+    <#if desktop_template>
+        <#include "C1_right.ftl">
+    </#if>
+</div>
 
 <div class="clearfix"></div>
 

@@ -1,6 +1,14 @@
+<#if desktop_template>
 <div class="col-g">
-    <#include "../banners/nota/desktop/ND-HM1.ftl">
-    <#include "../banners/nota/mobile/NM-HS2.ftl">
+<#else>
+<div class="col-xs-12">
+</#if>
+
+    <#if desktop_template>
+        <#include "../banners/nota/desktop/ND-HM1.ftl">
+    <#else>
+        <#include "../banners/nota/mobile/NM-HS2.ftl">
+    </#if>
 
     <div class="articulo ">
         <#if nota.getYoutube()??>
@@ -17,9 +25,9 @@
         ${nota.getContentHTML()}
 
     </div>
-
-    <#include "../banners/nota/mobile/NM-C1.ftl">
-    <#include "../banners/nota/desktop/ND-HM2.ftl">
+    <#if mobile_template>
+        <#include "../banners/nota/mobile/NM-C1.ftl">
+    </#if>
 
     <#include "./comentarios.ftl">
 </div>

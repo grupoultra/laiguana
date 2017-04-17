@@ -1,4 +1,4 @@
-<div class="list-news-card single-size lomaspolemico hidden-mobile margin-top-10">
+<div class="list-news-card single-size lomaspolemico margin-top-10">
     <img class="card-img-top" src="/activos/assets/img/lomaspolemico_header_223X33.jpg" alt="Lo + Polémico">
 
     <ul class="list-group list-group-flush" style="background-color: white">

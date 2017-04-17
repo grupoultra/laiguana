@@ -45,7 +45,13 @@
     .ucard
         margin-right: 0px
     @media (max-width: $desktop-break)
-        width: 95%
+        width: 100%
+        margin-left: 0
+        &>*
+            +width-percent-pixels(50%, 10px)
+            float: left
+            margin-right: 10px
+
 .col-alta
     height: 556px
 

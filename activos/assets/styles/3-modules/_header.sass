@@ -4,7 +4,7 @@
     height: 170px
     #titlelink
         position: relative
-        float: left
+        //float: left
         display: block
         z-index: 10
         top: 0px
@@ -13,9 +13,17 @@
         height: 170px
         background-color: transparent
     .social-box
-        bottom: -80px
-        left: 200px
-        margin-bottom: 10px
+        bottom: -65px
+        @media (max-width: 992px)
+            bottom: -40px
+
+        .social-nav
+            float: right
+        .twitter-follow-button
+            margin-bottom: 10px
+            width: 100%
+            display: block
+            float: right
 .mobile-header
     margin-bottom: 10px
     background-color: #be1e2d
@@ -25,6 +33,14 @@
     padding-bottom: 5px
 .search-box
     bottom: -112px
-    left: 30px
+    @media (max-width: 992px)
+        bottom: 40px
+    //left: 30px
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
     font-size: 14px
+    form
+        width: 100%
+        div
+            width: 100%
+            input[name="q"]
+                width: 100%
