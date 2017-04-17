@@ -1,4 +1,4 @@
-<div id="HD-HL5" class="margin-top-10 banner-c banner970x90 hidden-mobile">
+<div id="HD-HL5" class="banner margin-top-10 banner-c banner970x90 hidden-mobile">
     <script type="text/javascript"><!--
     google_ad_client = "ca-pub-4903453974745530";
     /* laiguana.tv | web | 970x90 | */
