@@ -1,4 +1,4 @@
-<div id="HD-V1" class="margin-top-10 banner300x600 hidden-mobile">
+<div id="HD-V1" class="banner margin-top-10 banner300x600 hidden-mobile">
     <#--<#include "../../../common/noticiaspatrocinadas.ftl">-->
 
         <div id='div-gpt-ad-1490033906025-0' style='height:600px; width:300px;'>
