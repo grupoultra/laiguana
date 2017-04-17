@@ -1,4 +1,4 @@
-<div id="HD-C3" class="margin-top-10 banner banner300x250 hidden-mobile">
+<div id="HD-C3" class="banner margin-top-10 banner banner300x250 hidden-mobile">
     <script type="text/javascript"><!--
     google_ad_client = "ca-pub-4903453974745530";
     /* laiguana.tv | web | 300x250 | */
