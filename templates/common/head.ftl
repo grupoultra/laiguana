@@ -8,7 +8,7 @@
 <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
 <meta name="apple-mobile-web-app-capable" content="yes">
 
-<#assign assets_version = "3.4">
+<#assign assets_version = "3.5">
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js?version=${assets_version}"></script>
 <script src="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js?version=${assets_version}"></script>
