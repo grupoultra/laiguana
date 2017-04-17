@@ -1,3 +1,5 @@
+<#assign assets_version = "4.0">
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -7,8 +9,6 @@
 <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
 <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
 <meta name="apple-mobile-web-app-capable" content="yes">
-
-<#assign assets_version = "3.5">
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js?version=${assets_version}"></script>
 <script src="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js?version=${assets_version}"></script>
