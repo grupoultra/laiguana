@@ -1,4 +1,4 @@
-<div class="margin-top-10 banner banner300x250">
+<div id="ND-C1" class="margin-top-10 banner banner300x250">
     <script type="text/javascript"><!--
     google_ad_client = "ca-pub-7363809219244122";
     /* Laiguana.tv */
