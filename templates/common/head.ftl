@@ -23,6 +23,9 @@
 <link rel="apple-touch-icon" href="/activos/assets/img/favicon/apple-touch-icon.png">
 <link href="/activos/assets/img/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
+<link rel="shortcut icon" href="/activos/assets/img/favicon/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="/activos/assets/img/favicon/favicon.ico" type="image/x-icon" /> 
+
 <link href="/activos/assets/img/favicon/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
 <link href="/activos/assets/img/favicon/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
 <link href="/activos/assets/img/favicon/apple-touch-icon-167x167.jpg" rel="apple-touch-icon" sizes="167x167" />
@@ -33,6 +36,9 @@
 <link href="/activos/assets/img/favicon/apple-touch-icon-40x40.jpg.png" rel="apple-touch-icon" sizes="40x40" />
 <link href="/activos/assets/img/favicon/favicon-192x192.png" rel="icon" sizes="192x192" />
 <link href="/activos/assets/img/favicon/favicon-128x128.png" rel="icon" sizes="128x128" />
+
+<link rel="apple-touch-icon" sizes="72x72" href="/activos/assets/img/favicon/apple-touch-icon-72x72.jpg" />
+<link rel="apple-touch-icon" sizes="114x114" href="/activos/assets/img/favicon/apple-touch-icon-114x114.png" />
 
 <#-- Favicons -->
 
