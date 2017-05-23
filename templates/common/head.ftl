@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name=“uversion" content="${notas.getCMSVersion()}">
-<meta http-equiv="Cache-Control" content="max-age=200" />
+<#-- <meta http-equiv="Cache-Control" content="max-age=200" /> -->
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
 <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
