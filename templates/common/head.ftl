@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name=“uversion" content="${notas.getCMSVersion()}">
-<#-- <meta http-equiv="Cache-Control" content="max-age=200" /> -->
+<meta http-equiv="Cache-Control" content="max-age=200" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" />
 <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" />
@@ -18,11 +18,27 @@
 
 <link rel="stylesheet" href="/activos/assets/bower_components/bootstrap/dist/css/bootstrap.min.css?version=${assets_version}">
 <link rel="stylesheet" href="/activos/assets/bower_components/font-awesome/css/font-awesome.min.css?version=${assets_version}">
+
+<#-- Favicons -->
 <link rel="apple-touch-icon" href="/activos/assets/img/favicon/apple-touch-icon.png">
+<link href="/activos/assets/img/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+<link href="/activos/assets/img/favicon/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
+<link href="/activos/assets/img/favicon/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="/activos/assets/img/favicon/apple-touch-icon-167x167.jpg" rel="apple-touch-icon" sizes="167x167" />
+<link href="/activos/assets/img/favicon/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="/activos/assets/img/favicon/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="/activos/assets/img/favicon/apple-touch-icon-80x80.jpg" rel="apple-touch-icon" sizes="80x80" />
+<link href="/activos/assets/img/favicon/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="/activos/assets/img/favicon/apple-touch-icon-40x40.jpg.png" rel="apple-touch-icon" sizes="40x40" />
+<link href="/activos/assets/img/favicon/favicon-192x192.png" rel="icon" sizes="192x192" />
+<link href="/activos/assets/img/favicon/favicon-128x128.png" rel="icon" sizes="128x128" />
+
+<#-- Favicons -->
+
 <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css?version=${assets_version}">
 <link rel="stylesheet" href="/activos/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.default.min.css?version=${assets_version}">
 <link rel="stylesheet" href="/activos/assets/styles/main.css?version=${assets_version}">
-<link href="/activos/assets/img/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
 <script src="/activos/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js?version=${assets_version}"></script>
 
