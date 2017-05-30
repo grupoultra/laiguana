@@ -7,6 +7,6 @@
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script> -->
-        <img src="http://activos.laiguana.tv/images/ads/n320x50.png" width="320px" height="50px" />
+    <img src="http://activos.laiguana.tv/images/ads/n320x50.png" width="320px" height="50px" />
 
 </div>
