@@ -1,6 +1,6 @@
 <div class="row mobile-header">
     <a href="/">
-        <img class=img-responsive" src="/activos/assets/img/li_mobile_head.png" style="width: 50%; height: auto;">
+        <img src="/activos/assets/img/li_mobile_head.png" style="width: 50%; height: auto;">
     </a>
 </div>
 
