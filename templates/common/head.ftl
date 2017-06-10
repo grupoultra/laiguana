@@ -1,4 +1,4 @@
-<#assign assets_version = "1.3">
+<#assign assets_version = "2.4">
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
