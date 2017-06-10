@@ -1,6 +1,6 @@
 <div class="row mobile-header">
     <a href="/">
-        <img src="/activos/assets/img/li_mobile_head.png" style="width: 50%; height: auto;">
+        <img src="/activos/assets/img/li_mobile_head.png" style="width: 50%; height: auto;" alt="La Iguana">
     </a>
 </div>
 
