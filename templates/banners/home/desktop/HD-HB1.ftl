@@ -1,4 +1,5 @@
 <div id="HD-HB1" class="banner banner-c banner970x250 hidden-mobile margin-top-10 margin-bottom-10">
+    <#if enableHDHB1 && enableBanners>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- HB-970x250 -->
     <ins class="adsbygoogle"
@@ -8,4 +9,7 @@
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+    <#else>
+        <img src="http://activos.laiguana.tv/images/ads/n970x250.png" width="970px" height="250px" />
+    </#if>  
 </div>

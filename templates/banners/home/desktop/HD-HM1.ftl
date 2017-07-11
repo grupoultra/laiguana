@@ -1,5 +1,5 @@
 <div id="HD-HM1" class="banner margin-top-10 banner-c banner728x90 hidden-mobile">
-<!--
+    <#if enableHDHM1 && enableBanners>
     <script type="text/javascript">
 
     google_ad_client = "ca-pub-4903453974745530";
@@ -12,8 +12,8 @@
     <script type="text/javascript"
             src="//pagead2.googlesyndication.com/pagead/show_ads.js">
     </script>
-
--->
-    <img src="http://activos.laiguana.tv/images/ads/Home-H1.gif" width="728px" height="90px" />
+    <#else>
+        <img src="http://activos.laiguana.tv/images/ads/n728x90.png" width="728px" height="90px" />
+    </#if>  
 </div>
 
