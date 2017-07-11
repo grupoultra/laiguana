@@ -16,7 +16,7 @@
 <#assign enableHDHM2 =  false >
 <#assign enableHDHM3 =  false >
 <#assign enableHDHM4 =  false >
-<#assign enableHDV1 =  false >
+<#assign enableHDV1 =  true >
 <#assign enableHDV2 =  false >
 <#assign enableHDV3 =  false >
 <#assign enableHDV4 =  false >
@@ -41,7 +41,7 @@
 <#assign enableNDHM1 =  false >
 <#assign enableNDHM2 =  false >
 <#assign enableNDN1 =  false >
-<#assign enableNDV1 =  false >
+<#assign enableNDV1 =  true >
 
 <#-- Nota Mobile -->
 <#assign enableNMC1 =  false >
