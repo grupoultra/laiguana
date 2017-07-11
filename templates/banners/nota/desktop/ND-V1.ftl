@@ -5,6 +5,6 @@
     ((__lxGc__=window.__lxGc__||{'s':{},'b':0})['s']['_205553']=__lxGc__['s']['_205553']||{'b':{}})['b']['_611819']={'i':__lxGc__.b++};
     </script>
     <#else>
-        <img src="http://activos.laiguana.tv/images/ads/n300x600.png" width="300px" height="600px" />
+        <img src="http://activos.laiguana.tv/images/ads/n300x600.gif" width="300px" height="600px" />
     </#if> 
 </div>
