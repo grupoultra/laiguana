@@ -1,54 +1,54 @@
 <#assign enableBanners =  true >
 
 <#-- Home Desktop -->
-<#assign enableHDC1 =  false >
-<#assign enableHDC2 =  false >
-<#assign enableHDC3 =  false >
-<#assign enableHDHB1 =  false >
-<#assign enableHDHB2 =  false >
-<#assign enableHDHB3 =  false >
-<#assign enableHDHL1 =  false >
-<#assign enableHDHL2 =  false >
-<#assign enableHDHL3 =  false >
-<#assign enableHDHL4 =  false >
-<#assign enableHDHL5 =  false >
-<#assign enableHDHM1 =  false >
-<#assign enableHDHM2 =  false >
-<#assign enableHDHM3 =  false >
-<#assign enableHDHM4 =  false >
+<#assign enableHDC1 =  true >
+<#assign enableHDC2 =  true >
+<#assign enableHDC3 =  true >
+<#assign enableHDHB1 =  true >
+<#assign enableHDHB2 =  true >
+<#assign enableHDHB3 =  true >
+<#assign enableHDHL1 =  true >
+<#assign enableHDHL2 =  true >
+<#assign enableHDHL3 =  true >
+<#assign enableHDHL4 =  true >
+<#assign enableHDHL5 =  true >
+<#assign enableHDHM1 =  true >
+<#assign enableHDHM2 =  true >
+<#assign enableHDHM3 =  true >
+<#assign enableHDHM4 =  true >
 <#assign enableHDV1 =  true >
-<#assign enableHDV2 =  false >
-<#assign enableHDV3 =  false >
-<#assign enableHDV4 =  false >
+<#assign enableHDV2 =  true >
+<#assign enableHDV3 =  true >
+<#assign enableHDV4 =  true >
 
 <#-- Home Mobile -->
-<#assign enableHMC1 =  false >
-<#assign enableHMC2 =  false >
-<#assign enableHMC3 =  false >
-<#assign enableHMC4 =  false >
-<#assign enableHMHS1 =  false >
-<#assign enableHMHS2 =  false >
-<#assign enableHMHS3 =  false >
-<#assign enableHMHS4 =  false >
-<#assign enableHMHS5 =  false >
-<#assign enableHMHS6 =  false >
-<#assign enableHMHS7 =  false >
+<#assign enableHMC1 =  true >
+<#assign enableHMC2 =  true >
+<#assign enableHMC3 =  true >
+<#assign enableHMC4 =  true >
+<#assign enableHMHS1 =  true >
+<#assign enableHMHS2 =  true >
+<#assign enableHMHS3 =  true >
+<#assign enableHMHS4 =  true >
+<#assign enableHMHS5 =  true >
+<#assign enableHMHS6 =  true >
+<#assign enableHMHS7 =  true >
 
 <#-- Nota Desktop -->
-<#assign enableNDC1 =  false >
-<#assign enableNDHB1 =  false >
-<#assign enableNDHL1 =  false >
-<#assign enableNDHM1 =  false >
-<#assign enableNDHM2 =  false >
-<#assign enableNDN1 =  false >
+<#assign enableNDC1 =  true >
+<#assign enableNDHB1 =  true >
+<#assign enableNDHL1 =  true >
+<#assign enableNDHM1 =  true >
+<#assign enableNDHM2 =  true >
+<#assign enableNDN1 =  true >
 <#assign enableNDV1 =  true >
 
 <#-- Nota Mobile -->
-<#assign enableNMC1 =  false >
-<#assign enableNMC2 =  false >
-<#assign enableNMC3 =  false >
-<#assign enableNMC3 =  false >
-<#assign enableNMHS1 =  false >
-<#assign enableNMHS2 =  false >
-<#assign enableNMHS3 =  false >
-<#assign enableNMN1 =  false >
+<#assign enableNMC1 =  true >
+<#assign enableNMC2 =  true >
+<#assign enableNMC3 =  true >
+<#assign enableNMC3 =  true >
+<#assign enableNMHS1 =  true >
+<#assign enableNMHS2 =  true >
+<#assign enableNMHS3 =  true >
+<#assign enableNMN1 =  true >
