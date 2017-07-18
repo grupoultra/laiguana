@@ -1,4 +1,4 @@
-<#--  <div id="HM-C1" class="banner margin-top-10 banner-c banner300x250 hidden-desktop">
+ <div id="HM-C1" class="banner margin-top-10 banner-c banner300x250 hidden-desktop">
     <#if enableHMC1 && enableBanners>
     <script async type='text/javascript' src='//s.clickiocdn.com/t/common_258.js'></script>
     <script class='__lxGc__' type='text/javascript'>
@@ -7,4 +7,4 @@
     <#else>
         <img src="http://activos.laiguana.tv/images/ads/n300x250.png" width="300px" height="250px" />
     </#if>
-</div>  -->
+</div> 
