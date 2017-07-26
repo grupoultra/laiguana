@@ -4,7 +4,6 @@
         <script class='__lxGc__' type='text/javascript'>
         ((__lxGc__=window.__lxGc__||{'s':{},'b':0})['s']['_205553']=__lxGc__['s']['_205553']||{'b':{}})['b']['_607774']={'i':__lxGc__.b++};
         </script>
-    <img src="http://activos.laiguana.tv/images/ads/SI3-728x90.gif" width="728px" height="90px"  alt="Publicidad LI"/>
     <#else>
         <img src="http://activos.laiguana.tv/images/ads/n728x90.png" width="728px" height="90px" />
     </#if>
