@@ -32,6 +32,8 @@
     <#include "./templates/macros/DFP/dfpIII.ftl">
 
     <div id="white-container" class="container">
+        <#include "templates/banners/bannersvars.ftl">
+
         <#include "templates/banners/nota/desktop/ND-HB1.ftl">
         <#include "templates/banners/nota/mobile/NM-HS1.ftl">
         <#include "./templates/common/header.ftl">

@@ -1,4 +1,5 @@
 <div id="HM-C4" class="banner margin-top-10 banner-c banner300x250 hidden-desktop">
+    <#if enableHMC4 && enableBanners>
     <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
     <script>
         var googletag = googletag || {};
@@ -17,4 +18,7 @@
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489765546241-0'); });
         </script>
     </div>
+    <#else>
+        <img src="http://activos.laiguana.tv/images/ads/n300x250.png" width="300px" height="250px" />
+    </#if> 
 </div>

@@ -18,6 +18,7 @@
             </div>
             <div class="col-xs-6 col-md-2">
                 <a class="twitter-shar-button" href="https://twitter.com/intent/tweet?text=${nota.getTitulo()?replace("'","")?replace("%"," por ciento")?replace("#","")?replace("$","USD")?replace("&","y")} http://laiguana.tv${nota.getPath()} @la_iguanatv">
+                    Compartir via twitter
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
