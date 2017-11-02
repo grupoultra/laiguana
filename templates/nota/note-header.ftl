@@ -8,8 +8,14 @@
 
     <div class="articulo-barra">
         <div class="row">
-            <div class="col-xs-12 col-md-4 text-center">
+            <div class="col-xs-12 col-md-2 text-center">
                 ${nota.getCreationDateString()}
+            </div>
+
+            <div class="col-xs-6 col-md-2">
+                <a href="whatsapp://send?text=${nota.getTitulo()} – http://laiguana.tv${nota.getPath()}" data-action="share/whatsapp/share" rel="nofollow">
+                    <img class="img-responsive" src="http://caraotadigital.net/wp-content/uploads/2016/10/whatsapp-comp-caraota-f.gif">
+                </a>
             </div>
 
             <div class="col-xs-6 col-md-2">
