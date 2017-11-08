@@ -36,6 +36,8 @@
 
         <#include "templates/banners/nota/desktop/ND-HB1.ftl">
         <#include "templates/banners/nota/mobile/NM-HS1.ftl">
+        <#include "templates/home/marquee.ftl">
+
         <#include "./templates/common/header.ftl">
 
         <#include "./templates/common/menu-principal.ftl">
