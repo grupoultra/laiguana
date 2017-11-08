@@ -6,7 +6,7 @@
 
     <#list notas.getLista("restantes") as nota>
       ${nota.getTitulo(100)} 
-      <span> | </span>
+      <span class="separator"> | </span>
     </#list>
 
   </div>
