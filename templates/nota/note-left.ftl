@@ -16,7 +16,7 @@
 
         <div class="col-xs-6">
             <a href="whatsapp://send?text=${nota.getTitulo()} – http://laiguana.tv${nota.getPath()}" data-action="share/whatsapp/share" rel="nofollow">
-                <img class="img-responsive" src="http://caraotadigital.net/wp-content/uploads/2016/10/whatsapp-comp-caraota-f.gif">
+                <img class="img-responsive" src="/activos/assets/img/boton320x50.png">
             </a>
         </div>
         
