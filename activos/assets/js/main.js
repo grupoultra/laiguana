@@ -64,6 +64,23 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $(".owl-carousel-television").owlCarousel({
+        autoplay: true,
+        items: 1,
+        autoplayTimeout:5000,
+        autoplayHoverPause: true,
+        dotsEach: true,
+        nav: true,
+        navText: [
+            "<i class='icon-chevron-left icon-white'><</i>",
+            "<i class='icon-chevron-right icon-white'>></i>"
+        ],
+        loop: true,
+        dots: false
+    });
+});
+
 function share(platform, link, text){
 
     // FB.ui({
