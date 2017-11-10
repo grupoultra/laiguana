@@ -1,6 +1,6 @@
 <div class="marquee-section row">
   <span class="title col-xs-2">
-    última hora
+    #LoÚltimo
   </span>
   <div class="marquee col-xs-10">
 
