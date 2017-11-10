@@ -2,7 +2,7 @@
     <#include "../banners/nota/desktop/ND-HM1.ftl">
     <#include "../banners/nota/mobile/NM-HS2.ftl">
 
-    <div class="articulo ">
+    <div class="articulo clearfix">
         <#if nota.getYoutube()??>
             <div class="embed-responsive embed-responsive-16by9">
 
@@ -14,13 +14,13 @@
 
         </#if>
 
-        <div class="col-xs-6">
-            <a href="whatsapp://send?text=${nota.getTitulo()} – http://laiguana.tv${nota.getPath()}" data-action="share/whatsapp/share" rel="nofollow">
-                <img class="img-responsive" src="/activos/assets/img/boton320x50.png">
-            </a>
-        </div>
+        <#include "./whatsapp-share.ftl">        
         
         ${nota.getContentHTML()}
+
+        <#include "./whatsapp-share.ftl">
+        
+
 
     </div>
 
