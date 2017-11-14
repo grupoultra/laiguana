@@ -38,7 +38,7 @@
         <#include "templates/banners/nota/mobile/NM-HS1.ftl">
         <#include "templates/home/marquee.ftl">
 
-        <#include "./templates/common/header.ftl">
+        <#include "./templates/common/header/header.ftl">
 
         <#include "./templates/common/menu-principal.ftl">
 
@@ -55,7 +55,7 @@
 
     </div> <!-- //main-container -->
 
-    <#include "./templates/common/footer.ftl">
+<#include "./templates/common/footer.ftl">
 
     <script>window.twttr = (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0],
