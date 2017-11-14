@@ -1,6 +1,6 @@
 <#macro trioItem lista nombre>
 <div class="ucard trio-item h-small round-left">
-    <img class="card-img-top" src="/activos/assets/img/lo-mas-${nombre}_header.jpg" alt="lo-mas-${nombre}">
+    <img class="card-img-top" src="/activos/assets/img/lo-mas-${nombre}_header.png" alt="lo-mas-${nombre}">
 
     <div class="trio-item-body" >
         <ul class="list-group list-group-flush">

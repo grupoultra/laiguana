@@ -3,7 +3,7 @@
 
     <div class="lafoto-titulo">
         <div class="col-xs-2 clean">
-            <img src="/activos/assets/img/lafoto_title.png" alt="La foto"
+            <img src="/activos/assets/img/lafoto_title.jpg" alt="La foto"
 				 class="img-responsive lafoto-etiqueta">
         </div>
 

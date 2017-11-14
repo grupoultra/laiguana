@@ -1,6 +1,6 @@
 <div class="col-p h-normal hidden-mobile">
 	<div class="ucard h-normal stretch round-right clean no-border">
-		<img class="card-img-top" src="/activos/assets/img/lohot_header.png" alt="Lo + jot" >
+		<img class="card-img-top" src="/activos/assets/img/lohot_header.jpg" alt="Lo + jot" >
 
 		<ul class="orange-border list-group list-group-flush" style="padding-top: 5px; margin-bottom: 0px; height: 421px;">
         <#list 2..4 as x>

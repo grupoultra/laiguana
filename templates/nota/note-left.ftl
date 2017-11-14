@@ -2,7 +2,7 @@
     <#include "../banners/nota/desktop/ND-HM1.ftl">
     <#include "../banners/nota/mobile/NM-HS2.ftl">
 
-    <div class="articulo ">
+    <div class="articulo clearfix">
         <#if nota.getYoutube()??>
             <div class="embed-responsive embed-responsive-16by9">
 
@@ -14,7 +14,13 @@
 
         </#if>
 
+        <#include "./whatsapp-share.ftl">        
+        
         ${nota.getContentHTML()}
+
+        <#include "./whatsapp-share.ftl">
+        
+
 
     </div>
 
