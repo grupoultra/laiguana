@@ -1,4 +1,4 @@
-<#assign assets_version = "4.1">
+<#assign assets_version = "4.0">
 
 <script src="/activos/assets/bower_components/jquery.marquee/jquery.marquee.min.js?version=${assets_version}"></script> 
 <script src="/activos/assets/js/plugins.js?version=${assets_version}"></script>
