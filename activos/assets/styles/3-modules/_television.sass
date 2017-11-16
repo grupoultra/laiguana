@@ -1,0 +1,14 @@
+.television
+  margin-top: 10px
+  .owl-carousel-television
+    padding-top: 0px
+    overflow: hidden
+    @media (min-width: $desktop-break)
+      height: $destacados-container-height
+      min-height: $destacados-container-height
+      max-height: $destacados-container-height
+    @media (max-width: $desktop-break)
+      height: auto
+    +carousels-buttons
+  .list-videos
+    margin-top: 15px
