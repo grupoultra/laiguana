@@ -1,6 +1,6 @@
 <div class="col-p hidden-mobile">
-	<div class="orange-border round-right vstretch">
-		<img class="card-img-top" src="/activos/assets/img/iguant_header.png" alt="Iguanazos Anteriores" style="width: 100%">
+	<div class="orange-border vstretch">
+		<img class="card-img-top" src="/activos/assets/img/iguant_header.jpg" alt="Iguanazos Anteriores" style="width: 100%">
 
     <#list 2..4 as pos>
 		<div class="iguanant">
