@@ -25,7 +25,7 @@
     </a>
   </li>  
   <li>
-    <a class="pinterest" target="_blank" title="Google Plus" href="https://plus.google.com/112720298192589737708">
+    <a class="googleplus" target="_blank" title="Google Plus" href="https://plus.google.com/112720298192589737708">
       <i class="fa fa-google-plus"></i>
       Google Plus
     </a>
