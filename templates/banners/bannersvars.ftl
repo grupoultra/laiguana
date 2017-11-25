@@ -42,6 +42,7 @@
 <#assign enableNDHM2 =  true >
 <#assign enableNDN1 =  true >
 <#assign enableNDV1 =  true >
+<#assign enableNDNV1 =  true >
 
 <#-- Nota Mobile -->
 <#assign enableNMC1 =  true >
