@@ -98,7 +98,6 @@ function setCookie(cname, cvalue, exminutes, session) {
 function cookieValid(cname) {
     return getCookie(cname) != ""
 }
-<<<<<<< HEAD
 
 function getCookie(cname) {
     var name = cname + "=";
@@ -121,30 +120,6 @@ for(i=0;i<divs.length;i++) {
     if(wordCount(divs[i].innerHTML) > wordsLimit){
         divs[i].innerHTML = joinEllipsis(sliceWords(getWords(divs[i].innerHTML)));
     }
-=======
-
-function getCookie(cname) {
-    var name = cname + "=";
-    var ca = document.cookie.split(';');
-
-    for(var i = 0; i <ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0)==' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length,c.length);
-        }
-    }
-    return "";
-}
-
-
-for(i=0;i<divs.length;i++) {
-    if(wordCount(divs[i].innerHTML) > wordsLimit){
-        divs[i].innerHTML = joinEllipsis(sliceWords(getWords(divs[i].innerHTML)));
-    }
->>>>>>> dbd25dccd7cf615a876bd9018391b10d6476368b
 }
 
 $(document).ready(function(){
@@ -200,54 +175,44 @@ $(document).ready(function(){
     });
 });
 
-$(window).load(function(){
-    var enableSplash = false;
+// $(window).load(function(){
+//     var enableSplash = false;
 
-    // splashCookie se configura con un valor para no mostrar el splash con showSplashCookieExpiracy de tiempo de expiracion
-    var showSplashCookieExpiracy = 30;
+//     // splashCookie se configura con un valor para no mostrar el splash con showSplashCookieExpiracy de tiempo de expiracion
+//     var showSplashCookieExpiracy = 30;
 
-    if (!cookieValid("showSplash")){
-        console.log("showSplash Cookie is not set");
+//     if (!cookieValid("showSplash")){
+//         console.log("showSplash Cookie is not set");
 
-        // if (true) {
-        if (!cookieValid("sessionSplash")) {
-            console.log("sessionSplash Cookie is not set");
+//         // if (true) {
+//         if (!cookieValid("sessionSplash")) {
+//             console.log("sessionSplash Cookie is not set");
 
-            if (enableSplash && $(window).width() > 992) {
-                // el argumento del model recibe 'show' para ser mostrado y 'hide' para ocultarlo
-                $('#splashBanner').modal('show');
-                window.setTimeout(function () {
-                    $('#splashBanner').modal('hide');
-                }, 1000 * 10);
-            }
+//             if (enableSplash && $(window).width() > 992) {
+//                 // el argumento del model recibe 'show' para ser mostrado y 'hide' para ocultarlo
+//                 $('#splashBanner').modal('show');
+//                 window.setTimeout(function () {
+//                     $('#splashBanner').modal('hide');
+//                 }, 1000 * 10);
+//             }
 
-            setCookie("showSplash", 1, showSplashCookieExpiracy, false);
-            setCookie("sessionSplash", 1, showSplashCookieExpiracy, true);
-        } else {
-            console.log("sessionSplash Cookie is set, not showing the splash");
-        }
-    } else {
-        console.log("showSplash Cookie is set, not showing the splash");
-    }
-});
+//             setCookie("showSplash", 1, showSplashCookieExpiracy, false);
+//             setCookie("sessionSplash", 1, showSplashCookieExpiracy, true);
+//         } else {
+//             console.log("sessionSplash Cookie is set, not showing the splash");
+//         }
+//     } else {
+//         console.log("showSplash Cookie is set, not showing the splash");
+//     }
+// });
 
-<<<<<<< e9d655a2c2cf334987dd9922a64232ba8b1bcb8d
 $('.marquee').marquee({
     pauseOnHover: true,
     duration: 10000,  
     startVisible: false
 });
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> dbd25dccd7cf615a876bd9018391b10d6476368b
 const twitterButton = document.querySelector('.twitter-shar-button');
 
 if(twitterButton){
     twitterButton.innerHTML ='<img src="/activos/assets/img/tw-share-tag.png" alt="La Iguana Twitter" />';
 }
-<<<<<<< HEAD
->>>>>>> Refactoring
-=======
->>>>>>> dbd25dccd7cf615a876bd9018391b10d6476368b
