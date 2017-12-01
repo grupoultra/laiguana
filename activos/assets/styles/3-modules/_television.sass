@@ -1,34 +1,67 @@
 .television
   background-color: white
-  padding: 15px
-  margin: 0 auto
-  img
-    width: 100%
-  .col-xs-12
+  padding: 15px 0
+  .img-header
     img
-      margin-bottom: 15px
-    .owl-carousel
-      .owl-controls
-        width: 100%
-        .owl-nav
-          .owl-prev
-            position: absolute
-            left: 15px
-          .owl-next
-            position: absolute
-            right: 15px
-  .col-xs-4
-    img
-      margin-bottom: 13px
-  .owl-carousel-television
-    padding-top: 0px
-    overflow: hidden
-    @media (min-width: $desktop-break)
-      height: $destacados-container-height
-      min-height: $destacados-container-height
-      max-height: $destacados-container-height
-    @media (max-width: $desktop-break)
-      height: auto
-    +carousels-buttons
-  .list-videos
-    margin-top: 15px
+      width: 100%
+  .player
+    margin-bottom: 1vw
+  
+    // height: 450px
+    .wrapper
+      background-color: #eee
+    // iframe
+    //   height: 100%
+    //   width: 100%
+
+  .related
+    margin-bottom: 15px
+    height: 35vw
+    overflow-y: scroll
+    overflow-x: hidden
+    .video-item > .image
+      padding-right: 0
+      padding-left: 1vh
+      margin
+    &::-webkit-scrollbar-track
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+      border-radius: 10px
+      background-color: #F5F5F5
+    &::-webkit-scrollbar
+      width: 6px
+      background-color: #F5F5F5
+    &::-webkit-scrollbar-thumb
+      border-radius: 10px
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3)
+      background-color: #D62929
+    .video-item
+      min-height: 8vw
+      background-color: #eee
+      margin: 1vw 0
+      display: flex
+      align-items: center
+      p
+        font-size: 1vw
+      &:hover 
+        cursor: pointer
+
+  .playlists
+    .oc-television
+      +carousels-buttons
+    .wrapper
+      min-height: 21vw
+      height: 21vw
+      padding-right: 1vw
+      font-size: 1vw
+      position: relative
+      cursor: pointer
+      .playlist-item
+      .overlay
+        background-color: #eee
+        position: absolute
+        bottom: 1vw
+        padding: 1vw
+        line-height: 1
+        width: 70%
+        p
+          margin: 0
