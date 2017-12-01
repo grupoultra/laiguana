@@ -98,6 +98,7 @@ function setCookie(cname, cvalue, exminutes, session) {
 function cookieValid(cname) {
     return getCookie(cname) != ""
 }
+<<<<<<< HEAD
 
 function getCookie(cname) {
     var name = cname + "=";
@@ -120,6 +121,30 @@ for(i=0;i<divs.length;i++) {
     if(wordCount(divs[i].innerHTML) > wordsLimit){
         divs[i].innerHTML = joinEllipsis(sliceWords(getWords(divs[i].innerHTML)));
     }
+=======
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length,c.length);
+        }
+    }
+    return "";
+}
+
+
+for(i=0;i<divs.length;i++) {
+    if(wordCount(divs[i].innerHTML) > wordsLimit){
+        divs[i].innerHTML = joinEllipsis(sliceWords(getWords(divs[i].innerHTML)));
+    }
+>>>>>>> dbd25dccd7cf615a876bd9018391b10d6476368b
 }
 
 $(document).ready(function(){
@@ -212,10 +237,17 @@ $('.marquee').marquee({
     duration: 10000,  
     startVisible: false
 });
+<<<<<<< HEAD
 =======
+=======
+
+>>>>>>> dbd25dccd7cf615a876bd9018391b10d6476368b
 const twitterButton = document.querySelector('.twitter-shar-button');
 
 if(twitterButton){
     twitterButton.innerHTML ='<img src="/activos/assets/img/tw-share-tag.png" alt="La Iguana Twitter" />';
 }
+<<<<<<< HEAD
 >>>>>>> Refactoring
+=======
+>>>>>>> dbd25dccd7cf615a876bd9018391b10d6476368b
