@@ -1,7 +1,7 @@
 <div class="col-g">
     <@listanotas "clavadas" 1 4 />
 
-    <#include "../../banners/home/desktop/HD-N2.ftl">
+    <#include "../../banners/home/desktop/HD-N1.ftl">
     <#include "../../banners/home/mobile/HM-HS2.ftl">
 </div>
 <div class="col-p">
