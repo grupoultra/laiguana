@@ -76,17 +76,10 @@
   })();</script>  
 <!-- END FIRSTIMPRESSION TAG --> 
 
-<<<<<<< HEAD
-<!-- EMBI-MEDIA -->
-<script type="text/javascript">
-  window._taboola = window._taboola || [];
-  _taboola.push({article:'auto'});
-=======
 <#--  Publicidad nativa en el home  -->
 <script type="text/javascript">
   window._taboola = window._taboola || [];
   _taboola.push({home:'auto'});
->>>>>>> @{-1}
   !function (e, f, u, i) {
     if (!document.getElementById(i)){
       e.async = 1;
@@ -101,11 +94,7 @@
   if(window.performance && typeof window.performance.mark == 'function')
     {window.performance.mark('tbl_ic');}
 </script>
-<<<<<<< HEAD
-<!-- EMBI-MEDIA -->
-=======
 
 
 
 <#--  Publicidad nativa en el home  -->
->>>>>>> @{-1}
