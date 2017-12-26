@@ -5,7 +5,7 @@
   <div class="marquee col-xs-10">
 
     <#list notas.getLista("restantes") as nota>
-      ${nota.getTitulo(100)} 
+      <a href="${nota.getPath()}">${nota.getTitulo(100)}</a> 
       <span class="separator"> | </span>
     </#list>
 

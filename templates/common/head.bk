@@ -1,4 +1,4 @@
-<#assign assets_version = "3.4"> 
+<#assign assets_version = "2.5"> 
  
 <meta charset="utf-8"> 
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
@@ -8,7 +8,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
 <meta name="keywords" content="Noticias en Venezuela, política, opinión, información, prensa Venezuela, noticias Venezuela, Caracas, Chávez, oposición, Pérez Pirela, medios venezolanos, noticias del mundo" /> 
 <meta name="description" content="Portal de análisis e información sobre noticias y actualidad política en Venezuela y el mundo" /> 
-<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes"> 
  
 <script src="https://code.jquery.com/jquery-2.2.4.min.js?version=${assets_version}"></script> 
 <script src="/activos/assets/bower_components/bootstrap/dist/js/bootstrap.min.js?version=${assets_version}"></script> 
@@ -75,26 +75,3 @@
     var s = w.document.getElementsByTagName('head')[0]; s.appendChild(apd);  
   })();</script>  
 <!-- END FIRSTIMPRESSION TAG --> 
-
-<#--  Publicidad nativa en el home  -->
-<script type="text/javascript">
-  window._taboola = window._taboola || [];
-  _taboola.push({home:'auto'});
-  !function (e, f, u, i) {
-    if (!document.getElementById(i)){
-      e.async = 1;
-      e.src = u;
-      e.id = i;
-      f.parentNode.insertBefore(e, f);
-    }
-  }(document.createElement('script'),
-  document.getElementsByTagName('script')[0],
-  '//cdn.taboola.com/libtrc/embi-media-laiguana/loader.js',
-  'tb_loader_script');
-  if(window.performance && typeof window.performance.mark == 'function')
-    {window.performance.mark('tbl_ic');}
-</script>
-
-
-
-<#--  Publicidad nativa en el home  -->
