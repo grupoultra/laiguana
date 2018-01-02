@@ -133,11 +133,15 @@ function loadPlaylists() {
 }
 
 function getPlaylistItem(item, index) {
+    var thumbnail =
+        item.items[0].snippet.thumbnails.standard ||
+        item.items[0].snippet.thumbnails.default;
+
     return `
     <div class="playlist-item">
       <div class="wrapper" onClick="changePlaylist(${index})">
         <img onClick="changePlaylist(${index})" class="img-responsive" src="${
-        item.items[0].snippet.thumbnails.standard.url
+        thumbnail.url
     }"> 
         <div class="overlay">
           <p>${playlists[index].name}</p>
@@ -177,5 +181,8 @@ $(document).ready(function() {
                 loop: true,
                 dots: false
             });
+        })
+        .catch(function(error) {
+            console.log("********", error);
         });
 });
