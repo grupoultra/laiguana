@@ -18,11 +18,13 @@ function joinEllipsis(str) {
     return str.join(" ") + "...";
 }
 
-function share(platform, link, text){
-    var url = '';
-    switch (platform){
-        case 'FB':
-            url = 'https://www.facebook.com/sharer/sharer.php?u=http://laiguana.tv' + link;
+function share(platform, link, text) {
+    var url = "";
+    switch (platform) {
+        case "FB":
+            url =
+                "https://www.facebook.com/sharer/sharer.php?u=http://laiguana.tv" +
+                link;
             break;
         case "TW":
             url =
@@ -135,7 +137,7 @@ for (i = 0; i < divs.length; i++) {
 $(document).ready(function() {
     $(".owl-carousel").owlCarousel({
         autoplay: false,
-        autoplayTimeout: 5000,    Refactors el_video_isActive to youtube_isActive
+        autoplayTimeout: 5000,
         autoplayHoverPause: true,
         nav: true,
         navText: ["<", ">"],
