@@ -57,8 +57,8 @@
 <!-- End Alexa Certify Javascript --> 
  
 <#-- Clickio --> 
-<script async type="text/javascript" src="//s.clickiocdn.com/t/pb205553.js?version=${assets_version}"></script> 
-<script async type="text/javascript" src="//s.clickiocdn.com/t/common_258.js?version=${assets_version}"></script> 
+<script async type="text/javascript" src="//s.clickiocdn.com/t/pb205553.js"></script>
+<script async type="text/javascript" src="//s.clickiocdn.com/t/common_258.js"></script>
 <#-- Clickio --> 
  
 <!--BEGIN FIRSTIMPRESSION NOTUS TAG -->  
