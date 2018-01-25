@@ -25,7 +25,6 @@
     </div>
 
     <#include "../banners/nota/desktop/ND-N1.ftl">
-    <#include "../banners/nota/mobile/NM-N1.ftl">
     <#include "../banners/nota/mobile/NM-C1.ftl">
     <#include "../banners/nota/desktop/ND-HM2.ftl">
 
