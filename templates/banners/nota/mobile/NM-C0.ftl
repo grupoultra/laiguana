@@ -1,4 +1,4 @@
-<div id="NM-C0" class="banner margin-top-10 margin-bottom-10 banner-c banner320x50 hidden-desktop">
+<div id="NM-C0" class="banner margin-top-10 margin-bottom-10 banner-c banner300x250 hidden-desktop">
     <#if enableNMC0 && enableBanners>
     <script async type='text/javascript' src='//s.clickiocdn.com/t/common_258.js'></script>
     <script class='__lxGc__' type='text/javascript'>
