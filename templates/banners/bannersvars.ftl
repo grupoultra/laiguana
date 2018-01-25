@@ -22,11 +22,11 @@
 <#assign enableHDV4 =  true >
 
 <#-- Home Mobile -->
+<#assign enableHMC0 =  true >
 <#assign enableHMC1 =  true >
 <#assign enableHMC2 =  true >
 <#assign enableHMC3 =  true >
 <#assign enableHMC4 =  true >
-<#assign enableHMHS1 =  true >
 <#assign enableHMHS2 =  true >
 <#assign enableHMHS3 =  true >
 <#assign enableHMHS4 =  true >

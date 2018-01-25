@@ -34,7 +34,7 @@
     <div id="white-container" class="container">
         <#include "templates/banners/bannersvars.ftl">
         <#include "templates/banners/home/desktop/HD-HB1.ftl">
-        <#include "templates/banners/home/mobile/HM-HS1.ftl">
+        <#include "templates/banners/home/mobile/HM-C0.ftl">
         <#include "templates/home/marquee.ftl">
         <#include "./templates/common/header/header.ftl">
 
