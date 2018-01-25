@@ -45,11 +45,11 @@
 <#assign enableNDNV1 =  true >
 
 <#-- Nota Mobile -->
+<#assign enableNMC0 =  true >
 <#assign enableNMC1 =  true >
 <#assign enableNMC2 =  true >
 <#assign enableNMC3 =  true >
 <#assign enableNMC3 =  true >
-<#assign enableNMHS1 =  true >
 <#assign enableNMHS2 =  true >
 <#assign enableNMHS3 =  true >
 <#assign enableNMN1 =  true >

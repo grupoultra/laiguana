@@ -38,7 +38,7 @@
         <#include "templates/banners/bannersvars.ftl">
 
         <#include "templates/banners/nota/desktop/ND-HB1.ftl">
-        <#include "templates/banners/nota/mobile/NM-HS1.ftl">
+        <#include "templates/banners/nota/mobile/NM-C0.ftl">
         <#include "templates/home/marquee.ftl">
 
         <#include "./templates/common/header/header.ftl">
