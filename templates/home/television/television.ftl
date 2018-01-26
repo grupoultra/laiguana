@@ -1,4 +1,4 @@
-<div class="container-fluid" id="container">
+<div class="container-fluid hidden-mobile" id="container">
     <div class="row television">
     <div class="img-header col-xs-12">
         <img src="/activos/assets/img/iguana-television-.jpg" alt="La Iguana televisión">
