@@ -133,11 +133,15 @@ function loadPlaylists() {
 }
 
 function getPlaylistItem(item, index) {
+    var thumbnail =
+        item.items[0].snippet.thumbnails.standard ||
+        item.items[0].snippet.thumbnails.default;
+
     return `
     <div class="playlist-item">
       <div class="wrapper" onClick="changePlaylist(${index})">
         <img onClick="changePlaylist(${index})" class="img-responsive" src="${
-        item.items[0].snippet.thumbnails.standard.url
+        thumbnail.url
     }"> 
         <div class="overlay">
           <p>${playlists[index].name}</p>
@@ -152,30 +156,38 @@ function loadPlaylistItem(item, index) {
 }
 
 $(document).ready(function() {
-    Promise.all(
-        playlists.map(function(playlist) {
-            return getVids(playlist.id);
-        })
-    )
-        .then(function(results) {
-            allPlaylists = results;
-            loadPlayer(0);
+    if ($(window).width() > 1090) {
+        Promise.all(
+            playlists.map(function(playlist) {
+                return getVids(playlist.id);
+            })
+        )
+            .then(function(results) {
+                allPlaylists = results;
+                loadPlayer(0);
 
-            loadPlaylists();
-        })
-        .then(function() {
-            console.log("=============================");
-            $(".oc-television").owlCarousel({
-                autoplay: true,
-                navText: ["<", ">"],
-                items: 3,
-                autoplayTimeout: 2000,
-                autoplayHoverPause: true,
-                pauseOnHover: true,
-                dotsEach: true,
-                nav: true,
-                loop: true,
-                dots: false
+                loadPlaylists();
+            })
+            .then(function() {
+                console.log("=============================");
+                $(".oc-television").owlCarousel({
+                    autoplay: true,
+                    navText: ["<", ">"],
+                    items: 3,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                    pauseOnHover: true,
+                    dotsEach: true,
+                    nav: true,
+                    loop: true,
+                    dots: false
+                });
+            })
+            .then(function() {
+                console.log("LITV fully charged");
+            })
+            .catch(function(error) {
+                console.log("********", error);
             });
-        });
+    }
 });
