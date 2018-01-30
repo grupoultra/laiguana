@@ -19,13 +19,6 @@ function joinEllipsis(str){
 }
 
 function share(platform, link, text){
-
-    // FB.ui({
-    //     method: 'share',
-    //     display: 'popup',
-    //     href: 'https://developers.facebook.com/docs/'
-    // }, function(response){});
-
     var url = '';
     switch (platform){
         case 'FB':
