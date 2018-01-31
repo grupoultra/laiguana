@@ -156,38 +156,36 @@ function loadPlaylistItem(item, index) {
 }
 
 $(document).ready(function() {
-    if ($(window).width() > 1090) {
-        Promise.all(
-            playlists.map(function(playlist) {
-                return getVids(playlist.id);
-            })
-        )
-            .then(function(results) {
-                allPlaylists = results;
-                loadPlayer(0);
+    Promise.all(
+        playlists.map(function(playlist) {
+            return getVids(playlist.id);
+        })
+    )
+        .then(function(results) {
+            allPlaylists = results;
+            loadPlayer(0);
 
-                loadPlaylists();
-            })
-            .then(function() {
-                console.log("=============================");
-                $(".oc-television").owlCarousel({
-                    autoplay: true,
-                    navText: ["<", ">"],
-                    items: 3,
-                    autoplayTimeout: 2000,
-                    autoplayHoverPause: true,
-                    pauseOnHover: true,
-                    dotsEach: true,
-                    nav: true,
-                    loop: true,
-                    dots: false
-                });
-            })
-            .then(function() {
-                console.log("LITV fully charged");
-            })
-            .catch(function(error) {
-                console.log("********", error);
+            loadPlaylists();
+        })
+        .then(function() {
+            console.log("=============================");
+            $(".oc-television").owlCarousel({
+                autoplay: true,
+                navText: ["<", ">"],
+                items: 3,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                pauseOnHover: true,
+                dotsEach: true,
+                nav: true,
+                loop: true,
+                dots: false
             });
-    }
+        })
+        .then(function() {
+            console.log("LITV fully charged");
+        })
+        .catch(function(error) {
+            console.log("********", error);
+        });
 });
