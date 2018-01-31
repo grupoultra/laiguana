@@ -22,11 +22,11 @@
 <#assign enableHDV4 =  true >
 
 <#-- Home Mobile -->
+<#assign enableHMC0 =  true >
 <#assign enableHMC1 =  true >
 <#assign enableHMC2 =  true >
 <#assign enableHMC3 =  true >
 <#assign enableHMC4 =  true >
-<#assign enableHMHS1 =  true >
 <#assign enableHMHS2 =  true >
 <#assign enableHMHS3 =  true >
 <#assign enableHMHS4 =  true >
@@ -45,11 +45,11 @@
 <#assign enableNDNV1 =  true >
 
 <#-- Nota Mobile -->
+<#assign enableNMC0 =  true >
 <#assign enableNMC1 =  true >
 <#assign enableNMC2 =  true >
 <#assign enableNMC3 =  true >
 <#assign enableNMC3 =  true >
-<#assign enableNMHS1 =  true >
 <#assign enableNMHS2 =  true >
 <#assign enableNMHS3 =  true >
 <#assign enableNMN1 =  true >
