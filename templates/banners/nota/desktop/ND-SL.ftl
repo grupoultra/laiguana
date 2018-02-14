@@ -1,4 +1,5 @@
 <div class="skyscrapper-banner left">
+<<<<<<< HEAD
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- SL_120x600 -->
   <ins class="adsbygoogle"
@@ -10,3 +11,7 @@
   </script>
 </div>
 
+=======
+  <img src="http://placehold.it/120x600" alt="">
+</div>
+>>>>>>> feature/LITV-Mobile
