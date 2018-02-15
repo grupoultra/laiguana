@@ -1,4 +1,4 @@
-<div class="col-p   vstretch  hidden-mobile">
+<div class="col-p col-p-nota vstretch  hidden-mobile">
     <#assign imagesLoMasLeido = true >
 
     <#include "../banners/nota/desktop/ND-NV1.ftl">
