@@ -78,30 +78,31 @@ function getVids(pid) {
 
 function getMainPlayer(index) {
     var item = currentPlaylist[index];
-    var videoSource = `https://www.youtube.com/embed/${
-        item.snippet.resourceId.videoId
-    }`;
-    // <iframe src="${videoSource}" frameborder="0" allowfullscreen></iframe>
-    return `
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="${videoSource}" allowfullscreen></iframe>
-    </div>
-  `;
+    var videoSource =
+        "https://www.youtube.com/embed/" + item.snippet.resourceId.videoId;
+
+    var result = "";
+    result += '<div class="embed-responsive embed-responsive-16by9">';
+    result +=
+        ' <iframe class="embed-responsive-item" src="' + videoSource + '"';
+    result += "     allowfullscreen></iframe>";
+    result += "</div>";
+
+    return result;
 }
 
 function getRelatedItem(item, index) {
-    return `
-    <div class="video-item row" onClick="changePlayer(${index})">
-      <div class="image col-xs-3">
-        <img class="img-responsive" src="${
-            item.snippet.thumbnails.default.url
-        }">
-      </div>
-      <p class="col-xs-9 title">
-        ${item.snippet.title}
-      </p>    
-    </div>
-  `;
+    var result = "";
+    result +=
+        '<div class="video-item row" onClick="changePlayer(' + index + ')">';
+    result += '    <div class="image col-xs-3"> ';
+    result += "        <img ";
+    result += '          class="img-responsive" ';
+    result += '          src="' + item.snippet.thumbnails.default.url + '"> ';
+    result += "    </div> ";
+    result += '    <p class="col-xs-9 title">' + item.snippet.title + " </p> ";
+    result += "</div>";
+    return result;
 }
 
 function changePlayer(index) {
@@ -137,18 +138,18 @@ function getPlaylistItem(item, index) {
         item.items[0].snippet.thumbnails.standard ||
         item.items[0].snippet.thumbnails.default;
 
-    return `
-    <div class="playlist-item">
-      <div class="wrapper" onClick="changePlaylist(${index})">
-        <img onClick="changePlaylist(${index})" class="img-responsive" src="${
-        thumbnail.url
-    }"> 
-        <div class="overlay">
-          <p>${playlists[index].name}</p>
-        </div>     
-      </div>     
-    </div>
-  `;
+    var result = "";
+    result += '<div class="playlist-item">';
+    result += '  <div class="wrapper" onClick="changePlaylist(' + index + ')">';
+    result += "    <img";
+    result += '     onClick="changePlaylist(' + index + ')" ';
+    result += '     class="img-responsive" src="' + thumbnail.url + '"> ';
+    result += '    <div class="overlay">';
+    result += "      <p>" + playlists[index].name + "</p>";
+    result += "    </div>     ";
+    result += "  </div>     ";
+    result += "</div>";
+    return result;
 }
 
 function loadPlaylistItem(item, index) {
