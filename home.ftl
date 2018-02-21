@@ -31,6 +31,9 @@
 
     <#include "./templates/banners/Splash.ftl">
 
+    <#include "templates/banners/home/desktop/HD-SL.ftl">
+    <#include "templates/banners/home/desktop/HD-SR.ftl">
+
     <div id="white-container" class="container">
         <#include "templates/banners/bannersvars.ftl">
         <#include "templates/banners/home/desktop/HD-HB1.ftl">
