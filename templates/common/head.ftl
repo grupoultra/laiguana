@@ -97,8 +97,7 @@
   if(window.performance && typeof window.performance.mark == 'function')
     {window.performance.mark('tbl_ic');}
 </script>
-<#--  Publicidad nativa en el home  -->
 
-<#--  e-planing  -->
-<script src="http://aklc.img.e-planning.net/layers/hbdfp.js" id="hbepl" async data-isv="us.img.e-planning.net" data-sv="ads.us.e-planning.net" data-ci="241ce"></script>
-<#--  e-planing  -->
+
+
+<#--  Publicidad nativa en el home  -->
