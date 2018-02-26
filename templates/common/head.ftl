@@ -60,7 +60,10 @@
 <script async type="text/javascript" src="//s.clickiocdn.com/t/pb205553.js"></script>
 <script async type="text/javascript" src="//s.clickiocdn.com/t/common_258.js"></script>
 <#-- Clickio --> 
- 
+
+ <#-- adplayer.pro --> 
+<script async src="https://cdn.stat-rock.com/player.js"></script> 
+
 <!--BEGIN FIRSTIMPRESSION NOTUS TAG -->  
 <script data-cfasync='false' type='text/javascript'>  
   window.apd_options = { 'websiteId': 6617, 'runFromFrame': false };  
