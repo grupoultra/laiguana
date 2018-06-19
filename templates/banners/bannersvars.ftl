@@ -20,6 +20,7 @@
 <#assign enableHDV2 =  true >
 <#assign enableHDV3 =  true >
 <#assign enableHDV4 =  true >
+<#assign enableHDV5 =  true >
 
 <#-- Home Mobile -->
 <#assign enableHMC0 =  true >
@@ -42,6 +43,7 @@
 <#assign enableNDHM2 =  true >
 <#assign enableNDN1 =  true >
 <#assign enableNDV1 =  true >
+<#assign enableNDV2 =  true >
 <#assign enableNDNV1 =  true >
 
 <#-- Nota Mobile -->
